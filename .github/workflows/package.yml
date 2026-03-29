@@ -70,7 +70,8 @@ jobs:
         run: |
           if [ -z "${GH_TOKEN}" ]; then
             echo "Missing secret: FD_SYSTEM_TRIGGER_TOKEN"
-            exit 1
+            echo "Skip automatic test server update."
+            exit 0
           fi
 
           if [ -z "${RELEASE_TAG}" ]; then
