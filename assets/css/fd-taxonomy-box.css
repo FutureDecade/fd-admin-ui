@@ -1,0 +1,250 @@
+/**
+ * FD Taxonomy Box - 分类法元框样式
+ * 紧凑列表式布局
+ */
+
+.fd-taxonomy-box {
+    margin: -12px;
+    /* 背景色通过内联样式动态设置，使用主内容区背景色 */
+}
+
+/* 分类法区域 */
+.fd-taxonomy-section {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.fd-taxonomy-section:last-child {
+    border-bottom: none;
+}
+
+/* 标题和计数 */
+.fd-taxonomy-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.fd-taxonomy-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+}
+
+.fd-taxonomy-count {
+    font-size: 11px;
+    color: #666;
+    background: #f1f5f9;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+/* 暂无内容提示 */
+.fd-no-terms {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+    margin: 8px 0 0 0;
+}
+
+/* ========== 层级分类法（复选框）========== */
+.fd-category-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.fd-category-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 3px;
+    transition: all 0.15s;
+    user-select: none;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.fd-category-item:hover {
+    background: #f1f5f9;
+    border-color: #e2e8f0;
+}
+
+.fd-category-item.selected {
+    color: #0073aa;
+    background: #e0f2fe;
+    border-color: #b3e5fc;
+    font-weight: 500;
+}
+
+.fd-checkbox {
+    display: none;
+}
+
+.fd-term-name {
+    line-height: 1.3;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* ========== 扁平分类法（标签）========== */
+.fd-tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.fd-tag-item {
+    background: #e0f2fe;
+    color: #0277bd;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.15s;
+}
+
+.fd-tag-item:hover {
+    background: #b3e5fc;
+}
+
+.fd-tag-name {
+    line-height: 1.2;
+}
+
+.fd-tag-remove {
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 1;
+    transition: opacity 0.15s;
+}
+
+.fd-tag-remove:hover {
+    opacity: 1;
+}
+
+/* 标签输入框 */
+.fd-tag-input-wrapper {
+    margin-top: 8px;
+    position: relative;
+}
+
+.fd-tag-input {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    font-size: 12px;
+    transition: border-color 0.15s;
+    background: transparent !important;
+}
+
+.fd-tag-input:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    background: transparent !important;
+}
+
+/* 标签建议下拉框 */
+.fd-tag-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #8c8f94;
+    border-top: none;
+    border-radius: 0 0 3px 3px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.fd-tag-suggestions.show {
+    display: block;
+}
+
+.fd-tag-suggestion-item {
+    padding: 6px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fd-tag-suggestion-item:hover,
+.fd-tag-suggestion-item.active {
+    background: #f1f5f9;
+}
+
+.fd-suggestion-name {
+    flex: 1;
+    color: #2c3338;
+}
+
+.fd-suggestion-count {
+    color: #999;
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+/* ========== 响应式 ========== */
+@media screen and (max-width: 782px) {
+    .fd-taxonomy-section {
+        padding: 12px;
+    }
+
+    .fd-category-item,
+    .fd-tag-input {
+        font-size: 13px;
+    }
+
+    .fd-checkbox {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* ========== 加载状态 ========== */
+.fd-taxonomy-box.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.fd-taxonomy-box.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #0073aa;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: fd-spin 0.6s linear infinite;
+}
+
+@keyframes fd-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

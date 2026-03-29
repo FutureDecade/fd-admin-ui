@@ -1,0 +1,1562 @@
+/* FD Admin UI Framework - 自定义组件样式 */
+/* 所有样式使用 .fd-* 前缀，需主动添加类名才生效 */
+/* CSS变量定义在 fd-admin-global.css 中 */
+
+/* ============================================
+   1. 容器和布局
+   ============================================ */
+/* 配合 .wrap 使用，提供自定义扩展样式 */
+.fd-admin-wrapper {
+    font-family: var(--fd-font-family);
+}
+
+/* 页面头部 - 适配WordPress原生标题布局 */
+.fd-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--fd-spacing-md);
+    flex-wrap: wrap;
+    gap: var(--fd-spacing-sm);
+}
+
+/* 标题使用WordPress原生样式 */
+.fd-page-title {
+    font-size: 23px;
+    font-weight: 400;
+    color: var(--fd-gray-800);
+    margin: 0;
+    line-height: 1.3;
+}
+
+.fd-page-subtitle {
+    font-size: 13px;
+    color: var(--fd-gray-500);
+    margin: 4px 0 0 0;
+}
+
+.fd-page-actions {
+    display: flex;
+    gap: var(--fd-spacing-sm);
+    align-items: center;
+}
+
+/* ============================================
+   3. 卡片组件
+   ============================================ */
+.fd-card {
+    background: white;
+    border: 1px solid var(--fd-gray-200);
+    border-radius: var(--fd-radius-lg);
+    padding: var(--fd-spacing-lg);
+    margin-bottom: var(--fd-spacing-lg);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.fd-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--fd-spacing-md);
+    padding-bottom: var(--fd-spacing-md);
+    border-bottom: 1px solid var(--fd-gray-100);
+}
+
+.fd-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--fd-gray-800);
+    margin: 0;
+}
+
+.fd-card-subtitle {
+    font-size: 14px;
+    color: var(--fd-gray-500);
+    margin: 4px 0 0 0;
+}
+
+.fd-card-body {
+    color: var(--fd-gray-700);
+}
+
+.fd-card-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--fd-spacing-sm);
+    margin-top: var(--fd-spacing-md);
+    padding-top: var(--fd-spacing-md);
+    border-top: 1px solid var(--fd-gray-100);
+}
+
+/* 卡片变体 */
+.fd-card.fd-card-compact {
+    padding: var(--fd-spacing-md);
+}
+
+.fd-card.fd-card-bordered {
+    border: 2px solid var(--fd-primary);
+}
+
+.fd-card.fd-card-success {
+    border-left: 4px solid var(--fd-success);
+}
+
+.fd-card.fd-card-warning {
+    border-left: 4px solid var(--fd-warning);
+}
+
+.fd-card.fd-card-error {
+    border-left: 4px solid var(--fd-error);
+}
+
+.fd-card.fd-card-info {
+    border-left: 4px solid var(--fd-info);
+}
+
+/* ============================================
+   4. 网格布局
+   ============================================ */
+.fd-grid {
+    display: grid;
+    gap: var(--fd-spacing-md);
+}
+
+.fd-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fd-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fd-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fd-grid-auto {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ============================================
+   5. 表单组件
+   ============================================ */
+.fd-form-group {
+    margin-bottom: var(--fd-spacing-md);
+}
+
+.fd-form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--fd-gray-700);
+    margin-bottom: var(--fd-spacing-xs);
+}
+
+.fd-form-label.fd-required::after {
+    content: " *";
+    color: var(--fd-error);
+}
+
+.fd-form-input,
+.fd-form-textarea,
+.fd-form-select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--fd-gray-200);
+    border-radius: var(--fd-radius-md);
+    font-size: 14px;
+    font-family: var(--fd-font-family);
+    transition: all 0.2s;
+    background: white;
+}
+
+.fd-form-input:focus,
+.fd-form-textarea:focus,
+.fd-form-select:focus {
+    outline: none;
+    border-color: var(--fd-primary);
+    box-shadow: 0 0 0 3px var(--fd-primary-light);
+}
+
+.fd-form-input:disabled,
+.fd-form-textarea:disabled,
+.fd-form-select:disabled {
+    background: var(--fd-gray-50);
+    cursor: not-allowed;
+}
+
+.fd-form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.fd-form-help {
+    display: block;
+    font-size: 13px;
+    color: var(--fd-gray-500);
+    margin-top: var(--fd-spacing-xs);
+}
+
+.fd-form-error {
+    display: block;
+    font-size: 13px;
+    color: var(--fd-error);
+    margin-top: var(--fd-spacing-xs);
+}
+
+/* 开关组件 */
+.fd-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.fd-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.fd-switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--fd-gray-300);
+    transition: 0.3s;
+    border-radius: var(--fd-radius-full);
+}
+
+.fd-switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.fd-switch input:checked + .fd-switch-slider {
+    background-color: var(--fd-action);
+}
+
+.fd-switch input:checked + .fd-switch-slider:before {
+    transform: translateX(20px);
+}
+
+/* ============================================
+   6. 按钮组件
+   ============================================ */
+.fd-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--fd-radius-md);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fd-font-family);
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1.5;
+}
+
+.fd-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.fd-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* 按钮变体 */
+.fd-btn-primary {
+    background: var(--fd-action);
+    color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.fd-btn-primary:hover:not(:disabled) {
+    background: var(--fd-action-hover);
+    box-shadow: var(--fd-shadow-md);
+    color: white;
+}
+
+.fd-btn-secondary {
+    background: white;
+    color: var(--fd-gray-700);
+    border: 1px solid var(--fd-gray-200);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.fd-btn-secondary:hover:not(:disabled) {
+    background: var(--fd-gray-50);
+    border-color: var(--fd-gray-300);
+    color: var(--fd-gray-700);
+}
+
+.fd-btn-success {
+    background: var(--fd-success);
+    color: white;
+}
+
+.fd-btn-success:hover:not(:disabled) {
+    background: var(--fd-success-hover, #059669);
+}
+
+.fd-btn-warning {
+    background: var(--fd-warning);
+    color: white;
+}
+
+.fd-btn-warning:hover:not(:disabled) {
+    background: var(--fd-warning-hover, #d97706);
+}
+
+.fd-btn-error {
+    background: var(--fd-error);
+    color: white;
+}
+
+.fd-btn-error:hover:not(:disabled) {
+    background: var(--fd-error-hover, #dc2626);
+}
+
+.fd-btn-ghost {
+    background: transparent;
+    color: var(--fd-gray-700);
+}
+
+.fd-btn-ghost:hover:not(:disabled) {
+    background: var(--fd-gray-100);
+}
+
+/* 按钮尺寸 */
+.fd-btn-sm {
+    padding: 6px 14px;
+    font-size: 13px;
+}
+
+.fd-btn-lg {
+    padding: 12px 28px;
+    font-size: 16px;
+}
+
+/* 按钮图标 */
+.fd-btn .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.fd-btn-sm .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.fd-btn-lg .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+/* ============================================
+   7. 标签和徽章
+   ============================================ */
+.fd-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: var(--fd-radius-full);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fd-badge-primary {
+    background: var(--fd-primary-light);
+    color: var(--fd-primary);
+}
+
+.fd-badge-success {
+    background: var(--fd-success-light);
+    color: var(--fd-success);
+}
+
+.fd-badge-warning {
+    background: var(--fd-warning-light);
+    color: var(--fd-warning);
+}
+
+.fd-badge-error {
+    background: var(--fd-error-light);
+    color: var(--fd-error);
+}
+
+.fd-badge-gray {
+    background: var(--fd-gray-100);
+    color: var(--fd-gray-600);
+}
+
+.fd-badge-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+/* ============================================
+   8. 标签页
+   ============================================ */
+.fd-tabs {
+    display: flex;
+    gap: var(--fd-spacing-sm);
+    margin-bottom: var(--fd-spacing-md);
+    border-bottom: 2px solid var(--fd-gray-200);
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.fd-tabs::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.fd-tab {
+    padding: 12px 20px;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    text-decoration: none;
+    color: var(--fd-gray-600);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+    white-space: nowrap;
+    cursor: pointer;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.fd-tab:hover {
+    color: var(--fd-gray-800);
+    border-bottom-color: var(--fd-gray-300);
+}
+
+.fd-tab.fd-tab-active {
+    color: var(--fd-primary);
+    border-bottom-color: var(--fd-primary);
+}
+
+.fd-tab-content {
+    display: none;
+}
+
+.fd-tab-content.fd-tab-active {
+    display: block;
+}
+
+/* ============================================
+   9. 通知和提醒
+   ============================================ */
+.fd-alert {
+    padding: var(--fd-spacing-md);
+    border-radius: var(--fd-radius-md);
+    margin-bottom: var(--fd-spacing-md);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--fd-spacing-sm);
+}
+
+.fd-alert-icon {
+    flex-shrink: 0;
+}
+
+.fd-alert-icon .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.fd-alert-content {
+    flex: 1;
+}
+
+.fd-alert-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.fd-alert-message {
+    font-size: 14px;
+}
+
+.fd-alert-info {
+    background: var(--fd-info-light);
+    color: var(--fd-info);
+    border-left: 4px solid var(--fd-info);
+}
+
+.fd-alert-success {
+    background: var(--fd-success-light);
+    color: var(--fd-success);
+    border-left: 4px solid var(--fd-success);
+}
+
+.fd-alert-warning {
+    background: var(--fd-warning-light);
+    color: var(--fd-warning);
+    border-left: 4px solid var(--fd-warning);
+}
+
+.fd-alert-error {
+    background: var(--fd-error-light);
+    color: var(--fd-error);
+    border-left: 4px solid var(--fd-error);
+}
+
+/* ============================================
+   10. 统计卡片
+   ============================================ */
+.fd-stat-card {
+    background: white;
+    border: 1px solid var(--fd-gray-200);
+    border-radius: var(--fd-radius-lg);
+    padding: var(--fd-spacing-lg);
+    display: flex;
+    gap: var(--fd-spacing-md);
+    align-items: center;
+}
+
+.fd-stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--fd-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.fd-stat-icon .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.fd-stat-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.fd-stat-label {
+    font-size: 13px;
+    color: var(--fd-gray-500);
+    margin-bottom: 4px;
+}
+
+.fd-stat-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--fd-gray-800);
+}
+
+.fd-stat-change {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.fd-stat-change.fd-positive {
+    color: var(--fd-success);
+}
+
+.fd-stat-change.fd-negative {
+    color: var(--fd-error);
+}
+
+/* ============================================
+   11. 表格组件
+   ============================================ */
+.fd-table-wrapper {
+    background: white;
+    border: 1px solid var(--fd-gray-200);
+    border-radius: var(--fd-radius-lg);
+    overflow: hidden;
+}
+
+.fd-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.fd-table thead {
+    background: var(--fd-gray-50);
+}
+
+.fd-table th {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--fd-gray-600);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--fd-gray-200);
+}
+
+.fd-table td {
+    padding: 16px;
+    border-bottom: 1px solid var(--fd-gray-100);
+    color: var(--fd-gray-700);
+}
+
+.fd-table tr:last-child td {
+    border-bottom: none;
+}
+
+.fd-table tbody tr:hover {
+    background: var(--fd-gray-50);
+}
+
+/* ============================================
+   WordPress 列表表格横向滚动
+   ============================================ */
+/* 使用包裹层方式实现横向滚动 - 只滚动表格，不影响搜索框和筛选器 */
+.fd-table-scroll-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: visible;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+.fd-table-scroll-wrapper .wp-list-table {
+    min-width: max-content;
+    width: auto !important;
+    table-layout: fixed;
+}
+
+.fd-table-scroll-wrapper .wp-list-table th,
+.fd-table-scroll-wrapper .wp-list-table td {
+    padding: 10px 12px !important;
+    white-space: nowrap;
+}
+
+/* 复选框列 */
+.fd-table-scroll-wrapper .wp-list-table .column-cb {
+    width: 40px !important;
+}
+
+/* 标题列 - 主要内容列 */
+.fd-table-scroll-wrapper .wp-list-table .column-title {
+    width: 300px !important;
+    white-space: normal !important;
+}
+
+/* UUID 列 */
+.fd-table-scroll-wrapper .wp-list-table .column-uuid {
+    width: 130px !important;
+}
+
+/* 置顶列 */
+.fd-table-scroll-wrapper .wp-list-table .column-sticky {
+    width: 100px !important;
+}
+
+/* 作者列 */
+.fd-table-scroll-wrapper .wp-list-table .column-author {
+    width: 100px !important;
+}
+
+/* 分类列 */
+.fd-table-scroll-wrapper .wp-list-table .column-categories {
+    width: 150px !important;
+}
+
+/* 标签列 */
+.fd-table-scroll-wrapper .wp-list-table .column-tags {
+    width: 150px !important;
+}
+
+/* 评论列 */
+.fd-table-scroll-wrapper .wp-list-table .column-comments {
+    width: 80px !important;
+    text-align: center;
+}
+
+/* 日期列 */
+.fd-table-scroll-wrapper .wp-list-table .column-date {
+    width: 150px !important;
+}
+
+/* 点赞数、收藏数、推荐数列 */
+.fd-table-scroll-wrapper .wp-list-table .column-likes,
+.fd-table-scroll-wrapper .wp-list-table .column-bookmarks,
+.fd-table-scroll-wrapper .wp-list-table .column-recommends {
+    width: 80px !important;
+    text-align: center;
+}
+
+/* 滚动条样式优化 */
+.fd-table-scroll-wrapper::-webkit-scrollbar {
+    height: 10px;
+}
+
+.fd-table-scroll-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.fd-table-scroll-wrapper::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.fd-table-scroll-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+/* Firefox 滚动条样式 */
+.fd-table-scroll-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #c1c1c1 #f1f1f1;
+}
+
+/* ============================================
+   WordPress 文章列表表格现代化优化
+   参考 fd-payment 订单表格样式
+   只在启用现代化风格时应用
+   ============================================ */
+/* 表格容器优化 - 添加圆角和阴影 */
+.fd-table-modern-style .wp-list-table {
+    background: white;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* 表头优化 */
+.fd-table-modern-style .wp-list-table thead th,
+.fd-table-modern-style .wp-list-table thead td {
+    background: var(--fd-gray-50) !important;
+    border-bottom: 1px solid var(--fd-gray-200) !important;
+    color: var(--fd-gray-500) !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 14px 16px !important;
+}
+
+/* 表尾优化 - 与表头样式保持一致 */
+.fd-table-modern-style .wp-list-table tfoot th,
+.fd-table-modern-style .wp-list-table tfoot td {
+    background: var(--fd-gray-50) !important;
+    border-top: 1px solid var(--fd-gray-200) !important;
+    color: var(--fd-gray-500) !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 14px 16px !important;
+}
+
+/* 表头排序链接统一颜色，覆盖 WP 原生蓝色 */
+.fd-table-modern-style .wp-list-table thead th a,
+.fd-table-modern-style .wp-list-table thead td a {
+    color: var(--fd-gray-500) !important;
+}
+
+.fd-table-modern-style .wp-list-table thead th a:hover,
+.fd-table-modern-style .wp-list-table thead td a:hover {
+    color: var(--fd-gray-800) !important;
+}
+
+/* 表尾排序链接统一颜色 */
+.fd-table-modern-style .wp-list-table tfoot th a,
+.fd-table-modern-style .wp-list-table tfoot td a {
+    color: var(--fd-gray-500) !important;
+}
+
+.fd-table-modern-style .wp-list-table tfoot th a:hover,
+.fd-table-modern-style .wp-list-table tfoot td a:hover {
+    color: var(--fd-gray-800) !important;
+}
+
+/* 表格行优化 */
+.fd-table-modern-style .wp-list-table tbody tr {
+    background: #fff !important;
+    border-bottom: 1px solid #f1f5f9 !important;
+    transition: background-color 0.2s ease;
+}
+
+/* 覆盖 WordPress 原生的 alternate 斑马纹样式 */
+.fd-table-modern-style .wp-list-table tbody tr.alternate,
+.fd-table-modern-style .wp-list-table tbody tr.alternate td,
+.fd-table-modern-style .wp-list-table tbody tr.alternate th {
+    background: #fff !important;
+}
+
+.fd-table-modern-style .wp-list-table tbody tr:last-child {
+    border-bottom: none !important;
+}
+
+.fd-table-modern-style .wp-list-table tbody tr:hover {
+    background: #f8fafc !important;
+}
+
+.fd-table-modern-style .wp-list-table tbody tr:active,
+.fd-table-modern-style .wp-list-table tbody tr.selected {
+    background: #f1f5f9 !important;
+}
+
+.fd-table-modern-style .wp-list-table tbody tr.status-trash {
+    background: #fef2f2 !important;
+}
+
+.fd-table-modern-style .wp-list-table tbody tr.status-trash:hover {
+    background: #fee2e2 !important;
+}
+
+.fd-table-modern-style .wp-list-table tbody td {
+    background: transparent !important;
+    padding: 16px !important;
+    border-bottom: none !important;
+    color: var(--fd-gray-800);
+}
+
+/* 标题列优化 */
+.fd-table-modern-style .wp-list-table .column-title .row-title {
+    font-weight: 600;
+    color: var(--fd-gray-800) !important;
+    font-size: 14px;
+}
+
+.fd-table-modern-style .wp-list-table .column-title .row-title:hover {
+    color: var(--fd-primary) !important;
+}
+
+/* 行操作链接优化 */
+.fd-table-modern-style .wp-list-table .row-actions {
+    color: var(--fd-gray-400);
+}
+
+.fd-table-modern-style .wp-list-table .row-actions a {
+    color: var(--fd-gray-500) !important;
+    transition: color 0.2s;
+}
+
+.fd-table-modern-style .wp-list-table .row-actions a:hover {
+    color: var(--fd-primary) !important;
+}
+
+.fd-table-modern-style .wp-list-table .row-actions .delete a:hover {
+    color: var(--fd-error) !important;
+}
+
+/* 状态标签优化 */
+.fd-table-modern-style .wp-list-table .post-state {
+    color: #64748b;
+    font-weight: 500;
+}
+
+/* 分类和标签链接优化 */
+.fd-table-modern-style .wp-list-table .categories a,
+.fd-table-modern-style .wp-list-table .tags a {
+    display: inline-block;
+    padding: 3px 10px;
+    background: var(--fd-gray-100);
+    color: var(--fd-gray-600) !important;
+    font-size: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 2px;
+    transition: all 0.2s;
+}
+
+.fd-table-modern-style .wp-list-table .categories a:hover,
+.fd-table-modern-style .wp-list-table .tags a:hover {
+    background: var(--fd-gray-200);
+    color: var(--fd-gray-800) !important;
+}
+
+/* 复选框优化 */
+.fd-table-modern-style .wp-list-table input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid #cbd5e1;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* 去掉勾选框 label 的 hover 背景 */
+.fd-table-modern-style .wp-list-table .check-column label:hover,
+.fd-table-modern-style .wp-list-table .check-column label,
+.fd-table-modern-style .wp-list-table .check-column input[type="checkbox"]:hover + label,
+.fd-table-modern-style .wp-list-table .check-column input[type="checkbox"]:focus + label {
+    background: transparent !important;
+}
+
+/* 统一 check-column hover 背景色与行 hover 一致，覆盖 WP 原生 accent 色 */
+/* WP tbody 复选框列用的是 <th>，同时兼容 <td> */
+.fd-table-modern-style .wp-list-table tbody tr th.check-column,
+.fd-table-modern-style .wp-list-table tbody tr td.check-column,
+.fd-table-modern-style #the-list tr th.check-column {
+    background: transparent !important;
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.fd-table-modern-style .wp-list-table thead th.check-column,
+.fd-table-modern-style .wp-list-table thead td.check-column,
+.fd-table-modern-style .wp-list-table tfoot th.check-column,
+.fd-table-modern-style .wp-list-table tfoot td.check-column {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.fd-table-modern-style .wp-list-table tbody tr:hover th.check-column,
+.fd-table-modern-style .wp-list-table tbody tr:hover td.check-column,
+.fd-table-modern-style #the-list tr:hover th.check-column {
+    background: transparent !important;
+}
+
+/* 覆盖 WP 原生 checkbox hover 的 border 变色和 box-shadow */
+.fd-table-modern-style .wp-list-table input[type="checkbox"]:hover {
+    border-color: #94a3b8 !important;
+    box-shadow: none !important;
+}
+
+/* 日期列优化 */
+.fd-table-modern-style .wp-list-table .column-date {
+    color: #64748b;
+    font-size: 13px;
+}
+
+/* 评论数优化 */
+.fd-table-modern-style .wp-list-table .column-comments a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 10px;
+    background: var(--fd-gray-100);
+    color: var(--fd-gray-600) !important;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.fd-table-modern-style .wp-list-table .column-comments a:hover {
+    background: var(--fd-gray-200);
+    color: var(--fd-gray-800) !important;
+}
+
+.fd-table-modern-style .wp-list-table .column-comments .post-com-count-pending {
+    background: var(--fd-warning-light);
+    color: var(--fd-warning) !important;
+}
+
+.fd-table-modern-style .wp-list-table .column-comments .post-com-count-approved {
+    background: #d1fae5;
+    color: #10b981;
+}
+
+/* 作者列优化 - 添加头像样式 */
+.fd-table-modern-style .wp-list-table .column-author img.avatar {
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.fd-table-modern-style .wp-list-table .column-author .fd-author-with-avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fd-table-modern-style .wp-list-table .column-author .fd-author-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* 用户表格优化 */
+/* 用户表格头像改为圆形 */
+.fd-table-modern-style .wp-list-table.users img.avatar {
+    border-radius: 50% !important;
+}
+
+/* 用户表格在包裹层中时使用固定列宽 */
+.fd-table-scroll-wrapper .wp-list-table.users {
+    table-layout: fixed !important;
+    min-width: max-content;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.users th,
+.fd-table-scroll-wrapper .wp-list-table.users td {
+    white-space: nowrap !important;
+}
+
+/* 用户表格列宽设置 */
+.fd-table-scroll-wrapper .wp-list-table.users .column-cb {
+    width: 40px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.users .column-username {
+    width: 250px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.users .column-name {
+    width: 180px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.users .column-email {
+    width: 220px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.users .column-role {
+    width: 150px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.users .column-posts {
+    width: 100px !important;
+    text-align: center;
+}
+
+/* 用户名列 - 包含头像和用户信息 */
+.fd-table-modern-style .wp-list-table.users .column-username strong {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 评论表格优化 */
+.fd-table-modern-style .wp-list-table.comments img.avatar {
+    border-radius: 50% !important;
+}
+
+/* 评论表格在包裹层中时使用固定列宽 */
+.fd-table-scroll-wrapper .wp-list-table.comments {
+    table-layout: fixed !important;
+    min-width: max-content;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.comments th,
+.fd-table-scroll-wrapper .wp-list-table.comments td {
+    white-space: nowrap !important;
+}
+
+/* 评论表格列宽设置 */
+.fd-table-scroll-wrapper .wp-list-table.comments .column-cb {
+    width: 40px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.comments .column-author {
+    width: 200px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.comments .column-comment {
+    width: 350px !important;
+    white-space: normal !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.comments .column-response {
+    width: 250px !important;
+}
+
+.fd-table-scroll-wrapper .wp-list-table.comments .column-date {
+    width: 150px !important;
+}
+
+/* 媒体库表格优化 */
+.fd-table-modern-style .wp-list-table.media img {
+    border-radius: 6px;
+}
+
+/* 缩略图优化 */
+.fd-table-modern-style .wp-list-table .column-featured_image img,
+.fd-table-modern-style .wp-list-table .column-thumb img {
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+}
+
+/* 批量操作区域优化 - 保持原生高度 */
+.fd-table-modern-style .tablenav {
+    padding: 8px 0;
+}
+
+.fd-table-modern-style .tablenav .actions select {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 13px;
+    height: auto;
+}
+
+.fd-table-modern-style .tablenav .button {
+    border-radius: 6px;
+    font-size: 13px;
+    height: auto;
+    padding: 4px 12px;
+}
+
+/* 分页优化 - 简洁数字样式 */
+.fd-table-modern-style .tablenav-pages {
+    color: #64748b;
+    font-size: 13px;
+    height: auto;
+}
+
+.fd-table-modern-style .tablenav-pages .displaying-num {
+    color: #64748b;
+    font-size: 13px;
+    margin-right: 12px;
+}
+
+.fd-table-modern-style .tablenav-pages .pagination-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.fd-table-modern-style .tablenav-pages a,
+.fd-table-modern-style .tablenav-pages span.current {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #475569;
+    font-size: 13px;
+    transition: all 0.2s;
+    background: white;
+}
+
+.fd-table-modern-style .tablenav-pages a:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    color: #1e293b;
+}
+
+.fd-table-modern-style .tablenav-pages span.current {
+    background: #3b82f6;
+    border-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+}
+
+.fd-table-modern-style .tablenav-pages .tablenav-pages-navspan {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    padding: 0 8px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    color: #cbd5e1;
+    background: #f8fafc;
+    cursor: not-allowed;
+}
+
+/* 隐藏箭头文字，只显示符号 */
+.fd-table-modern-style .tablenav-pages .next-page,
+.fd-table-modern-style .tablenav-pages .prev-page,
+.fd-table-modern-style .tablenav-pages .first-page,
+.fd-table-modern-style .tablenav-pages .last-page {
+    font-size: 16px;
+}
+
+/* 子菜单导航优化 - 保持原生高度 */
+.fd-table-modern-style .subsubsub {
+    margin: 8px 0;
+    padding: 0;
+}
+
+.fd-table-modern-style .subsubsub li {
+    margin: 0;
+}
+
+.fd-table-modern-style .subsubsub a {
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--fd-gray-500) !important;
+    transition: all 0.2s;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.fd-table-modern-style .subsubsub a:hover {
+    background: var(--fd-gray-100);
+    color: var(--fd-gray-800) !important;
+}
+
+.fd-table-modern-style .subsubsub a.current {
+    background: var(--fd-gray-100);
+    color: var(--fd-gray-900) !important;
+    font-weight: 600;
+}
+
+.fd-table-modern-style .subsubsub .count {
+    color: inherit;
+    opacity: 0.7;
+}
+
+/* 搜索框优化 - 保持原生高度 */
+.fd-table-modern-style .search-box input[type="search"] {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 13px;
+    height: auto;
+}
+
+.fd-table-modern-style .search-box input[type="search"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    outline: none;
+}
+
+.fd-table-modern-style .search-box .button {
+    border-radius: 6px;
+    margin-left: 4px;
+    height: auto;
+    padding: 4px 12px;
+}
+
+/* ============================================
+   12. 代码块
+   ============================================ */
+.fd-code-block {
+    background: var(--fd-gray-900);
+    color: var(--fd-gray-200);
+    padding: var(--fd-spacing-md);
+    border-radius: var(--fd-radius-md);
+    font-family: var(--fd-font-mono);
+    font-size: 13px;
+    line-height: 1.6;
+    overflow-x: auto;
+    margin: var(--fd-spacing-md) 0;
+}
+
+.fd-code-inline {
+    background: var(--fd-gray-100);
+    color: var(--fd-error);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: var(--fd-font-mono);
+    font-size: 13px;
+}
+
+/* ============================================
+   13. 空状态
+   ============================================ */
+.fd-empty-state {
+    text-align: center;
+    padding: var(--fd-spacing-2xl);
+    color: var(--fd-gray-500);
+}
+
+.fd-empty-icon {
+    margin-bottom: var(--fd-spacing-md);
+}
+
+.fd-empty-icon .dashicons {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    color: var(--fd-gray-300);
+}
+
+.fd-empty-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--fd-gray-700);
+    margin-bottom: var(--fd-spacing-xs);
+}
+
+.fd-empty-message {
+    font-size: 14px;
+    color: var(--fd-gray-500);
+}
+
+/* ============================================
+   14. 响应式
+   ============================================ */
+@media (max-width: 1024px) {
+    .fd-grid-2,
+    .fd-grid-3,
+    .fd-grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .fd-grid-2,
+    .fd-grid-3,
+    .fd-grid-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .fd-page-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--fd-spacing-sm);
+    }
+
+    .fd-card {
+        padding: var(--fd-spacing-md);
+    }
+}
+
+/* ============================================
+   15. 工具类
+   ============================================ */
+.fd-mt-0 { margin-top: 0 !important; }
+.fd-mt-1 { margin-top: var(--fd-spacing-xs) !important; }
+.fd-mt-2 { margin-top: var(--fd-spacing-sm) !important; }
+.fd-mt-3 { margin-top: var(--fd-spacing-md) !important; }
+.fd-mt-4 { margin-top: var(--fd-spacing-lg) !important; }
+.fd-mt-5 { margin-top: var(--fd-spacing-xl) !important; }
+
+.fd-mb-0 { margin-bottom: 0 !important; }
+.fd-mb-1 { margin-bottom: var(--fd-spacing-xs) !important; }
+.fd-mb-2 { margin-bottom: var(--fd-spacing-sm) !important; }
+.fd-mb-3 { margin-bottom: var(--fd-spacing-md) !important; }
+.fd-mb-4 { margin-bottom: var(--fd-spacing-lg) !important; }
+.fd-mb-5 { margin-bottom: var(--fd-spacing-xl) !important; }
+
+.fd-p-0 { padding: 0 !important; }
+.fd-p-1 { padding: var(--fd-spacing-xs) !important; }
+.fd-p-2 { padding: var(--fd-spacing-sm) !important; }
+.fd-p-3 { padding: var(--fd-spacing-md) !important; }
+.fd-p-4 { padding: var(--fd-spacing-lg) !important; }
+.fd-p-5 { padding: var(--fd-spacing-xl) !important; }
+
+.fd-text-left { text-align: left !important; }
+.fd-text-center { text-align: center !important; }
+.fd-text-right { text-align: right !important; }
+
+.fd-flex { display: flex !important; }
+.fd-flex-col { flex-direction: column !important; }
+.fd-items-center { align-items: center !important; }
+.fd-justify-between { justify-content: space-between !important; }
+.fd-justify-center { justify-content: center !important; }
+.fd-gap-1 { gap: var(--fd-spacing-xs) !important; }
+.fd-gap-2 { gap: var(--fd-spacing-sm) !important; }
+.fd-gap-3 { gap: var(--fd-spacing-md) !important; }
+.fd-gap-4 { gap: var(--fd-spacing-lg) !important; }
+
+/* ============================================
+   16. 风琴夹组件
+   ============================================ */
+.fd-accordion {
+    border: 1px solid var(--fd-gray-200);
+    border-radius: var(--fd-radius-lg);
+    overflow: hidden;
+}
+
+.fd-accordion-item {
+    border-bottom: 1px solid var(--fd-gray-200);
+}
+
+.fd-accordion-item:last-child {
+    border-bottom: none;
+}
+
+.fd-accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--fd-spacing-md) var(--fd-spacing-lg);
+    background: var(--fd-gray-50);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.fd-accordion-header:hover {
+    background: var(--fd-gray-100);
+}
+
+.fd-accordion-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--fd-gray-800);
+}
+
+.fd-accordion-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    color: var(--fd-gray-500);
+    transition: transform 0.3s ease;
+}
+
+.fd-accordion-active .fd-accordion-icon {
+    transform: rotate(180deg);
+}
+
+.fd-accordion-content {
+    padding: var(--fd-spacing-lg);
+    background: white;
+}
+
+.fd-accordion-content p:first-child {
+    margin-top: 0;
+}
+
+.fd-accordion-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* 风琴夹内的表单样式 */
+.fd-accordion-content .form-table {
+    margin-top: 0;
+}
+
+.fd-accordion-content .form-table th {
+    padding-left: 0;
+}
+
+/* ============================================
+   17. 表单操作按钮容器
+   ============================================ */
+.fd-form-actions {
+    display: flex;
+    gap: var(--fd-spacing-sm);
+    padding-top: var(--fd-spacing-lg);
+    margin-top: var(--fd-spacing-lg);
+    border-top: 1px solid var(--fd-gray-200);
+}
+
+/* ============================================
+   18. WordPress 表单按钮覆盖
+   ============================================ */
+/* 确保 WordPress 的 submit_button 使用我们的样式 */
+.fd-form-actions .button,
+.fd-form-actions input[type="submit"] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--fd-spacing-xs);
+    padding: 10px 16px;
+    border: none;
+    border-radius: var(--fd-radius-md);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fd-font-family);
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    white-space: nowrap;
+    background: var(--fd-primary);
+    color: white;
+    box-shadow: none;
+    text-shadow: none;
+    height: auto;
+    line-height: normal;
+}
+
+.fd-form-actions .button:hover,
+.fd-form-actions input[type="submit"]:hover {
+    background: var(--fd-primary-hover);
+    color: white;
+    border-color: transparent;
+}
+
+.fd-form-actions .button:focus,
+.fd-form-actions input[type="submit"]:focus {
+    outline: none;
+}
+
+/* ============================================
+   单选卡片组件（用于风格选择等）
+   ============================================ */
+.fd-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 8px 0;
+}
+
+.fd-radio-card {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.fd-radio-card input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fd-radio-card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    border: 2px solid var(--fd-gray-200);
+    border-radius: var(--fd-radius-md);
+    background: white;
+    transition: all 0.2s ease;
+}
+
+.fd-radio-card:hover .fd-radio-card-content {
+    border-color: var(--fd-primary);
+    background: var(--fd-primary-light);
+}
+
+.fd-radio-card input[type="radio"]:checked + .fd-radio-card-content {
+    border-color: var(--fd-primary);
+    background: var(--fd-primary-light);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.fd-radio-card-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--fd-gray-800);
+    margin-bottom: 4px;
+}
+
+.fd-radio-card-desc {
+    font-size: 13px;
+    color: var(--fd-gray-600);
+    line-height: 1.5;
+}
+
+.fd-radio-card input[type="radio"]:checked + .fd-radio-card-content .fd-radio-card-title {
+    color: var(--fd-primary);
+}

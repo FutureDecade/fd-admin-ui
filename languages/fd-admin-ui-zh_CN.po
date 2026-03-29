@@ -1,0 +1,3450 @@
+# Copyright (C) 2026 FD Admin UI
+# This file is distributed under the same license as the FD Admin UI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FD Admin UI 1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-19 17:16+0800\n"
+"PO-Revision-Date: 2026-03-19 17:30+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: includes/modules/class-fd-dashboard-settings.php:104
+#: includes/modules/class-fd-dashboard-settings.php:105
+#: includes/modules/class-fd-dashboard-settings.php:106
+#: includes/modules/class-fd-dashboard-settings.php:107
+#, php-format
+msgid "%d Column"
+msgid_plural "%d Columns"
+msgstr[0] "%d 列"
+
+#: includes/modules/class-fd-taxonomy-box.php:202
+#, php-format
+msgid "%d selected"
+msgstr "已选择 %d 项"
+
+#: includes/modules/class-fd-post-toc.php:113
+msgid "(Empty heading)"
+msgstr "（空标题）"
+
+#: includes/class-fd-icon-picker.php:337
+msgid "Accessibility"
+msgstr "无障碍"
+
+#: includes/class-fd-icon-picker.php:338
+msgid "Accessibility 2"
+msgstr "无障碍 2"
+
+#: includes/modules/class-fd-vi-settings.php:181
+msgid "Action"
+msgstr "操作"
+
+#: includes/modules/class-fd-vi-settings.php:375
+msgid ""
+"Action color for primary buttons (save, publish, submit, and other CTAs). "
+"Leave empty to inherit brand primary color."
+msgstr ""
+"用于主要按钮（保存、发布、提交及其他行动号召按钮）的操作色。"
+"留空则继承品牌主色。"
+
+#: includes/class-fd-icon-picker.php:78
+msgid "Activity"
+msgstr "活动"
+
+#: includes/class-fd-icon-picker.php:349
+msgid "Add Page"
+msgstr "添加页面"
+
+#: includes/modules/class-fd-post-meta-box.php:122
+msgid "Add author"
+msgstr "添加作者"
+
+#: includes/modules/class-fd-editor-enhance.php:238
+msgid ""
+"Add enhancement features to the classic editor (TinyMCE) to improve editing "
+"efficiency. Applies to all post type editors (posts, pages, and custom post "
+"types)."
+msgstr ""
+"为经典编辑器（TinyMCE）添加增强功能，提升编辑效率。适用于所有文章类型的编辑器"
+"（文章、页面和自定义文章类型）。"
+
+#: includes/class-fd-menu-sort.php:568
+msgid "Add failed: "
+msgstr "添加失败："
+
+#: includes/class-fd-menu-sort.php:565
+msgid "Add separator"
+msgstr "添加分隔线"
+
+#: includes/modules/class-fd-login-settings.php:132
+msgid "Admin Favicon"
+msgstr "管理后台 Favicon"
+
+#: includes/class-fd-admin-ui-settings.php:78
+msgid "Admin UI"
+msgstr "管理界面"
+
+#: includes/class-fd-admin-ui-settings.php:77
+#: includes/class-fd-admin-ui-settings.php:554
+msgid "Admin UI Settings"
+msgstr "管理界面设置"
+
+#: includes/modules/class-fd-adminbar.php:817
+msgid "Adminbar Height"
+msgstr "管理工具栏高度"
+
+#: includes/modules/class-fd-adminbar.php:737
+msgid "Adminbar Style"
+msgstr "管理工具栏样式"
+
+#: includes/modules/class-fd-adminbar.php:901
+msgid "Adminbar basic settings."
+msgstr "管理工具栏基本设置。"
+
+#: includes/modules/class-fd-adminbar.php:1073
+msgid "Adminbar font size, default 14px"
+msgstr "管理工具栏字体大小，默认 14px"
+
+#: includes/modules/class-fd-adminbar.php:1058
+msgid ""
+"Adminbar height (32-100 px), default 56px. WordPress native height is 32px."
+msgstr ""
+"管理工具栏高度（32-100 px），默认 56px。WordPress 原生高度为 32px。"
+
+#: includes/class-fd-admin-ui-settings.php:1563
+msgid "Administrator"
+msgstr "管理员"
+
+#: includes/class-fd-icon-picker.php:44
+msgid "Airplane"
+msgstr "飞机"
+
+#: includes/class-fd-icon-picker.php:45
+msgid "Album"
+msgstr "相册"
+
+#: includes/class-fd-icon-picker.php:46
+msgid "Align Center"
+msgstr "居中对齐"
+
+#: includes/class-fd-icon-picker.php:47
+msgid "Align Full Width"
+msgstr "全宽对齐"
+
+#: includes/class-fd-icon-picker.php:48
+msgid "Align Left"
+msgstr "左对齐"
+
+#: includes/class-fd-icon-picker.php:49
+msgid "Align None"
+msgstr "无对齐"
+
+#: includes/class-fd-icon-picker.php:52
+msgid "Align Right"
+msgstr "右对齐"
+
+#: includes/class-fd-icon-picker.php:53
+msgid "Align Wide"
+msgstr "宽幅对齐"
+
+#: includes/class-fd-icon-picker.php:55
+msgid "Analytics"
+msgstr "分析"
+
+#: includes/class-fd-icon-picker.php:23
+msgid "Appearance"
+msgstr "外观"
+
+#: includes/modules/class-fd-login-settings.php:165
+msgid "Appearance Settings"
+msgstr "外观设置"
+
+#: includes/class-fd-icon-picker.php:56
+msgid "Archive"
+msgstr "归档"
+
+#: includes/class-fd-admin-ui-settings.php:854
+msgid ""
+"Are you sure you want to reset all settings to defaults? This action cannot "
+"be undone."
+msgstr ""
+"确定要将所有设置恢复为默认值吗？此操作无法撤销。"
+
+#: includes/class-fd-icon-picker.php:103
+msgid "Area Chart"
+msgstr "面积图"
+
+#: includes/class-fd-icon-picker.php:57
+msgid "Arrow Down"
+msgstr "向下箭头"
+
+#: includes/class-fd-icon-picker.php:58
+msgid "Arrow Down 2"
+msgstr "向下箭头 2"
+
+#: includes/class-fd-icon-picker.php:59
+msgid "Arrow Down 3"
+msgstr "向下箭头 3"
+
+#: includes/class-fd-icon-picker.php:60
+msgid "Arrow Left"
+msgstr "向左箭头"
+
+#: includes/class-fd-icon-picker.php:61
+msgid "Arrow Left 2"
+msgstr "向左箭头 2"
+
+#: includes/class-fd-icon-picker.php:62
+msgid "Arrow Left 3"
+msgstr "向左箭头 3"
+
+#: includes/class-fd-icon-picker.php:63
+msgid "Arrow Right"
+msgstr "向右箭头"
+
+#: includes/class-fd-icon-picker.php:64
+msgid "Arrow Right 2"
+msgstr "向右箭头 2"
+
+#: includes/class-fd-icon-picker.php:65
+msgid "Arrow Right 3"
+msgstr "向右箭头 3"
+
+#: includes/class-fd-icon-picker.php:66
+msgid "Arrow Up"
+msgstr "向上箭头"
+
+#: includes/class-fd-icon-picker.php:67
+msgid "Arrow Up 2"
+msgstr "向上箭头 2"
+
+#: includes/class-fd-icon-picker.php:68
+msgid "Arrow Up 3"
+msgstr "向上箭头 3"
+
+#: includes/class-fd-icon-picker.php:69
+msgid "Art"
+msgstr "艺术"
+
+#: includes/class-fd-icon-picker.php:191
+msgid "Aside"
+msgstr "日志"
+
+#: includes/class-fd-icon-picker.php:192
+msgid "Audio"
+msgstr "音频"
+
+#: includes/class-fd-icon-picker.php:272
+msgid "Audio Playlist"
+msgstr "音频播放列表"
+
+#: includes/class-fd-admin-ui-settings.php:1565
+msgid "Author"
+msgstr "作者"
+
+#: includes/class-fd-admin-ui-settings.php:724
+msgid "Auto Collapse"
+msgstr "自动折叠"
+
+#: includes/modules/class-fd-vi-settings.php:316
+msgid "Automatic Color Scale Generation"
+msgstr "自动色阶生成"
+
+#: includes/modules/class-fd-editor-enhance.php:327
+msgid ""
+"Automatically clean unnecessary styles and markup when pasting content from "
+"Word, web pages, etc., while preserving semantic structure."
+msgstr ""
+"从 Word、网页等粘贴内容时自动清理不必要的样式和标记，同时保留语义结构。"
+
+#: includes/modules/class-fd-editor-enhance.php:297
+msgid ""
+"Automatically convert pasted URLs into links; paste a URL with text selected "
+"to create a hyperlink."
+msgstr ""
+"自动将粘贴的 URL 转换为链接；选中文字后粘贴 URL 可创建超链接。"
+
+#: includes/class-fd-icon-picker.php:70
+msgid "Awards"
+msgstr "奖项"
+
+#: includes/class-fd-icon-picker.php:116
+msgid "Back"
+msgstr "返回"
+
+#: includes/modules/class-fd-adminbar.php:753
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: includes/modules/class-fd-login-settings.php:172
+msgid "Background Style"
+msgstr "背景样式"
+
+#: includes/modules/class-fd-table-settings.php:199
+msgid ""
+"Background color when hovering over table rows. Leave empty for no hover "
+"effect."
+msgstr ""
+"鼠标悬停在表格行上时的背景颜色。留空则无悬停效果。"
+
+#: includes/class-fd-icon-picker.php:71
+msgid "Backup"
+msgstr "备份"
+
+#: includes/class-fd-icon-picker.php:72
+msgid "Bank"
+msgstr "银行"
+
+#: includes/class-fd-icon-picker.php:104
+msgid "Bar Chart"
+msgstr "柱状图"
+
+#: includes/modules/class-fd-global-settings.php:118
+msgid "Base Font Size"
+msgstr "基础字体大小"
+
+#: includes/modules/class-fd-global-settings.php:166
+msgid "Base font size that affects most admin text."
+msgstr "影响大部分管理后台文本的基础字体大小。"
+
+#: includes/class-fd-admin-ui-settings.php:647
+#: includes/class-fd-admin-ui-settings.php:717
+#: includes/modules/class-fd-adminbar.php:722
+#: includes/modules/class-fd-login-settings.php:117
+msgid "Basic Settings"
+msgstr "基本设置"
+
+#: includes/class-fd-icon-picker.php:73
+msgid "Beer"
+msgstr "啤酒"
+
+#: includes/class-fd-icon-picker.php:74
+msgid "Bell"
+msgstr "铃铛"
+
+#: includes/class-fd-icon-picker.php:75
+msgid "Block"
+msgstr "区块"
+
+#: includes/modules/class-fd-editor-enhance.php:102
+msgid "Blockquote"
+msgstr "引用"
+
+#: includes/class-fd-icon-picker.php:143
+#: includes/modules/class-fd-editor-enhance.php:107
+msgid "Bold"
+msgstr "粗体"
+
+#: includes/class-fd-icon-picker.php:76
+msgid "Book"
+msgstr "书籍"
+
+#: includes/class-fd-icon-picker.php:77
+msgid "Book 2"
+msgstr "书籍 2"
+
+#: includes/modules/class-fd-vi-settings.php:197
+msgid "Brand Accent"
+msgstr "品牌强调色"
+
+#: includes/modules/class-fd-vi-settings.php:173
+msgid "Brand Primary"
+msgstr "品牌主色"
+
+#: includes/modules/class-fd-vi-settings.php:189
+msgid "Brand Secondary"
+msgstr "品牌辅助色"
+
+#: includes/modules/class-fd-vi-settings.php:405
+msgid ""
+"Brand accent color for highlights, tags, and attention guidance. "
+"Automatically generates accent-50 to accent-900 color scale."
+msgstr ""
+"用于高亮、标签和注意力引导的品牌强调色。"
+"自动生成 accent-50 到 accent-900 色阶。"
+
+#: includes/modules/class-fd-vi-settings.php:359
+msgid ""
+"Brand primary color. Automatically generates primary-50 to primary-900 color "
+"scale for link highlights, active states, and brand identity."
+msgstr ""
+"品牌主色。自动生成 primary-50 到 primary-900 色阶，用于链接高亮、活跃状态和品牌标识。"
+
+#: includes/modules/class-fd-vi-settings.php:390
+msgid ""
+"Brand secondary color. Automatically generates secondary-50 to secondary-900 "
+"color scale for secondary interactions and informational hints."
+msgstr ""
+"品牌辅助色。自动生成 secondary-50 到 secondary-900 色阶，用于次要交互和信息提示。"
+
+#: includes/class-fd-icon-picker.php:89
+msgid "Building"
+msgstr "建筑"
+
+#: includes/class-fd-icon-picker.php:90
+msgid "Businessman"
+msgstr "商务男士"
+
+#: includes/class-fd-icon-picker.php:91
+msgid "Businessperson"
+msgstr "商务人士"
+
+#: includes/class-fd-icon-picker.php:92
+msgid "Businesswoman"
+msgstr "商务女士"
+
+#: includes/class-fd-icon-picker.php:93
+msgid "Button"
+msgstr "按钮"
+
+#: includes/class-fd-icon-picker.php:94
+msgid "Calculator"
+msgstr "计算器"
+
+#: includes/class-fd-icon-picker.php:95
+msgid "Calendar"
+msgstr "日历"
+
+#: includes/class-fd-icon-picker.php:96
+msgid "Calendar 2"
+msgstr "日历 2"
+
+#: includes/class-fd-icon-picker.php:97
+msgid "Camera"
+msgstr "相机"
+
+#: includes/class-fd-icon-picker.php:98
+msgid "Camera 2"
+msgstr "相机 2"
+
+#: includes/class-fd-menu-sort.php:571
+msgid "Cannot determine position"
+msgstr "无法确定位置"
+
+#: includes/class-fd-menu-sort.php:572
+msgid "Cannot determine separator"
+msgstr "无法确定分隔线"
+
+#: includes/class-fd-icon-picker.php:99
+msgid "Car"
+msgstr "汽车"
+
+#: includes/modules/class-fd-content-area.php:140
+msgid "Card Background Color"
+msgstr "卡片背景颜色"
+
+#: includes/modules/class-fd-content-area.php:148
+msgid "Card Border Radius"
+msgstr "卡片圆角"
+
+#: includes/modules/class-fd-content-area.php:156
+msgid "Card Shadow"
+msgstr "卡片阴影"
+
+#: includes/modules/class-fd-content-area.php:185
+msgid ""
+"Card/panel background color (postbox, meta-box, etc.). Leave empty for "
+"WordPress default (#fff)."
+msgstr ""
+"卡片/面板背景颜色（文章框、元框等）。留空则使用 WordPress 默认值（#fff）。"
+
+#: includes/modules/class-fd-content-area.php:200
+msgid "Card/panel border radius size."
+msgstr "卡片/面板圆角大小。"
+
+#: includes/modules/class-fd-content-area.php:213
+msgid "Card/panel shadow effect for added depth."
+msgstr "卡片/面板阴影效果，增添层次感。"
+
+#: includes/class-fd-icon-picker.php:100
+msgid "Carrot"
+msgstr "胡萝卜"
+
+#: includes/class-fd-icon-picker.php:101
+msgid "Cart"
+msgstr "购物车"
+
+#: includes/modules/class-fd-taxonomy-box.php:151
+msgid "Categories & Tags"
+msgstr "分类与标签"
+
+#: includes/class-fd-icon-picker.php:102
+msgid "Category"
+msgstr "分类"
+
+#: includes/modules/class-fd-post-meta-box.php:168
+#: includes/modules/class-fd-post-meta-box.php:345
+msgid "Change Cover"
+msgstr "更换封面"
+
+#: includes/class-fd-icon-picker.php:193
+msgid "Chat"
+msgstr "聊天"
+
+#: includes/modules/class-fd-login-settings.php:463
+msgid ""
+"Choose the background style for the login page. Light background suits most "
+"scenarios, gradient is more modern, and custom image allows uploading a "
+"branded background."
+msgstr ""
+"选择登录页面的背景样式。浅色背景适合大多数场景，渐变更加现代，"
+"自定义图片可上传品牌背景。"
+
+#: includes/modules/class-fd-search-settings.php:155
+msgid "Choose the keyboard shortcut to trigger the search."
+msgstr "选择触发搜索的键盘快捷键。"
+
+#: includes/modules/class-fd-login-settings.php:359
+msgid "Choose the light background color. Default: #f0f0f1"
+msgstr "选择浅色背景颜色。默认值：#f0f0f1"
+
+#: includes/modules/class-fd-adminbar.php:1030
+msgid ""
+"Choose the overall Adminbar style. \"Modern SaaS Style\" is inspired by "
+"Laravel Nova and offers more customization options."
+msgstr ""
+"选择管理工具栏的整体样式。\"现代 SaaS 风格\"灵感来自 Laravel Nova，"
+"提供更多自定义选项。"
+
+#: includes/modules/class-fd-login-settings.php:383
+msgid ""
+"Choose the start and end colors for the gradient. The gradient direction is "
+"fixed at 135 degrees (bottom-right)."
+msgstr ""
+"选择渐变的起始和结束颜色。渐变方向固定为 135 度（右下方）。"
+
+#: includes/modules/class-fd-editor-enhance.php:112
+msgid "Clear Formatting"
+msgstr "清除格式"
+
+#: includes/modules/class-fd-post-meta-box.php:178
+msgid "Click to set cover image"
+msgstr "点击设置封面图片"
+
+#: includes/class-fd-icon-picker.php:107
+msgid "Clipboard"
+msgstr "剪贴板"
+
+#: includes/class-fd-icon-picker.php:108
+msgid "Clock"
+msgstr "时钟"
+
+#: includes/class-fd-global-search.php:115
+msgid "Close"
+msgstr "关闭"
+
+#: includes/class-fd-global-search.php:102
+msgid "Close (Esc)"
+msgstr "关闭 (Esc)"
+
+#: includes/class-fd-icon-picker.php:109
+msgid "Cloud"
+msgstr "云"
+
+#: includes/class-fd-icon-picker.php:110
+msgid "Cloud Saved"
+msgstr "已保存到云端"
+
+#: includes/class-fd-icon-picker.php:111
+msgid "Cloud Upload"
+msgstr "上传到云端"
+
+#: includes/class-fd-icon-picker.php:145
+msgid "Code"
+msgstr "代码"
+
+#: includes/modules/class-fd-editor-enhance.php:103
+msgid "Code Block"
+msgstr "代码块"
+
+#: includes/class-fd-icon-picker.php:112
+msgid "Code Standards"
+msgstr "代码规范"
+
+#: includes/class-fd-icon-picker.php:113
+msgid "Coffee"
+msgstr "咖啡"
+
+#: includes/class-fd-icon-picker.php:24
+msgid "Collapse"
+msgstr "折叠"
+
+#: includes/modules/class-fd-post-toc.php:111
+#: includes/modules/class-fd-post-toc.php:152
+msgid "Collapse TOC"
+msgstr "折叠目录"
+
+#: includes/class-fd-icon-picker.php:114
+msgid "Color Picker"
+msgstr "取色器"
+
+#: includes/class-fd-admin-ui-settings.php:648
+#: includes/modules/class-fd-adminbar.php:746
+msgid "Color Settings"
+msgstr "颜色设置"
+
+#: includes/modules/class-fd-editor-enhance.php:126
+msgid "Column 1"
+msgstr "第 1 列"
+
+#: includes/modules/class-fd-editor-enhance.php:127
+msgid "Column 2"
+msgstr "第 2 列"
+
+#: includes/modules/class-fd-editor-enhance.php:128
+msgid "Column 3"
+msgstr "第 3 列"
+
+#: includes/class-fd-icon-picker.php:115
+msgid "Columns"
+msgstr "多列"
+
+#: includes/class-fd-icon-picker.php:25
+msgid "Comments"
+msgstr "评论"
+
+#: includes/class-fd-icon-picker.php:81
+msgid "Community"
+msgstr "社区"
+
+#: includes/modules/class-fd-table-settings.php:147
+msgid "Compact Mode"
+msgstr "紧凑模式"
+
+#: includes/modules/class-fd-vi-settings.php:334
+msgid ""
+"Configure border radius and shadow effects for UI elements to create a "
+"unified visual style."
+msgstr ""
+"配置 UI 元素的圆角和阴影效果，打造统一的视觉风格。"
+
+#: includes/modules/class-fd-vi-settings.php:311
+msgid ""
+"Configure the brand color scheme for the admin interface. These colors will "
+"be applied to buttons, links, status indicators, and other elements."
+msgstr ""
+"配置管理界面的品牌配色方案。这些颜色将应用于按钮、链接、状态指示器及其他元素。"
+
+#: includes/modules/class-fd-search-settings.php:132
+msgid ""
+"Configure the global search feature for quickly finding and accessing admin "
+"content. A Notion-like Cmd/Ctrl + K search experience."
+msgstr ""
+"配置全局搜索功能，快速查找和访问管理内容。类似 Notion 的 Cmd/Ctrl + K 搜索体验。"
+
+#: includes/modules/class-fd-taxonomy-box.php:51
+msgid ""
+"Consolidates categories, tags, and custom taxonomies into a single compact "
+"meta box to improve editing efficiency."
+msgstr ""
+"将分类、标签和自定义分类法整合到一个紧凑的元框中，提升编辑效率。"
+
+#: includes/class-fd-admin-ui-settings.php:587
+msgid "Content Area"
+msgstr "内容区域"
+
+#: includes/modules/class-fd-content-area.php:125
+msgid "Content Area Settings"
+msgstr "内容区域设置"
+
+#: includes/modules/class-fd-content-area.php:132
+msgid "Content Background Color"
+msgstr "内容背景颜色"
+
+#: includes/class-fd-icon-picker.php:146
+msgid "Contract"
+msgstr "收缩"
+
+#: includes/class-fd-admin-ui-settings.php:1566
+msgid "Contributor"
+msgstr "投稿者"
+
+#: includes/modules/class-fd-adminbar.php:913
+msgid "Control the visibility of items in the Adminbar."
+msgstr "控制管理工具栏中各项目的可见性。"
+
+#: fd-admin-ui.php:112
+msgid "Copied"
+msgstr "已复制"
+
+#: includes/class-fd-icon-picker.php:125
+#: includes/modules/class-fd-post-meta-box.php:163
+#: includes/modules/class-fd-post-meta-box.php:347
+msgid "Cover Image"
+msgstr "封面图片"
+
+#: includes/class-fd-icon-picker.php:214
+msgid "Crop"
+msgstr "裁剪"
+
+#: includes/class-fd-admin-ui-settings.php:493
+msgid "Current Icon"
+msgstr "当前图标"
+
+#: includes/class-fd-admin-ui-settings.php:719
+msgid "Current Selected Item"
+msgstr "当前选中项"
+
+#: includes/modules/class-fd-footer-settings.php:80
+msgid "Custom Footer Text"
+msgstr "自定义页脚文本"
+
+#: includes/modules/class-fd-login-settings.php:346
+msgid "Custom Image"
+msgstr "自定义图片"
+
+#: includes/modules/class-fd-adminbar.php:833
+msgid "Custom Logo"
+msgstr "自定义 Logo"
+
+#: includes/modules/class-fd-footer-settings.php:120
+msgid ""
+"Custom footer text to replace \"Thank you for creating with WordPress\". "
+"HTML supported. Leave empty for default."
+msgstr ""
+"自定义页脚文本，替换\"感谢使用 WordPress 进行创作\"。"
+"支持 HTML。留空则使用默认文本。"
+
+#: includes/class-fd-admin-ui-settings.php:555
+msgid "Customize WordPress admin interface appearance"
+msgstr "自定义 WordPress 管理界面外观"
+
+#: includes/modules/class-fd-table-settings.php:159
+msgid "Customize admin list tables (posts, users, etc.) appearance."
+msgstr "自定义管理列表（文章、用户等）的外观。"
+
+#: includes/modules/class-fd-adminbar.php:905
+msgid "Customize the Adminbar color scheme."
+msgstr "自定义管理工具栏配色方案。"
+
+#: includes/modules/class-fd-footer-settings.php:100
+msgid "Customize the admin footer display content."
+msgstr "自定义管理后台页脚显示内容。"
+
+#: includes/modules/class-fd-dashboard-settings.php:83
+msgid "Customize the dashboard page display."
+msgstr "自定义仪表盘页面显示。"
+
+#: includes/modules/class-fd-login-settings.php:220
+msgid ""
+"Customize the logo image and link on the login page (logo size is auto-"
+"adapted, no manual setup needed)."
+msgstr ""
+"自定义登录页面的 Logo 图片和链接（Logo 尺寸自动适配，无需手动设置）。"
+
+#: includes/modules/class-fd-content-area.php:168
+msgid ""
+"Customize the main content area appearance, including background and card "
+"styles."
+msgstr ""
+"自定义主内容区域的外观，包括背景和卡片样式。"
+
+#: includes/class-fd-icon-picker.php:26
+msgid "Customizer"
+msgstr "自定义器"
+
+#: includes/class-fd-icon-picker.php:126
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: includes/modules/class-fd-dashboard-settings.php:56
+msgid "Dashboard Settings"
+msgstr "仪表盘设置"
+
+#: includes/class-fd-icon-picker.php:127
+msgid "Database"
+msgstr "数据库"
+
+#: includes/class-fd-icon-picker.php:128
+msgid "Database Add"
+msgstr "数据库添加"
+
+#: includes/class-fd-icon-picker.php:129
+msgid "Database Export"
+msgstr "数据库导出"
+
+#: includes/class-fd-icon-picker.php:130
+msgid "Database Import"
+msgstr "数据库导入"
+
+#: includes/class-fd-icon-picker.php:131
+msgid "Database Remove"
+msgstr "数据库移除"
+
+#: includes/class-fd-icon-picker.php:132
+msgid "Database View"
+msgstr "数据库查看"
+
+#: includes/modules/class-fd-dashboard-settings.php:71
+msgid "Default Columns"
+msgstr "默认列数"
+
+#: includes/modules/class-fd-dashboard-settings.php:109
+msgid ""
+"Default number of dashboard columns. Users can still adjust via Screen "
+"Options."
+msgstr ""
+"仪表盘默认列数。用户仍可通过「显示选项」进行调整。"
+
+#: includes/modules/class-fd-adminbar.php:1229
+msgid "Default: #1d2327"
+msgstr "默认值：#1d2327"
+
+#: includes/modules/class-fd-adminbar.php:1277
+msgid "Default: #2c3338"
+msgstr "默认值：#2c3338"
+
+#: includes/modules/class-fd-adminbar.php:1265
+msgid "Default: #72aee6"
+msgstr "默认值：#72aee6"
+
+#: includes/modules/class-fd-adminbar.php:1241
+#: includes/modules/class-fd-adminbar.php:1289
+msgid "Default: #f0f0f1"
+msgstr "默认值：#f0f0f1"
+
+#: includes/class-fd-icon-picker.php:316
+#: includes/modules/class-fd-editor-enhance.php:122
+msgid "Delete Column"
+msgstr "删除列"
+
+#: includes/class-fd-icon-picker.php:319
+#: includes/modules/class-fd-editor-enhance.php:121
+msgid "Delete Row"
+msgstr "删除行"
+
+#: includes/modules/class-fd-editor-enhance.php:123
+msgid "Delete Table"
+msgstr "删除表格"
+
+#: includes/modules/class-fd-vi-settings.php:339
+msgid "Design Token System"
+msgstr "设计令牌系统"
+
+#: includes/class-fd-icon-picker.php:133
+msgid "Desktop"
+msgstr "桌面"
+
+#: includes/modules/class-fd-adminbar.php:1141
+msgid "Desktop logo display height (16-60 px), default 28px."
+msgstr "桌面端 Logo 显示高度（16-60 px），默认 28px。"
+
+#: includes/class-fd-icon-picker.php:134
+msgid "Dismiss"
+msgstr "关闭提醒"
+
+#: includes/modules/class-fd-adminbar.php:1157
+msgid ""
+"Display a global search box in the center of the Adminbar, similar to "
+"Laravel Nova / Notion style"
+msgstr ""
+"在管理工具栏中央显示全局搜索框，类似 Laravel Nova / Notion 风格"
+
+#: includes/modules/class-fd-post-toc.php:249
+msgid ""
+"Display an outline TOC on the left side of the classic post editor. Click an "
+"entry to quickly jump to the corresponding heading."
+msgstr ""
+"在经典文章编辑器左侧显示大纲目录。点击条目可快速跳转到对应标题。"
+
+#: includes/modules/class-fd-login-settings.php:301
+msgid ""
+"Display height of the logo (40-200 pixels), width auto-adapts. Default: 84px."
+msgstr ""
+"Logo 显示高度（40-200 像素），宽度自动适配。默认值：84px。"
+
+#: includes/modules/class-fd-adminbar.php:1169
+msgid ""
+"Display user avatar and nickname on the right side of the Adminbar, "
+"replacing the native WordPress \"Howdy, xxx\""
+msgstr ""
+"在管理工具栏右侧显示用户头像和昵称，"
+"替换 WordPress 原生的\"你好，xxx\""
+
+#: includes/class-fd-admin-ui-settings.php:466
+#: includes/class-fd-admin-ui-settings.php:514
+msgid "Do not replace (keep SVG)"
+msgstr "不替换（保留 SVG）"
+
+#: includes/class-fd-icon-picker.php:135
+msgid "Download"
+msgstr "下载"
+
+#: includes/class-fd-menu-sort.php:561
+msgid "Drag menu items to reorder"
+msgstr "拖动菜单项进行排序"
+
+#: includes/modules/class-fd-adminbar.php:785
+msgid "Dropdown Menu Background Color"
+msgstr "下拉菜单背景颜色"
+
+#: includes/modules/class-fd-adminbar.php:793
+msgid "Dropdown Menu Text Color"
+msgstr "下拉菜单文字颜色"
+
+#: includes/class-fd-icon-picker.php:136
+msgid "Drumstick"
+msgstr "鸡腿"
+
+#: includes/class-fd-icon-picker.php:137
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/class-fd-icon-picker.php:138
+msgid "Edit (Large)"
+msgstr "编辑（大）"
+
+#: includes/class-fd-icon-picker.php:139
+msgid "Edit Page"
+msgstr "编辑页面"
+
+#: includes/class-fd-admin-ui-settings.php:1564
+msgid "Editor"
+msgstr "编辑"
+
+#: includes/class-fd-icon-picker.php:140
+msgid "Editor Align Center"
+msgstr "编辑器居中对齐"
+
+#: includes/class-fd-icon-picker.php:141
+msgid "Editor Align Left"
+msgstr "编辑器左对齐"
+
+#: includes/class-fd-icon-picker.php:142
+msgid "Editor Align Right"
+msgstr "编辑器右对齐"
+
+#: includes/modules/class-fd-editor-enhance.php:171
+msgid "Editor Enhancement"
+msgstr "编辑器增强"
+
+#: includes/class-fd-admin-ui-settings.php:617
+msgid "Editor Enhancements"
+msgstr "编辑器增强"
+
+#: includes/class-fd-icon-picker.php:173
+msgid "Ellipsis"
+msgstr "省略号"
+
+#: includes/class-fd-icon-picker.php:174
+msgid "Email"
+msgstr "邮件"
+
+#: includes/class-fd-icon-picker.php:175
+msgid "Email 2"
+msgstr "邮件 2"
+
+#: includes/class-fd-icon-picker.php:176
+msgid "Email 3"
+msgstr "邮件 3"
+
+#: includes/class-fd-icon-picker.php:177
+msgid "Embed Audio"
+msgstr "嵌入音频"
+
+#: includes/class-fd-icon-picker.php:178
+msgid "Embed Generic"
+msgstr "通用嵌入"
+
+#: includes/class-fd-icon-picker.php:179
+msgid "Embed Photo"
+msgstr "嵌入图片"
+
+#: includes/class-fd-icon-picker.php:180
+msgid "Embed Post"
+msgstr "嵌入文章"
+
+#: includes/class-fd-icon-picker.php:181
+msgid "Embed Video"
+msgstr "嵌入视频"
+
+#: includes/class-fd-icon-picker.php:307
+msgid "Empty Star"
+msgstr "空心星形"
+
+#: includes/modules/class-fd-editor-enhance.php:178
+msgid "Enable Editor Enhancement"
+msgstr "启用编辑器增强"
+
+#: includes/modules/class-fd-search-settings.php:80
+msgid "Enable Global Search"
+msgstr "启用全局搜索"
+
+#: includes/modules/class-fd-login-settings.php:124
+msgid "Enable Login Page Customization"
+msgstr "启用登录页面自定义"
+
+#: includes/modules/class-fd-post-meta-box.php:437
+msgid "Enable Meta Box Enhancement"
+msgstr "启用文章元框增强"
+
+#: includes/modules/class-fd-post-toc.php:213
+msgid "Enable Post TOC"
+msgstr "启用文章目录"
+
+#: includes/modules/class-fd-taxonomy-box.php:40
+msgid "Enable Taxonomy Meta Box Integration"
+msgstr "启用分类法框整合"
+
+#: includes/modules/class-fd-table-settings.php:211
+msgid "Enable alternating row colors (zebra striping) for better readability."
+msgstr "启用交替行颜色（斑马纹）以提升可读性。"
+
+#: includes/modules/class-fd-table-settings.php:223
+msgid ""
+"Enable compact mode to reduce row height and display more data on screen."
+msgstr ""
+"启用紧凑模式以减小行高，在屏幕上显示更多数据。"
+
+#: includes/modules/class-fd-table-settings.php:190
+msgid ""
+"Enable horizontal scrolling for tables with many columns, preventing layout "
+"distortion."
+msgstr ""
+"为多列表格启用水平滚动，防止布局变形。"
+
+#: includes/modules/class-fd-search-settings.php:143
+msgid "Enable keyboard shortcut to quickly search admin content."
+msgstr "启用键盘快捷键以快速搜索管理内容。"
+
+#: includes/modules/class-fd-login-settings.php:216
+msgid "Enable login page customization and set the admin favicon."
+msgstr "启用登录页面自定义并设置管理后台 Favicon。"
+
+#: includes/modules/class-fd-global-settings.php:182
+msgid ""
+"Enable modern styling for WordPress settings and tools pages, including form "
+"elements, buttons, and card components."
+msgstr ""
+"为 WordPress 设置和工具页面启用现代样式，包括表单元素、按钮和卡片组件。"
+
+#: includes/modules/class-fd-table-settings.php:174
+msgid ""
+"Enable modern table styling with rounded borders, soft colors, optimized "
+"spacing, and improved interactions."
+msgstr ""
+"启用现代表格样式，包括圆角边框、柔和颜色、优化间距和改进的交互效果。"
+
+#: includes/modules/class-fd-taxonomy-box.php:66
+msgid "Enable unified taxonomy meta box (compact list layout)"
+msgstr "启用统一分类法框（紧凑列表布局）"
+
+#: includes/modules/class-fd-login-settings.php:375
+msgid "End Color"
+msgstr "结束颜色"
+
+#: includes/modules/class-fd-taxonomy-box.php:279
+#, php-format
+msgid "Enter %s, press Enter to add"
+msgstr "输入 %s，按回车键添加"
+
+#: includes/modules/class-fd-post-meta-box.php:200
+msgid ""
+"Enter an excerpt (optional; if left blank, the beginning of the content will "
+"be used)"
+msgstr ""
+"输入摘要（可选；留空则使用内容开头）"
+
+#: includes/modules/class-fd-editor-enhance.php:116
+msgid "Enter the link URL:"
+msgstr "请输入链接 URL："
+
+#: includes/modules/class-fd-vi-settings.php:213
+msgid "Error"
+msgstr "错误"
+
+#: includes/modules/class-fd-vi-settings.php:435
+msgid "Error color for indicating errors or negative states."
+msgstr "用于指示错误或负面状态的错误色。"
+
+#: includes/modules/class-fd-post-meta-box.php:190
+msgid "Excerpt"
+msgstr "摘要"
+
+#: includes/class-fd-icon-picker.php:182
+msgid "Excerpt View"
+msgstr "摘要视图"
+
+#: includes/class-fd-icon-picker.php:183
+msgid "Exit"
+msgstr "退出"
+
+#: includes/class-fd-icon-picker.php:201
+msgid "Exit Fullscreen"
+msgstr "退出全屏"
+
+#: includes/class-fd-icon-picker.php:148
+msgid "Expand"
+msgstr "展开"
+
+#: includes/modules/class-fd-post-toc.php:112
+#: includes/modules/class-fd-post-toc.php:143
+msgid "Expand TOC"
+msgstr "展开目录"
+
+#: includes/modules/class-fd-post-toc.php:229
+msgid "Expand TOC by Default"
+msgstr "默认展开目录"
+
+#: includes/class-fd-icon-picker.php:184
+msgid "External Link"
+msgstr "外部链接"
+
+#: includes/modules/class-fd-vi-settings.php:301
+msgid ""
+"FD Theme is active. Color settings are automatically synced with the theme's "
+"VI settings."
+msgstr ""
+"FD 主题已激活。颜色设置自动与主题的视觉识别设置同步。"
+
+#: includes/class-fd-icon-picker.php:187
+msgid "Feedback"
+msgstr "反馈"
+
+#: includes/class-fd-icon-picker.php:308
+msgid "Filled Star"
+msgstr "实心星形"
+
+#: includes/class-fd-icon-picker.php:188 includes/class-fd-icon-picker.php:215
+msgid "Filter"
+msgstr "筛选"
+
+#: includes/class-fd-icon-picker.php:189
+msgid "Flag"
+msgstr "旗帜"
+
+#: includes/class-fd-icon-picker.php:216
+msgid "Flip Horizontal"
+msgstr "水平翻转"
+
+#: includes/class-fd-icon-picker.php:217
+msgid "Flip Vertical"
+msgstr "垂直翻转"
+
+#: includes/modules/class-fd-editor-enhance.php:194
+msgid "Floating Toolbar"
+msgstr "浮动工具栏"
+
+#: includes/modules/class-fd-adminbar.php:825
+msgid "Font Size"
+msgstr "字体大小"
+
+#: includes/class-fd-icon-picker.php:190
+msgid "Food"
+msgstr "食物"
+
+#: includes/class-fd-admin-ui-settings.php:597
+msgid "Footer"
+msgstr "页脚"
+
+#: includes/modules/class-fd-footer-settings.php:65
+msgid "Footer Settings"
+msgstr "页脚设置"
+
+#: includes/modules/class-fd-login-settings.php:196
+msgid "Form Background Opacity"
+msgstr "表单背景不透明度"
+
+#: includes/modules/class-fd-login-settings.php:188
+msgid "Form Width"
+msgstr "表单宽度"
+
+#: includes/class-fd-icon-picker.php:199
+msgid "Forms"
+msgstr "表单"
+
+#: includes/class-fd-icon-picker.php:82
+msgid "Forums"
+msgstr "论坛"
+
+#: includes/class-fd-icon-picker.php:117
+msgid "Forward"
+msgstr "前进"
+
+#: includes/class-fd-icon-picker.php:83
+msgid "Friends"
+msgstr "好友"
+
+#: includes/class-fd-icon-picker.php:200
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: includes/class-fd-icon-picker.php:194
+msgid "Gallery"
+msgstr "相册"
+
+#: includes/class-fd-icon-picker.php:202
+msgid "Games"
+msgstr "游戏"
+
+#: includes/class-fd-icon-picker.php:27
+msgid "Generic"
+msgstr "通用"
+
+#: includes/modules/class-fd-global-settings.php:110
+msgid "Global Border Radius"
+msgstr "全局圆角"
+
+#: includes/class-fd-admin-ui-settings.php:607
+msgid "Global Search"
+msgstr "全局搜索"
+
+#: includes/modules/class-fd-search-settings.php:73
+msgid "Global Search Settings"
+msgstr "全局搜索设置"
+
+#: includes/class-fd-admin-ui-settings.php:567
+#: includes/modules/class-fd-global-settings.php:103
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: includes/modules/class-fd-global-settings.php:138
+msgid "Global appearance settings that affect the entire admin interface."
+msgstr "影响整个管理界面的全局外观设置。"
+
+#: includes/modules/class-fd-global-settings.php:152
+msgid "Global border radius for buttons, inputs, cards, and other elements."
+msgstr "按钮、输入框、卡片及其他元素的全局圆角。"
+
+#: includes/modules/class-fd-vi-settings.php:303
+msgid "Go to Theme VI Settings"
+msgstr "前往主题视觉识别设置"
+
+#: includes/modules/class-fd-login-settings.php:339
+msgid "Gradient Background"
+msgstr "渐变背景"
+
+#: includes/modules/class-fd-login-settings.php:364
+msgid "Gradient Background Colors"
+msgstr "渐变背景颜色"
+
+#: includes/class-fd-icon-picker.php:204
+msgid "Grid View"
+msgstr "网格视图"
+
+#: includes/class-fd-icon-picker.php:84 includes/class-fd-icon-picker.php:205
+msgid "Groups"
+msgstr "群组"
+
+#: includes/class-fd-icon-picker.php:309
+msgid "Half Star"
+msgstr "半星"
+
+#: includes/class-fd-icon-picker.php:206
+msgid "Hammer"
+msgstr "锤子"
+
+#: includes/class-fd-icon-picker.php:207
+#: includes/modules/class-fd-editor-enhance.php:113
+msgid "Heading"
+msgstr "标题"
+
+#: includes/modules/class-fd-editor-enhance.php:96
+msgid "Heading 2"
+msgstr "二级标题"
+
+#: includes/modules/class-fd-editor-enhance.php:97
+msgid "Heading 3"
+msgstr "三级标题"
+
+#: includes/modules/class-fd-editor-enhance.php:98
+msgid "Heading 4"
+msgstr "四级标题"
+
+#: includes/modules/class-fd-post-toc.php:221
+msgid "Heading Levels to Display"
+msgstr "要显示的标题级别"
+
+#: includes/class-fd-icon-picker.php:208
+msgid "Heart"
+msgstr "爱心"
+
+#: includes/class-fd-icon-picker.php:149
+msgid "Help"
+msgstr "帮助"
+
+#: includes/class-fd-icon-picker.php:209
+msgid "Hidden"
+msgstr "隐藏"
+
+#: includes/modules/class-fd-adminbar.php:873
+msgid "Hide \"Comments\""
+msgstr "隐藏\"评论\""
+
+#: includes/modules/class-fd-adminbar.php:881
+msgid "Hide \"New\""
+msgstr "隐藏\"新建\""
+
+#: includes/modules/class-fd-adminbar.php:865
+msgid "Hide \"Updates\""
+msgstr "隐藏\"更新\""
+
+#: includes/modules/class-fd-adminbar.php:729
+msgid "Hide Adminbar"
+msgstr "隐藏管理工具栏"
+
+#: includes/modules/class-fd-footer-settings.php:72
+msgid "Hide Footer"
+msgstr "隐藏页脚"
+
+#: includes/modules/class-fd-editor-enhance.php:226
+msgid "Hide Permalink"
+msgstr "隐藏固定链接"
+
+#: includes/modules/class-fd-adminbar.php:889
+msgid "Hide Plugin-Added Items"
+msgstr "隐藏插件添加的项目"
+
+#: includes/modules/class-fd-footer-settings.php:88
+msgid "Hide Version Number"
+msgstr "隐藏版本号"
+
+#: includes/modules/class-fd-adminbar.php:801
+msgid "Hide WP Logo"
+msgstr "隐藏 WP Logo"
+
+#: includes/modules/class-fd-dashboard-settings.php:63
+msgid "Hide Welcome Panel"
+msgstr "隐藏欢迎面板"
+
+#: includes/modules/class-fd-adminbar.php:1217
+msgid ""
+"Hide items added to the Adminbar by third-party plugins (e.g., GraphiQL IDE, "
+"Object Cache, etc.)"
+msgstr ""
+"隐藏第三方插件添加到管理工具栏的项目（如 GraphiQL IDE、Object Cache 等）"
+
+#: includes/modules/class-fd-adminbar.php:1193
+msgid "Hide the \"Comments\" button in the Adminbar"
+msgstr "隐藏管理工具栏中的\"评论\"按钮"
+
+#: includes/modules/class-fd-adminbar.php:1205
+msgid "Hide the \"New\" button in the Adminbar"
+msgstr "隐藏管理工具栏中的\"新建\"按钮"
+
+#: includes/modules/class-fd-adminbar.php:1181
+msgid "Hide the \"Updates\" button in the Adminbar"
+msgstr "隐藏管理工具栏中的\"更新\"按钮"
+
+#: includes/modules/class-fd-adminbar.php:1042
+msgid ""
+"Hide the WordPress Logo and its dropdown menu on the far left of the Adminbar"
+msgstr ""
+"隐藏管理工具栏最左侧的 WordPress Logo 及其下拉菜单"
+
+#: includes/modules/class-fd-footer-settings.php:132
+msgid "Hide the WordPress version number in the footer (for security reasons)."
+msgstr "隐藏页脚中的 WordPress 版本号（出于安全考虑）。"
+
+#: includes/modules/class-fd-footer-settings.php:111
+msgid ""
+"Hide the admin footer area (\"Thank you for creating with WordPress\", etc.)"
+msgstr ""
+"隐藏管理后台页脚区域（\"感谢使用 WordPress 进行创作\"等）"
+
+#: includes/modules/class-fd-dashboard-settings.php:94
+msgid "Hide the dashboard Welcome Panel."
+msgstr "隐藏仪表盘欢迎面板。"
+
+#: includes/modules/class-fd-editor-enhance.php:342
+msgid ""
+"Hide the permalink section on the post editor page. Useful for headless "
+"architectures where the backend permalink is no longer relevant."
+msgstr ""
+"隐藏文章编辑页面的固定链接部分。适用于后端固定链接不再相关的无头架构。"
+
+#: includes/class-fd-icon-picker.php:28
+msgid "Home"
+msgstr "首页"
+
+#: includes/modules/class-fd-adminbar.php:1086
+msgid "Horizontal Logo (Desktop)"
+msgstr "横向 Logo（桌面端）"
+
+#: includes/modules/class-fd-editor-enhance.php:101
+msgid "Horizontal Rule"
+msgstr "水平线"
+
+#: includes/modules/class-fd-table-settings.php:123
+msgid "Horizontal Scroll"
+msgstr "水平滚动"
+
+#: includes/class-fd-admin-ui-settings.php:290
+msgid ""
+"Horizontal full logo (icon + text combination), recommended size: 400x100px "
+"or similar ratio. Displayed when the sidebar is expanded on desktop."
+msgstr ""
+"横向完整 Logo（图标+文字组合），推荐尺寸：400x100px 或类似比例。"
+"桌面端侧边栏展开时显示。"
+
+#: includes/class-fd-icon-picker.php:210
+msgid "Hourglass"
+msgstr "沙漏"
+
+#: includes/modules/class-fd-adminbar.php:769
+msgid "Hover Background Color"
+msgstr "悬停背景颜色"
+
+#: includes/class-fd-admin-ui-settings.php:718
+msgid "Hover Effect"
+msgstr "悬停效果"
+
+#: includes/modules/class-fd-adminbar.php:777
+msgid "Hover Text Color"
+msgstr "悬停文字颜色"
+
+#: includes/class-fd-icon-picker.php:212
+msgid "ID Card"
+msgstr "身份证"
+
+#: includes/class-fd-icon-picker.php:213
+msgid "ID Card 2"
+msgstr "身份证 2"
+
+#: includes/modules/class-fd-adminbar.php:1144
+msgid ""
+"If not set, the logo from \"Left Menu Settings > Site Identity\" will be "
+"used automatically."
+msgstr ""
+"若未设置，将自动使用\"左侧菜单设置 > 站点标识\"中的 Logo。"
+
+#: includes/class-fd-icon-picker.php:195
+msgid "Image"
+msgstr "图片"
+
+#: includes/class-fd-icon-picker.php:221
+msgid "Images"
+msgstr "图片集"
+
+#: includes/class-fd-icon-picker.php:222
+msgid "Images 2"
+msgstr "图片集 2"
+
+#: includes/class-fd-icon-picker.php:150
+msgid "Indent"
+msgstr "缩进"
+
+#: includes/class-fd-icon-picker.php:223
+msgid "Index Card"
+msgstr "索引卡片"
+
+#: includes/class-fd-icon-picker.php:224
+msgid "Info"
+msgstr "信息"
+
+#: includes/class-fd-icon-picker.php:225
+msgid "Info Outline"
+msgstr "信息轮廓"
+
+#: includes/modules/class-fd-editor-enhance.php:111
+msgid "Inline Code"
+msgstr "行内代码"
+
+#: includes/class-fd-icon-picker.php:226
+msgid "Insert"
+msgstr "插入"
+
+#: includes/class-fd-icon-picker.php:227
+msgid "Insert After"
+msgstr "在后面插入"
+
+#: includes/class-fd-icon-picker.php:228
+msgid "Insert Before"
+msgstr "在前面插入"
+
+#: includes/class-fd-icon-picker.php:314
+msgid "Insert Column After"
+msgstr "在右侧插入列"
+
+#: includes/class-fd-icon-picker.php:315
+msgid "Insert Column Before"
+msgstr "在左侧插入列"
+
+#: includes/modules/class-fd-editor-enhance.php:119
+msgid "Insert Column Left"
+msgstr "在左侧插入列"
+
+#: includes/modules/class-fd-editor-enhance.php:120
+msgid "Insert Column Right"
+msgstr "在右侧插入列"
+
+#: includes/modules/class-fd-editor-enhance.php:105
+msgid "Insert Image"
+msgstr "插入图片"
+
+#: includes/modules/class-fd-editor-enhance.php:110
+msgid "Insert Link"
+msgstr "插入链接"
+
+#: includes/class-fd-icon-picker.php:151
+msgid "Insert More"
+msgstr "插入更多"
+
+#: includes/modules/class-fd-editor-enhance.php:117
+msgid "Insert Row Above"
+msgstr "在上方插入行"
+
+#: includes/class-fd-icon-picker.php:317
+msgid "Insert Row After"
+msgstr "在下方插入行"
+
+#: includes/class-fd-icon-picker.php:318
+msgid "Insert Row Before"
+msgstr "在上方插入行"
+
+#: includes/modules/class-fd-editor-enhance.php:118
+msgid "Insert Row Below"
+msgstr "在下方插入行"
+
+#: includes/class-fd-admin-ui-settings.php:57
+#: includes/class-fd-menu-sort.php:295 includes/class-fd-menu-sort.php:325
+#: includes/class-fd-menu-sort.php:363 includes/class-fd-menu-sort.php:387
+#: includes/class-fd-menu-sort.php:449
+msgid "Insufficient permissions"
+msgstr "权限不足"
+
+#: includes/modules/class-fd-post-meta-box.php:449
+msgid ""
+"Integrate author, cover image, and excerpt into the editor area as a fixed "
+"editing group that cannot be dragged."
+msgstr ""
+"将作者、封面图片和摘要整合到编辑区域中，作为不可拖拽的固定编辑组。"
+
+#: includes/class-fd-menu-sort.php:300
+msgid "Invalid menu order data"
+msgstr "无效的菜单排序数据"
+
+#: includes/modules/class-fd-taxonomy-box.php:346
+msgid "Invalid parameters"
+msgstr "无效参数"
+
+#: includes/class-fd-menu-sort.php:330
+msgid "Invalid submenu order data"
+msgstr "无效的子菜单排序数据"
+
+#: includes/class-fd-icon-picker.php:152
+#: includes/modules/class-fd-editor-enhance.php:108
+msgid "Italic"
+msgstr "斜体"
+
+#: includes/class-fd-admin-ui-settings.php:650
+msgid "Item Display Control"
+msgstr "项目显示控制"
+
+#: includes/modules/class-fd-adminbar.php:858
+msgid "Item Display Controls"
+msgstr "项目显示控制"
+
+#: includes/class-fd-icon-picker.php:153
+msgid "Justify"
+msgstr "两端对齐"
+
+#: includes/class-fd-icon-picker.php:230
+msgid "Laptop"
+msgstr "笔记本电脑"
+
+#: includes/modules/class-fd-vi-settings.php:253
+msgid "Large Border Radius"
+msgstr "大圆角"
+
+#: includes/modules/class-fd-vi-settings.php:277
+msgid "Large Shadow"
+msgstr "大阴影"
+
+#: includes/modules/class-fd-vi-settings.php:498
+msgid "Large border radius value (e.g., 16px)"
+msgstr "大圆角值（例如 16px）"
+
+#: includes/modules/class-fd-vi-settings.php:549
+msgid "Large shadow CSS value (e.g., 0 10px 15px -3px rgba(0, 0, 0, 0.1))"
+msgstr "大阴影 CSS 值（例如 0 10px 15px -3px rgba(0, 0, 0, 0.1)）"
+
+#: includes/class-fd-icon-picker.php:231
+msgid "Layout"
+msgstr "布局"
+
+#: includes/class-fd-icon-picker.php:351
+msgid "Learn More"
+msgstr "了解更多"
+
+#: includes/modules/class-fd-adminbar.php:1253
+msgid "Leave empty for transparent (no background color change)"
+msgstr "留空表示透明（不改变背景颜色）"
+
+#: includes/modules/class-fd-vi-settings.php:373
+msgid "Leave empty to match brand primary color"
+msgstr "留空则与品牌主色保持一致"
+
+#: includes/class-fd-icon-picker.php:232
+msgid "Left Right"
+msgstr "左右"
+
+#: includes/class-fd-icon-picker.php:155
+msgid "Left to Right"
+msgstr "从左到右"
+
+#: includes/modules/class-fd-login-settings.php:332
+msgid "Light Background"
+msgstr "浅色背景"
+
+#: includes/modules/class-fd-login-settings.php:353
+msgid "Light Background Color"
+msgstr "浅色背景颜色"
+
+#: includes/modules/class-fd-content-area.php:210
+msgid "Light Shadow"
+msgstr "轻阴影"
+
+#: includes/class-fd-icon-picker.php:233
+msgid "Lightbulb"
+msgstr "灯泡"
+
+#: includes/class-fd-icon-picker.php:144
+msgid "Line Break"
+msgstr "换行符"
+
+#: includes/class-fd-icon-picker.php:105
+msgid "Line Chart"
+msgstr "折线图"
+
+#: includes/modules/class-fd-editor-enhance.php:114
+msgid "Link created automatically"
+msgstr "链接已自动创建"
+
+#: includes/class-fd-admin-ui-settings.php:415
+msgid ""
+"Link to navigate to when clicking the site branding. Defaults to the "
+"homepage. Can be set to a front-end application URL."
+msgstr ""
+"点击站点品牌标识时跳转的链接。默认为首页。可设置为前端应用 URL。"
+
+#: includes/class-fd-icon-picker.php:29
+msgid "Links"
+msgstr "链接"
+
+#: includes/class-fd-icon-picker.php:235
+msgid "List View"
+msgstr "列表视图"
+
+#: fd-admin-ui.php:111
+msgid "Loading..."
+msgstr "加载中..."
+
+#: includes/class-fd-icon-picker.php:236
+msgid "Location"
+msgstr "位置"
+
+#: includes/class-fd-icon-picker.php:237
+msgid "Location 2"
+msgstr "位置 2"
+
+#: includes/class-fd-icon-picker.php:238
+msgid "Lock"
+msgstr "锁"
+
+#: includes/class-fd-admin-ui-settings.php:1581
+#: includes/class-fd-admin-ui-settings.php:1764
+msgid "Log Out"
+msgstr "退出登录"
+
+#: includes/class-fd-admin-ui-settings.php:612
+msgid "Login Page"
+msgstr "登录页面"
+
+#: includes/modules/class-fd-adminbar.php:1132
+#: includes/modules/class-fd-login-settings.php:292
+msgid "Logo Height"
+msgstr "Logo 高度"
+
+#: includes/modules/class-fd-login-settings.php:148
+msgid "Logo Image"
+msgstr "Logo 图片"
+
+#: includes/modules/class-fd-login-settings.php:156
+msgid "Logo Link"
+msgstr "Logo 链接"
+
+#: includes/modules/class-fd-login-settings.php:141
+msgid "Logo Settings"
+msgstr "Logo 设置"
+
+#: includes/modules/class-fd-content-area.php:176
+msgid "Main content area background color. Default: #f8fafc (fd-gray-50)"
+msgstr "主内容区域背景颜色。默认值：#f8fafc (fd-gray-50)"
+
+#: includes/class-fd-icon-picker.php:239
+msgid "Marker"
+msgstr "标记"
+
+#: includes/modules/class-fd-editor-enhance.php:252
+msgid ""
+"Master switch. When enabled, activates the following enhancement features in "
+"the classic editor for all post types."
+msgstr ""
+"总开关。启用后将在所有文章类型的经典编辑器中激活以下增强功能。"
+
+#: includes/modules/class-fd-search-settings.php:198
+msgid "Maximum number of results per category (5-20)."
+msgstr "每个分类的最大结果数（5-20）。"
+
+#: includes/class-fd-global-search.php:77 includes/class-fd-icon-picker.php:30
+#: includes/modules/class-fd-search-settings.php:166
+msgid "Media"
+msgstr "媒体"
+
+#: includes/class-fd-icon-picker.php:240
+msgid "Media Archive"
+msgstr "媒体归档"
+
+#: includes/class-fd-icon-picker.php:241
+msgid "Media Audio"
+msgstr "媒体音频"
+
+#: includes/class-fd-icon-picker.php:242
+msgid "Media Code"
+msgstr "媒体代码"
+
+#: includes/class-fd-icon-picker.php:243
+msgid "Media Default"
+msgstr "媒体默认"
+
+#: includes/class-fd-icon-picker.php:244
+msgid "Media Document"
+msgstr "媒体文档"
+
+#: includes/class-fd-icon-picker.php:245
+msgid "Media Interactive"
+msgstr "媒体交互"
+
+#: includes/class-fd-icon-picker.php:246
+msgid "Media Spreadsheet"
+msgstr "媒体电子表格"
+
+#: includes/class-fd-icon-picker.php:247
+msgid "Media Text"
+msgstr "媒体文本"
+
+#: includes/class-fd-icon-picker.php:248
+msgid "Media Video"
+msgstr "媒体视频"
+
+#: includes/modules/class-fd-global-settings.php:149
+msgid "Medium"
+msgstr "中等"
+
+#: includes/modules/class-fd-vi-settings.php:245
+msgid "Medium Border Radius"
+msgstr "中圆角"
+
+#: includes/modules/class-fd-content-area.php:211
+#: includes/modules/class-fd-vi-settings.php:269
+msgid "Medium Shadow"
+msgstr "中阴影"
+
+#: includes/modules/class-fd-vi-settings.php:482
+msgid "Medium border radius value (e.g., 8px)"
+msgstr "中圆角值（例如 8px）"
+
+#: includes/modules/class-fd-vi-settings.php:532
+msgid "Medium shadow CSS value (e.g., 0 4px 6px -1px rgba(0, 0, 0, 0.1))"
+msgstr "中阴影 CSS 值（例如 0 4px 6px -1px rgba(0, 0, 0, 0.1)）"
+
+#: includes/class-fd-icon-picker.php:249
+msgid "Megaphone"
+msgstr "扩音器"
+
+#: includes/class-fd-icon-picker.php:250
+msgid "Menu"
+msgstr "菜单"
+
+#: includes/class-fd-icon-picker.php:251
+msgid "Menu 2"
+msgstr "菜单 2"
+
+#: includes/class-fd-icon-picker.php:252
+msgid "Menu 3"
+msgstr "菜单 3"
+
+#: includes/class-fd-icon-picker.php:253
+msgid "Menu 4"
+msgstr "菜单 4"
+
+#: includes/class-fd-global-search.php:78
+#: includes/modules/class-fd-search-settings.php:167
+msgid "Menu Items"
+msgstr "菜单项"
+
+#: includes/class-fd-admin-ui-settings.php:492
+msgid "Menu Name"
+msgstr "菜单名称"
+
+#: includes/class-fd-admin-ui-settings.php:723
+msgid "Menu Sorting"
+msgstr "菜单排序"
+
+#: includes/class-fd-admin-ui-settings.php:716
+msgid "Menu Style"
+msgstr "菜单样式"
+
+#: includes/class-fd-menu-sort.php:372
+msgid "Menu order has been reset"
+msgstr "菜单排序已重置"
+
+#: includes/class-fd-menu-sort.php:309 includes/class-fd-menu-sort.php:562
+msgid "Menu order saved"
+msgstr "菜单排序已保存"
+
+#: includes/class-fd-menu-sort.php:560
+msgid "Menu sort mode enabled"
+msgstr "菜单排序模式已启用"
+
+#: includes/class-fd-icon-picker.php:254
+msgid "Microphone"
+msgstr "麦克风"
+
+#: includes/class-fd-icon-picker.php:255
+msgid "Migrate"
+msgstr "迁移"
+
+#: includes/class-fd-icon-picker.php:256
+msgid "Minus"
+msgstr "减号"
+
+#: includes/class-fd-menu-sort.php:392 includes/class-fd-menu-sort.php:453
+msgid "Missing parameter"
+msgstr "缺少参数"
+
+#: includes/modules/class-fd-adminbar.php:956
+msgid "Modern SaaS Style"
+msgstr "现代 SaaS 风格"
+
+#: includes/modules/class-fd-adminbar.php:909
+msgid ""
+"Modern SaaS style exclusive settings, only effective when \"Modern SaaS "
+"Style\" is selected."
+msgstr ""
+"现代 SaaS 风格专属设置，仅在选择\"现代 SaaS 风格\"时生效。"
+
+#: includes/modules/class-fd-global-settings.php:126
+msgid "Modern Settings Pages"
+msgstr "现代设置页面"
+
+#: includes/modules/class-fd-table-settings.php:115
+msgid "Modern Style"
+msgstr "现代样式"
+
+#: includes/class-fd-admin-ui-settings.php:649
+#: includes/class-fd-admin-ui-settings.php:721
+#: includes/modules/class-fd-adminbar.php:810
+msgid "Modern Style Settings"
+msgstr "现代样式设置"
+
+#: includes/class-fd-admin-ui-settings.php:661
+#: includes/class-fd-admin-ui-settings.php:738
+msgid "Modern style only"
+msgstr "仅限现代样式"
+
+#: includes/class-fd-icon-picker.php:257
+msgid "Money"
+msgstr "金钱"
+
+#: includes/class-fd-icon-picker.php:258
+msgid "Money 2"
+msgstr "金钱 2"
+
+#: includes/class-fd-icon-picker.php:154
+msgid "More Tools"
+msgstr "更多工具"
+
+#: includes/class-fd-icon-picker.php:259
+msgid "Move"
+msgstr "移动"
+
+#: includes/class-fd-icon-picker.php:31
+msgid "Multisite"
+msgstr "多站点"
+
+#: includes/class-fd-icon-picker.php:123
+msgid "Mute"
+msgstr "静音"
+
+#: includes/class-fd-icon-picker.php:260
+msgid "Nametag"
+msgstr "名牌"
+
+#: includes/class-fd-global-search.php:113
+msgid "Navigate"
+msgstr "导航"
+
+#: includes/class-fd-icon-picker.php:32
+msgid "Network"
+msgstr "网络"
+
+#: includes/class-fd-menu-sort.php:573
+msgid "Network error"
+msgstr "网络错误"
+
+#: includes/class-fd-menu-sort.php:564
+msgid "Network error, save failed"
+msgstr "网络错误，保存失败"
+
+#: includes/class-fd-icon-picker.php:261
+msgid "Networking"
+msgstr "社交网络"
+
+#: includes/class-fd-icon-picker.php:262
+msgid "No"
+msgstr "否"
+
+#: includes/modules/class-fd-taxonomy-box.php:230
+#, php-format
+msgid "No %s found"
+msgstr "未找到 %s"
+
+#: includes/class-fd-icon-picker.php:263
+msgid "No 2"
+msgstr "否 2"
+
+#: includes/class-fd-icon-picker.php:21 includes/class-fd-icon-picker.php:1088
+#: includes/class-fd-icon-picker.php:1102
+msgid "No Icon"
+msgstr "无图标"
+
+#: includes/modules/class-fd-content-area.php:209
+msgid "No Shadow (WordPress Default)"
+msgstr "无阴影（WordPress 默认）"
+
+#: includes/modules/class-fd-post-toc.php:110
+#: includes/modules/class-fd-post-toc.php:158
+msgid "No headings found"
+msgstr "未找到标题"
+
+#: includes/modules/class-fd-editor-enhance.php:125
+msgid "No matching commands"
+msgstr "无匹配命令"
+
+#: includes/class-fd-icon-picker.php:1014
+msgid "No matching icons found"
+msgstr "未找到匹配的图标"
+
+#: includes/class-fd-admin-ui-settings.php:460
+msgid "No menu items using SVG icons were detected."
+msgstr "未检测到使用 SVG 图标的菜单项。"
+
+#: includes/class-fd-global-search.php:69
+msgid "No results found"
+msgstr "未找到结果"
+
+#: includes/modules/class-fd-taxonomy-box.php:171
+msgid "No taxonomies available for this post type."
+msgstr "该文章类型没有可用的分类法。"
+
+#: includes/modules/class-fd-login-settings.php:509
+msgid ""
+"Opacity of the form background (0% = fully transparent, 100% = fully opaque)."
+msgstr ""
+"表单背景的不透明度（0% = 完全透明，100% = 完全不透明）。"
+
+#: includes/class-fd-global-search.php:114
+msgid "Open"
+msgstr "打开"
+
+#: includes/class-fd-icon-picker.php:264
+msgid "Open Folder"
+msgstr "打开文件夹"
+
+#: fd-admin-ui.php:118
+msgid "Operation failed"
+msgstr "操作失败"
+
+#: fd-admin-ui.php:117
+msgid "Operation successful"
+msgstr "操作成功"
+
+#: includes/class-fd-icon-picker.php:156
+#: includes/modules/class-fd-editor-enhance.php:100
+msgid "Ordered List"
+msgstr "有序列表"
+
+#: includes/class-fd-icon-picker.php:157
+msgid "Ordered List RTL"
+msgstr "有序列表（从右到左）"
+
+#: includes/class-fd-icon-picker.php:158
+msgid "Outdent"
+msgstr "减少缩进"
+
+#: includes/class-fd-icon-picker.php:33
+msgid "Page"
+msgstr "页面"
+
+#: includes/class-fd-global-search.php:76
+#: includes/modules/class-fd-search-settings.php:165
+msgid "Pages"
+msgstr "页面"
+
+#: includes/class-fd-icon-picker.php:265
+msgid "Palm Tree"
+msgstr "棕榈树"
+
+#: includes/class-fd-icon-picker.php:266
+msgid "Paperclip"
+msgstr "回形针"
+
+#: includes/class-fd-icon-picker.php:159
+msgid "Paragraph"
+msgstr "段落"
+
+#: includes/modules/class-fd-editor-enhance.php:218
+msgid "Paste Cleanup"
+msgstr "粘贴清理"
+
+#: includes/class-fd-icon-picker.php:160
+msgid "Paste Text"
+msgstr "粘贴文本"
+
+#: includes/class-fd-icon-picker.php:161
+msgid "Paste Word"
+msgstr "粘贴 Word"
+
+#: includes/modules/class-fd-editor-enhance.php:124
+msgid "Pasted content cleaned"
+msgstr "粘贴内容已清理"
+
+#: includes/class-fd-icon-picker.php:118
+msgid "Pause"
+msgstr "暂停"
+
+#: includes/class-fd-icon-picker.php:268
+msgid "Performance"
+msgstr "性能"
+
+#: includes/class-fd-icon-picker.php:269
+msgid "Pets"
+msgstr "宠物"
+
+#: includes/class-fd-icon-picker.php:270
+msgid "Phone"
+msgstr "电话"
+
+#: includes/class-fd-icon-picker.php:106
+msgid "Pie Chart"
+msgstr "饼图"
+
+#: includes/class-fd-icon-picker.php:119
+msgid "Play"
+msgstr "播放"
+
+#: includes/class-fd-global-search.php:367
+msgid "Please enter a search keyword"
+msgstr "请输入搜索关键词"
+
+#: includes/class-fd-global-search.php:80 includes/class-fd-icon-picker.php:34
+#: includes/modules/class-fd-search-settings.php:169
+msgid "Plugins"
+msgstr "插件"
+
+#: includes/class-fd-icon-picker.php:274
+msgid "Plugins Checked"
+msgstr "已检查插件"
+
+#: includes/class-fd-icon-picker.php:275
+msgid "Plus"
+msgstr "加号"
+
+#: includes/class-fd-icon-picker.php:276
+msgid "Plus 2"
+msgstr "加号 2"
+
+#: includes/class-fd-icon-picker.php:277
+msgid "Plus 3"
+msgstr "加号 3"
+
+#: includes/class-fd-icon-picker.php:279
+msgid "Portfolio"
+msgstr "作品集"
+
+#: includes/class-fd-icon-picker.php:35
+msgid "Post"
+msgstr "文章"
+
+#: includes/modules/class-fd-post-toc.php:206
+msgid "Post Editor TOC"
+msgstr "文章编辑器目录"
+
+#: includes/modules/class-fd-post-meta-box.php:430
+msgid "Post Meta Box Enhancement"
+msgstr "文章元框增强"
+
+#: includes/class-fd-icon-picker.php:280
+msgid "Post Status"
+msgstr "文章状态"
+
+#: includes/modules/class-fd-post-toc.php:109
+#: includes/modules/class-fd-post-toc.php:148
+#: includes/modules/class-fd-post-toc.php:151
+msgid "Post TOC"
+msgstr "文章目录"
+
+#: includes/class-fd-global-search.php:75
+#: includes/modules/class-fd-search-settings.php:164
+msgid "Posts"
+msgstr "文章"
+
+#: includes/class-fd-admin-ui-settings.php:495
+#: includes/modules/class-fd-post-meta-box.php:407
+msgid "Preview"
+msgstr "预览"
+
+#: includes/class-fd-admin-ui-settings.php:822
+msgid "Preview Login Page"
+msgstr "预览登录页面"
+
+#: includes/class-fd-icon-picker.php:282
+msgid "Printer"
+msgstr "打印机"
+
+#: includes/class-fd-icon-picker.php:283
+msgid "Privacy"
+msgstr "隐私"
+
+#: includes/class-fd-icon-picker.php:85
+msgid "Private Message"
+msgstr "私信"
+
+#: fd-admin-ui.php:116
+msgid "Processing..."
+msgstr "处理中..."
+
+#: includes/class-fd-icon-picker.php:284
+msgid "Products"
+msgstr "产品"
+
+#: includes/class-fd-admin-ui-settings.php:1577
+#: includes/class-fd-admin-ui-settings.php:1757
+msgid "Profile"
+msgstr "个人资料"
+
+#: includes/modules/class-fd-post-meta-box.php:381
+msgid "Publish"
+msgstr "发布"
+
+#: includes/class-fd-icon-picker.php:50
+msgid "Pull Left"
+msgstr "左浮动"
+
+#: includes/class-fd-icon-picker.php:51
+msgid "Pull Right"
+msgstr "右浮动"
+
+#: includes/modules/class-fd-editor-enhance.php:202
+msgid "Quick Link Insertion"
+msgstr "快速插入链接"
+
+#: includes/class-fd-icon-picker.php:162 includes/class-fd-icon-picker.php:196
+msgid "Quote"
+msgstr "引用"
+
+#: includes/class-fd-icon-picker.php:285
+msgid "Randomize"
+msgstr "随机"
+
+#: includes/class-fd-global-search.php:74
+msgid "Recent Searches"
+msgstr "最近搜索"
+
+#: includes/modules/class-fd-adminbar.php:1127
+msgid "Recommended size: 56x56px square"
+msgstr "推荐尺寸：56x56px 方形"
+
+#: includes/modules/class-fd-adminbar.php:1104
+msgid "Recommended size: height 56-80px, width auto"
+msgstr "推荐尺寸：高度 56-80px，宽度自适应"
+
+#: includes/class-fd-icon-picker.php:287
+msgid "Redo"
+msgstr "重做"
+
+#: includes/class-fd-admin-ui-settings.php:287
+#: includes/class-fd-admin-ui-settings.php:318
+#: includes/class-fd-admin-ui-settings.php:355
+#: includes/class-fd-admin-ui-settings.php:386
+#: includes/class-fd-admin-ui-settings.php:917
+#: includes/class-fd-icon-picker.php:288
+#: includes/modules/class-fd-adminbar.php:1096
+#: includes/modules/class-fd-adminbar.php:1119
+#: includes/modules/class-fd-login-settings.php:256
+#: includes/modules/class-fd-login-settings.php:282
+#: includes/modules/class-fd-login-settings.php:400
+#: includes/modules/class-fd-taxonomy-box.php:263
+#: includes/modules/class-fd-taxonomy-box.php:409
+msgid "Remove"
+msgstr "移除"
+
+#: includes/modules/class-fd-post-meta-box.php:171
+#: includes/modules/class-fd-post-meta-box.php:346
+msgid "Remove Cover"
+msgstr "移除封面"
+
+#: includes/class-fd-icon-picker.php:163
+msgid "Remove Formatting"
+msgstr "移除格式"
+
+#: includes/class-fd-menu-sort.php:570
+msgid "Remove failed: "
+msgstr "移除失败："
+
+#: includes/class-fd-menu-sort.php:566
+msgid "Remove separator"
+msgstr "移除分隔线"
+
+#: includes/class-fd-icon-picker.php:120
+msgid "Repeat"
+msgstr "重复"
+
+#: includes/class-fd-admin-ui-settings.php:284
+#: includes/class-fd-admin-ui-settings.php:316
+msgid "Replace Full Logo"
+msgstr "替换完整 Logo"
+
+#: includes/class-fd-admin-ui-settings.php:352
+#: includes/class-fd-admin-ui-settings.php:384
+msgid "Replace Square Logo"
+msgstr "替换方形 Logo"
+
+#: includes/class-fd-admin-ui-settings.php:494
+msgid "Replace with Dashicons"
+msgstr "用 Dashicons 替换"
+
+#: includes/class-fd-icon-picker.php:86
+msgid "Replies"
+msgstr "回复"
+
+#: includes/class-fd-admin-ui-settings.php:836
+msgid "Reset to Defaults"
+msgstr "恢复默认设置"
+
+#: includes/modules/class-fd-search-settings.php:104
+msgid "Results Per Category"
+msgstr "每个分类的结果数"
+
+#: includes/class-fd-icon-picker.php:164
+msgid "Right to Left"
+msgstr "从右到左"
+
+#: includes/class-fd-icon-picker.php:218
+msgid "Rotate"
+msgstr "旋转"
+
+#: includes/class-fd-icon-picker.php:219
+msgid "Rotate Left"
+msgstr "向左旋转"
+
+#: includes/class-fd-icon-picker.php:220
+msgid "Rotate Right"
+msgstr "向右旋转"
+
+#: includes/modules/class-fd-global-settings.php:150
+msgid "Rounded"
+msgstr "圆角"
+
+#: includes/modules/class-fd-table-settings.php:131
+msgid "Row Hover Color"
+msgstr "行悬停颜色"
+
+#: includes/class-fd-admin-ui-settings.php:507
+msgid "SVG Icon"
+msgstr "SVG 图标"
+
+#: includes/class-fd-admin-ui-settings.php:725
+msgid "SVG Icon Replacement"
+msgstr "SVG 图标替换"
+
+#: includes/modules/class-fd-post-meta-box.php:405
+msgid "Save Draft"
+msgstr "保存草稿"
+
+#: includes/class-fd-admin-ui-settings.php:834
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: fd-admin-ui.php:115
+msgid "Save failed"
+msgstr "保存失败"
+
+#: includes/class-fd-menu-sort.php:563
+msgid "Save failed: "
+msgstr "保存失败："
+
+#: fd-admin-ui.php:114 includes/class-fd-icon-picker.php:291
+msgid "Saved"
+msgstr "已保存"
+
+#: includes/modules/class-fd-post-meta-box.php:400
+msgid "Saved at"
+msgstr "保存于"
+
+#: includes/class-fd-icon-picker.php:292
+msgid "Schedule"
+msgstr "定时"
+
+#: includes/class-fd-icon-picker.php:293
+msgid "Screen Options"
+msgstr "显示选项"
+
+#: includes/class-fd-global-search.php:308
+#: includes/class-fd-icon-picker.php:294
+msgid "Search"
+msgstr "搜索"
+
+#: includes/modules/class-fd-search-settings.php:96
+msgid "Search Scope"
+msgstr "搜索范围"
+
+#: includes/class-fd-global-search.php:68
+#: includes/class-fd-global-search.php:100
+msgid "Search content, menus, settings..."
+msgstr "搜索内容、菜单、设置..."
+
+#: includes/class-fd-global-search.php:71
+msgid "Search failed, please try again"
+msgstr "搜索失败，请重试"
+
+#: includes/class-fd-icon-picker.php:1130
+msgid "Search icons..."
+msgstr "搜索图标..."
+
+#: includes/class-fd-global-search.php:73
+msgid "Search posts, pages, menus, users, and more"
+msgstr "搜索文章、页面、菜单、用户等"
+
+#: includes/class-fd-admin-ui-settings.php:1721
+#: includes/modules/class-fd-adminbar.php:953
+msgid "Search..."
+msgstr "搜索..."
+
+#: includes/class-fd-global-search.php:70
+msgid "Searching..."
+msgstr "搜索中..."
+
+#: includes/class-fd-menu-sort.php:290 includes/class-fd-menu-sort.php:320
+#: includes/class-fd-menu-sort.php:358 includes/class-fd-menu-sort.php:382
+#: includes/class-fd-menu-sort.php:444
+msgid "Security verification failed"
+msgstr "安全验证失败"
+
+#: includes/modules/class-fd-adminbar.php:1094
+#: includes/modules/class-fd-adminbar.php:1117
+msgid "Select"
+msgstr "选择"
+
+#: includes/modules/class-fd-post-meta-box.php:343
+msgid "Select Cover Image"
+msgstr "选择封面图片"
+
+#: includes/class-fd-admin-ui-settings.php:305
+msgid "Select Full Logo"
+msgstr "选择完整 Logo"
+
+#: includes/class-fd-admin-ui-settings.php:893
+#: includes/modules/class-fd-login-settings.php:254
+#: includes/modules/class-fd-login-settings.php:280
+#: includes/modules/class-fd-login-settings.php:398
+msgid "Select Image"
+msgstr "选择图片"
+
+#: includes/class-fd-admin-ui-settings.php:373
+msgid "Select Square Logo"
+msgstr "选择方形 Logo"
+
+#: includes/class-fd-admin-ui-settings.php:528
+msgid ""
+"Select a Dashicons icon to replace the SVG icon. The replaced icon will "
+"automatically use your configured menu colors, avoiding color control issues."
+msgstr ""
+"选择一个 Dashicons 图标替换 SVG 图标。替换后的图标将自动使用您配置的菜单颜色，"
+"避免颜色控制问题。"
+
+#: includes/modules/class-fd-search-settings.php:183
+msgid "Select the content types to include in search results."
+msgstr "选择要包含在搜索结果中的内容类型。"
+
+#: includes/modules/class-fd-post-toc.php:284
+msgid "Select which heading levels to display in the TOC."
+msgstr "选择要在目录中显示的标题级别。"
+
+#: includes/modules/class-fd-taxonomy-box.php:410
+msgid "Selected"
+msgstr "已选择"
+
+#: includes/modules/class-fd-editor-enhance.php:115
+msgid "Selected text converted to link"
+msgstr "已将选中文本转换为链接"
+
+#: includes/class-fd-menu-sort.php:432 includes/class-fd-menu-sort.php:567
+msgid "Separator added"
+msgstr "分隔线已添加"
+
+#: includes/class-fd-menu-sort.php:475 includes/class-fd-menu-sort.php:569
+msgid "Separator removed"
+msgstr "分隔线已移除"
+
+#: includes/modules/class-fd-post-meta-box.php:344
+msgid "Set as Cover"
+msgstr "设为封面"
+
+#: includes/modules/class-fd-login-settings.php:224
+msgid ""
+"Set the background style, theme color, and form styles for the login page."
+msgstr ""
+"设置登录页面的背景样式、主题色和表单样式。"
+
+#: includes/modules/class-fd-login-settings.php:264
+msgid ""
+"Set the favicon for the admin dashboard and login page (recommended: 32x32 "
+"or 192x192 pixel PNG/ICO file)."
+msgstr ""
+"设置管理后台和登录页面的 Favicon（推荐：32x32 或 192x192 像素的 PNG/ICO 文件）。"
+
+#: fd-admin-ui.php:403 includes/class-fd-icon-picker.php:36
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-fd-admin-ui-settings.php:550
+msgid ""
+"Settings have been reset to defaults. The current page displays the new "
+"default appearance."
+msgstr ""
+"设置已恢复为默认值。当前页面显示的是新的默认外观。"
+
+#: includes/class-fd-icon-picker.php:295
+msgid "Share"
+msgstr "分享"
+
+#: includes/class-fd-icon-picker.php:296
+msgid "Share 2"
+msgstr "分享 2"
+
+#: includes/class-fd-icon-picker.php:297
+msgid "Share 3"
+msgstr "分享 3"
+
+#: includes/class-fd-icon-picker.php:298
+msgid "Shield"
+msgstr "盾牌"
+
+#: includes/class-fd-icon-picker.php:299
+msgid "Shield 2"
+msgstr "盾牌 2"
+
+#: includes/class-fd-icon-picker.php:300
+msgid "Shortcode"
+msgstr "短代码"
+
+#: includes/modules/class-fd-search-settings.php:88
+msgid "Shortcut Key"
+msgstr "快捷键"
+
+#: includes/modules/class-fd-search-settings.php:120
+msgid "Show Menu Search Button"
+msgstr "显示菜单搜索按钮"
+
+#: includes/modules/class-fd-adminbar.php:841
+msgid "Show Search Box"
+msgstr "显示搜索框"
+
+#: includes/modules/class-fd-search-settings.php:112
+msgid "Show Search History"
+msgstr "显示搜索历史"
+
+#: includes/modules/class-fd-adminbar.php:849
+msgid "Show User Info"
+msgstr "显示用户信息"
+
+#: includes/modules/class-fd-editor-enhance.php:282
+msgid ""
+"Show a floating toolbar near the cursor when text is selected for quick "
+"formatting such as bold, italic, and links."
+msgstr ""
+"选中文本时在光标附近显示浮动工具栏，可快速进行加粗、斜体和链接等格式操作。"
+
+#: includes/class-fd-admin-ui-settings.php:427
+msgid "Show a quick access icon (external link icon) next to the site branding"
+msgstr "在站点品牌标识旁显示快速访问图标（外部链接图标）"
+
+#: includes/modules/class-fd-search-settings.php:222
+msgid ""
+"Show a search button at the top of the sidebar menu, similar to Notion's "
+"search entry."
+msgstr ""
+"在侧边栏菜单顶部显示搜索按钮，类似 Notion 的搜索入口。"
+
+#: includes/modules/class-fd-editor-enhance.php:312
+msgid ""
+"Show an enhanced context menu on right-click within tables for quick row and "
+"column management."
+msgstr ""
+"在表格中右键时显示增强的上下文菜单，快速管理行和列。"
+
+#: includes/modules/class-fd-search-settings.php:210
+msgid "Show recent search history in the search modal."
+msgstr "在搜索弹窗中显示最近的搜索历史。"
+
+#: includes/class-fd-admin-ui-settings.php:582
+msgid "Sidebar Menu"
+msgstr "侧边栏菜单"
+
+#: includes/class-fd-icon-picker.php:37
+msgid "Site"
+msgstr "站点"
+
+#: includes/class-fd-icon-picker.php:38
+msgid "Site 2"
+msgstr "站点 2"
+
+#: includes/class-fd-icon-picker.php:39
+msgid "Site 3"
+msgstr "站点 3"
+
+#: includes/class-fd-icon-picker.php:40
+msgid "Site 4"
+msgstr "站点 4"
+
+#: includes/class-fd-admin-ui-settings.php:722
+msgid "Site Branding"
+msgstr "站点品牌标识"
+
+#: includes/class-fd-admin-ui-settings.php:720
+msgid "Size & Spacing"
+msgstr "尺寸与间距"
+
+#: includes/class-fd-icon-picker.php:121
+msgid "Skip Back"
+msgstr "向后跳转"
+
+#: includes/class-fd-icon-picker.php:122
+msgid "Skip Forward"
+msgstr "向前跳转"
+
+#: includes/modules/class-fd-editor-enhance.php:186
+msgid "Slash Commands"
+msgstr "斜杠命令"
+
+#: includes/class-fd-icon-picker.php:301
+msgid "Slides"
+msgstr "幻灯片"
+
+#: includes/modules/class-fd-global-settings.php:148
+msgid "Slight"
+msgstr "微圆角"
+
+#: includes/modules/class-fd-vi-settings.php:237
+msgid "Small Border Radius"
+msgstr "小圆角"
+
+#: includes/modules/class-fd-vi-settings.php:261
+msgid "Small Shadow"
+msgstr "小阴影"
+
+#: includes/modules/class-fd-vi-settings.php:466
+msgid "Small border radius value (e.g., 4px)"
+msgstr "小圆角值（例如 4px）"
+
+#: includes/modules/class-fd-vi-settings.php:515
+msgid "Small shadow CSS value (e.g., 0 1px 2px 0 rgba(0, 0, 0, 0.05))"
+msgstr "小阴影 CSS 值（例如 0 1px 2px 0 rgba(0, 0, 0, 0.05)）"
+
+#: includes/class-fd-icon-picker.php:302
+msgid "Smartphone"
+msgstr "智能手机"
+
+#: includes/class-fd-icon-picker.php:303
+msgid "Smiley"
+msgstr "笑脸"
+
+#: includes/class-fd-icon-picker.php:304
+msgid "Sort"
+msgstr "排序"
+
+#: includes/class-fd-icon-picker.php:147
+msgid "Special Character"
+msgstr "特殊字符"
+
+#: includes/class-fd-icon-picker.php:165
+msgid "Spellcheck"
+msgstr "拼写检查"
+
+#: includes/modules/class-fd-global-settings.php:147
+msgid "Square"
+msgstr "直角"
+
+#: includes/modules/class-fd-adminbar.php:1109
+msgid "Square Logo (Menu Collapsed)"
+msgstr "方形 Logo（菜单折叠时）"
+
+#: includes/class-fd-admin-ui-settings.php:358
+msgid ""
+"Square icon logo, recommended size: 200x200px. Displayed when the menu is "
+"collapsed."
+msgstr ""
+"方形图标 Logo，推荐尺寸：200x200px。菜单折叠时显示。"
+
+#: includes/modules/class-fd-login-settings.php:367
+msgid "Start Color"
+msgstr "起始颜色"
+
+#: includes/modules/class-fd-post-meta-box.php:342
+msgid "Start writing..."
+msgstr "开始撰写..."
+
+#: includes/class-fd-icon-picker.php:197
+msgid "Status"
+msgstr "状态"
+
+#: includes/class-fd-icon-picker.php:310
+msgid "Sticky"
+msgstr "置顶"
+
+#: includes/class-fd-icon-picker.php:311
+msgid "Store"
+msgstr "商店"
+
+#: includes/class-fd-icon-picker.php:166
+#: includes/modules/class-fd-editor-enhance.php:109
+msgid "Strikethrough"
+msgstr "删除线"
+
+#: includes/modules/class-fd-table-settings.php:139
+msgid "Striped Rows"
+msgstr "斑马纹行"
+
+#: includes/class-fd-menu-sort.php:346 includes/class-fd-menu-sort.php:574
+msgid "Submenu order saved"
+msgstr "子菜单排序已保存"
+
+#: includes/class-fd-admin-ui-settings.php:1567
+msgid "Subscriber"
+msgstr "订阅者"
+
+#: includes/modules/class-fd-vi-settings.php:205
+msgid "Success"
+msgstr "成功"
+
+#: includes/modules/class-fd-vi-settings.php:420
+msgid "Success color for indicating successful operations or positive states."
+msgstr "用于指示操作成功或积极状态的成功色。"
+
+#: includes/class-fd-icon-picker.php:312
+msgid "Superhero"
+msgstr "超级英雄"
+
+#: includes/class-fd-icon-picker.php:313
+msgid "Superhero 2"
+msgstr "超级英雄 2"
+
+#: includes/modules/class-fd-taxonomy-box.php:70
+msgid "Supports categories, tags, and all custom taxonomies."
+msgstr "支持分类、标签及所有自定义分类法。"
+
+#: includes/modules/class-fd-vi-settings.php:300
+msgid "Synced with Theme VI Settings"
+msgstr "已与主题视觉识别设置同步"
+
+#: includes/modules/class-fd-post-toc.php:237
+msgid "TOC Panel Width"
+msgstr "目录面板宽度"
+
+#: includes/modules/class-fd-post-toc.php:311
+msgid "TOC panel width, range 160 - 400px, default 220px."
+msgstr "目录面板宽度，范围 160 - 400px，默认 220px。"
+
+#: includes/class-fd-admin-ui-settings.php:592
+#: includes/class-fd-icon-picker.php:167
+#: includes/modules/class-fd-editor-enhance.php:104
+msgid "Table"
+msgstr "表格"
+
+#: includes/modules/class-fd-editor-enhance.php:210
+msgid "Table Enhancement"
+msgstr "表格增强"
+
+#: includes/modules/class-fd-table-settings.php:108
+msgid "Table Settings"
+msgstr "表格设置"
+
+#: includes/class-fd-icon-picker.php:320
+msgid "Tablet"
+msgstr "平板电脑"
+
+#: includes/class-fd-icon-picker.php:321
+msgid "Tag"
+msgstr "标签"
+
+#: includes/class-fd-icon-picker.php:322
+msgid "Tag Cloud"
+msgstr "标签云"
+
+#: includes/modules/class-fd-taxonomy-box.php:33
+msgid "Taxonomy Meta Box Integration"
+msgstr "分类法框整合"
+
+#: includes/class-fd-icon-picker.php:323
+msgid "Testimonial"
+msgstr "推荐语"
+
+#: includes/class-fd-icon-picker.php:324
+msgid "Text"
+msgstr "文本"
+
+#: includes/class-fd-icon-picker.php:168
+#: includes/modules/class-fd-adminbar.php:761
+#: includes/modules/class-fd-login-settings.php:204
+msgid "Text Color"
+msgstr "文字颜色"
+
+#: includes/class-fd-icon-picker.php:325
+msgid "Text Page"
+msgstr "文本页面"
+
+#: includes/modules/class-fd-login-settings.php:531
+msgid ""
+"Text color for login page navigation links (register, forgot password, back "
+"to site, etc.). Leave empty to auto-detect based on the background."
+msgstr ""
+"登录页面导航链接（注册、忘记密码、返回站点等）的文字颜色。"
+"留空则根据背景自动检测。"
+
+#: includes/modules/class-fd-post-meta-box.php:450
+msgid ""
+"The author section is displayed above the editor, and the cover image and "
+"excerpt are displayed below the editor."
+msgstr ""
+"作者部分显示在编辑器上方，封面图片和摘要显示在编辑器下方。"
+
+#: includes/modules/class-fd-vi-settings.php:317
+msgid ""
+"The first 3 brand colors (primary, secondary, accent) automatically generate "
+"a complete color scale system (50-900, 10 shades) for various UI elements in "
+"the admin interface. The scales are calculated based on the HSL color space "
+"to ensure visual consistency."
+msgstr ""
+"前 3 个品牌色（主色、辅助色、强调色）会自动生成完整的色阶系统"
+"（50-900，10 个色阶），用于管理界面的各种 UI 元素。"
+"色阶基于 HSL 色彩空间计算，确保视觉一致性。"
+
+#: includes/modules/class-fd-vi-settings.php:330
+msgid ""
+"The following settings are read-only, showing the current theme UI design "
+"token configuration."
+msgstr ""
+"以下设置为只读，显示当前主题的 UI 设计令牌配置。"
+
+#: includes/modules/class-fd-vi-settings.php:307
+msgid ""
+"The following settings are read-only, showing the current theme VI color "
+"configuration."
+msgstr ""
+"以下设置为只读，显示当前主题的视觉识别颜色配置。"
+
+#: includes/modules/class-fd-login-settings.php:476
+msgid ""
+"The theme color is applied to the login button, input focus state, and "
+"links. Default: #2271b1 (WordPress blue)."
+msgstr ""
+"主题色应用于登录按钮、输入框获焦状态和链接。默认值：#2271b1（WordPress 蓝色）。"
+
+#: includes/modules/class-fd-login-settings.php:180
+msgid "Theme Color"
+msgstr "主题色"
+
+#: includes/modules/class-fd-vi-settings.php:340
+msgid ""
+"These design tokens define the foundational visual styles for the admin "
+"interface. Through unified border radius and shadow settings, you can "
+"quickly adjust the overall visual style of the admin panel while maintaining "
+"design consistency."
+msgstr ""
+"这些设计令牌定义了管理界面的基础视觉风格。"
+"通过统一的圆角和阴影设置，您可以快速调整管理面板的整体视觉风格，"
+"同时保持设计一致性。"
+
+#: includes/class-fd-icon-picker.php:326
+msgid "Thumbs Down"
+msgstr "踩"
+
+#: includes/class-fd-icon-picker.php:327
+msgid "Thumbs Up"
+msgstr "赞"
+
+#: includes/class-fd-icon-picker.php:328
+msgid "Tickets"
+msgstr "票券"
+
+#: includes/class-fd-icon-picker.php:329
+msgid "Tickets 2"
+msgstr "票券 2"
+
+#: includes/class-fd-admin-ui-settings.php:528
+msgid "Tip:"
+msgstr "提示："
+
+#: includes/class-fd-icon-picker.php:41
+msgid "Tools"
+msgstr "工具"
+
+#: includes/class-fd-icon-picker.php:87
+msgid "Topics"
+msgstr "话题"
+
+#: includes/class-fd-icon-picker.php:88
+msgid "Tracking"
+msgstr "追踪"
+
+#: includes/class-fd-icon-picker.php:331
+msgid "Translation"
+msgstr "翻译"
+
+#: includes/class-fd-icon-picker.php:332
+msgid "Trash"
+msgstr "回收站"
+
+#: includes/modules/class-fd-editor-enhance.php:267
+msgid ""
+"Type / on an empty line to open a quick insert menu. Supports headings, "
+"lists, blockquotes, code blocks, tables, images, and more."
+msgstr ""
+"在空行输入 / 打开快速插入菜单。支持标题、列表、引用、代码块、表格、图片等。"
+
+#: includes/modules/class-fd-editor-enhance.php:106
+msgid "Type a command to filter..."
+msgstr "输入命令进行筛选..."
+
+#: includes/class-fd-global-search.php:72
+msgid "Type a keyword to start searching"
+msgstr "输入关键词开始搜索"
+
+#: includes/modules/class-fd-vi-settings.php:230
+msgid "UI Design Tokens"
+msgstr "UI 设计令牌"
+
+#: includes/modules/class-fd-login-settings.php:317
+msgid ""
+"URL to navigate to when the logo is clicked. Defaults to the homepage. The "
+"title automatically uses the site name."
+msgstr ""
+"点击 Logo 时跳转的 URL。默认为首页。标题自动使用站点名称。"
+
+#: includes/class-fd-icon-picker.php:170
+msgid "Underline"
+msgstr "下划线"
+
+#: includes/class-fd-icon-picker.php:336
+msgid "Undo"
+msgstr "撤销"
+
+#: includes/class-fd-icon-picker.php:171
+msgid "Unlink"
+msgstr "取消链接"
+
+#: includes/class-fd-icon-picker.php:339
+msgid "Unlock"
+msgstr "解锁"
+
+#: includes/class-fd-icon-picker.php:169
+#: includes/modules/class-fd-editor-enhance.php:99
+msgid "Unordered List"
+msgstr "无序列表"
+
+#: fd-admin-ui.php:113
+msgid "Unsaved..."
+msgstr "未保存..."
+
+#: includes/class-fd-icon-picker.php:340
+#: includes/modules/class-fd-post-meta-box.php:381
+msgid "Update"
+msgstr "更新"
+
+#: includes/class-fd-icon-picker.php:341
+msgid "Update 2"
+msgstr "更新 2"
+
+#: includes/class-fd-icon-picker.php:342
+msgid "Upload"
+msgstr "上传"
+
+#: includes/class-fd-admin-ui-settings.php:284
+#: includes/class-fd-admin-ui-settings.php:329
+msgid "Upload Full Logo"
+msgstr "上传完整 Logo"
+
+#: includes/class-fd-admin-ui-settings.php:352
+#: includes/class-fd-admin-ui-settings.php:397
+msgid "Upload Square Logo"
+msgstr "上传方形 Logo"
+
+#: includes/class-fd-admin-ui-settings.php:307
+#: includes/class-fd-admin-ui-settings.php:375
+#: includes/class-fd-admin-ui-settings.php:895
+msgid "Use This Image"
+msgstr "使用此图片"
+
+#: includes/class-fd-global-search.php:79 includes/class-fd-icon-picker.php:42
+#: includes/modules/class-fd-search-settings.php:168
+msgid "Users"
+msgstr "用户"
+
+#: includes/modules/class-fd-vi-settings.php:166
+msgid "VI Color Settings"
+msgstr "视觉识别颜色设置"
+
+#: includes/class-fd-admin-ui-settings.php:572
+msgid "VI Settings"
+msgstr "视觉识别设置"
+
+#: includes/class-fd-icon-picker.php:343
+msgid "Vault"
+msgstr "保险库"
+
+#: includes/class-fd-icon-picker.php:172 includes/class-fd-icon-picker.php:198
+msgid "Video"
+msgstr "视频"
+
+#: includes/class-fd-icon-picker.php:344
+msgid "Video 2"
+msgstr "视频 2"
+
+#: includes/class-fd-icon-picker.php:345
+msgid "Video 3"
+msgstr "视频 3"
+
+#: includes/class-fd-icon-picker.php:346
+msgid "Video 4"
+msgstr "视频 4"
+
+#: includes/class-fd-icon-picker.php:273
+msgid "Video Playlist"
+msgstr "视频播放列表"
+
+#: includes/class-fd-icon-picker.php:352
+msgid "View Site"
+msgstr "查看站点"
+
+#: includes/class-fd-admin-ui-settings.php:824
+msgid "View the login page appearance in a new window"
+msgstr "在新窗口中查看登录页面外观"
+
+#: includes/class-fd-icon-picker.php:347
+msgid "Visible"
+msgstr "可见"
+
+#: includes/class-fd-admin-ui-settings.php:1331
+msgid "Visit Front End"
+msgstr "访问前端"
+
+#: includes/class-fd-icon-picker.php:124
+msgid "Volume"
+msgstr "音量"
+
+#: includes/modules/class-fd-adminbar.php:944
+msgid "WP Classic Style"
+msgstr "WP 经典风格"
+
+#: includes/modules/class-fd-adminbar.php:1068
+msgid "WP Default"
+msgstr "WP 默认"
+
+#: includes/class-fd-icon-picker.php:348
+#: includes/modules/class-fd-vi-settings.php:221
+msgid "Warning"
+msgstr "警告"
+
+#: includes/modules/class-fd-vi-settings.php:450
+msgid "Warning color for warnings and informational notices."
+msgstr "用于警告和提示性通知的警告色。"
+
+#: includes/class-fd-icon-picker.php:350
+msgid "Welcome Comments"
+msgstr "欢迎评论"
+
+#: includes/modules/class-fd-post-toc.php:263
+msgid ""
+"When enabled, a TOC panel will appear on the left side of the post edit "
+"page, and the left menu will be automatically collapsed."
+msgstr ""
+"启用后，文章编辑页面左侧将出现目录面板，左侧菜单将自动折叠。"
+
+#: includes/modules/class-fd-post-meta-box.php:464
+msgid ""
+"When enabled, integrates author, cover image, and excerpt into the editor "
+"area as a fixed editing group."
+msgstr ""
+"启用后，将作者、封面图片和摘要整合到编辑区域中，作为固定编辑组。"
+
+#: includes/modules/class-fd-taxonomy-box.php:69
+msgid ""
+"When enabled, the default WordPress taxonomy meta boxes will be replaced "
+"with a unified compact layout."
+msgstr ""
+"启用后，WordPress 默认的分类法元框将被替换为统一的紧凑布局。"
+
+#: includes/modules/class-fd-login-settings.php:239
+msgid ""
+"When enabled, the login page customization settings below will be applied."
+msgstr ""
+"启用后，将应用以下登录页面自定义设置。"
+
+#: includes/modules/class-fd-adminbar.php:928
+msgid ""
+"When enabled, the top Adminbar will be hidden (hamburger menu is preserved "
+"on small screens)"
+msgstr ""
+"启用后，顶部管理工具栏将被隐藏（小屏幕上保留汉堡菜单）"
+
+#: includes/modules/class-fd-post-toc.php:298
+msgid ""
+"Whether the TOC panel should be automatically expanded when entering the "
+"edit page (state is also saved to localStorage)."
+msgstr ""
+"进入编辑页面时是否自动展开目录面板（状态也会保存到 localStorage）。"
+
+#: includes/class-fd-icon-picker.php:353
+msgid "Widgets Menus"
+msgstr "小工具菜单"
+
+#: includes/modules/class-fd-login-settings.php:491
+msgid ""
+"Width of the login form (280-600 pixels). Default: 360px. Automatically "
+"adapts on mobile."
+msgstr ""
+"登录表单宽度（280-600 像素）。默认值：360px。移动端自动适配。"
+
+#: includes/modules/class-fd-dashboard-settings.php:103
+#: includes/modules/class-fd-global-settings.php:146
+msgid "WordPress Default"
+msgstr "WordPress 默认"
+
+#: includes/modules/class-fd-content-area.php:194
+msgid "WordPress Default (0)"
+msgstr "WordPress 默认 (0)"
+
+#: includes/modules/class-fd-global-settings.php:161
+msgid "WordPress Default (13px)"
+msgstr "WordPress 默认 (13px)"
+
+#: includes/class-fd-icon-picker.php:354
+msgid "Write Blog"
+msgstr "撰写博客"
+
+#: includes/class-fd-icon-picker.php:359
+msgid "Yes"
+msgstr "是"
+
+#: includes/class-fd-icon-picker.php:360
+msgid "Yes 2"
+msgstr "是 2"
+
+#: includes/modules/class-fd-post-meta-box.php:397
+msgid "words"
+msgstr "字"
+
+#: includes/modules/class-fd-sidebar-menu.php:854
+msgid "Select Style"
+msgstr "选择风格"
+
+#: includes/modules/class-fd-sidebar-menu.php:864
+msgid "Menu Background Color"
+msgstr "菜单背景色"
+
+#: includes/modules/class-fd-sidebar-menu.php:865
+msgid "Submenu Background Color"
+msgstr "子菜单背景色"
+
+#: includes/modules/class-fd-sidebar-menu.php:866
+msgid "Menu Item Text Color"
+msgstr "菜单项文字颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:867
+msgid "Show Menu Separator"
+msgstr "显示菜单分隔线"
+
+#: includes/modules/class-fd-sidebar-menu.php:868
+msgid "Separator Color"
+msgstr "分隔线颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:869
+msgid "Separator Thickness"
+msgstr "分隔线粗细"
+
+#: includes/modules/class-fd-sidebar-menu.php:873
+msgid "Menu Item Hover Background Color"
+msgstr "菜单项悬停背景色"
+
+#: includes/modules/class-fd-sidebar-menu.php:874
+msgid "Menu Item Hover Text Color"
+msgstr "菜单项悬停文字颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:875
+msgid "Show Hover Border"
+msgstr "显示悬停边框"
+
+#: includes/modules/class-fd-sidebar-menu.php:876
+msgid "Hover Border Color"
+msgstr "菜单悬停边框颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:880
+msgid "Current Item Background Color"
+msgstr "当前选中项背景色"
+
+#: includes/modules/class-fd-sidebar-menu.php:881
+msgid "Current Item Text Color"
+msgstr "当前选中项文字颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:882
+msgid "Submenu Current Item Background Color"
+msgstr "子菜单选中项背景色"
+
+#: includes/modules/class-fd-sidebar-menu.php:883
+msgid "Submenu Current Item Text Color"
+msgstr "子菜单选中项文字颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:884
+msgid "Show Current Item Border"
+msgstr "显示选中项边框"
+
+#: includes/modules/class-fd-sidebar-menu.php:885
+msgid "Current Item Border Color"
+msgstr "当前选中项边框颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:889
+msgid "Menu Width"
+msgstr "菜单宽度"
+
+#: includes/modules/class-fd-sidebar-menu.php:890
+msgid "Menu Top Margin"
+msgstr "主菜单上外边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:891
+msgid "Menu Item Padding"
+msgstr "主菜单项内边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:892
+msgid "Menu Item Left Padding"
+msgstr "主菜单项左内边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:893
+msgid "Menu Item Right Padding"
+msgstr "主菜单项右内边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:894
+msgid "Submenu Item Padding"
+msgstr "子菜单项内边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:895
+msgid "Submenu Alignment"
+msgstr "子菜单对齐方式"
+
+#: includes/modules/class-fd-sidebar-menu.php:896
+msgid "Menu Item Border Radius"
+msgstr "菜单项圆角"
+
+#: includes/modules/class-fd-sidebar-menu.php:897
+msgid "Badge Background Color"
+msgstr "徽章背景色"
+
+#: includes/modules/class-fd-sidebar-menu.php:898
+msgid "Badge Text Color"
+msgstr "徽章文字颜色"
+
+#: includes/modules/class-fd-sidebar-menu.php:902
+msgid "Menu Item Left Margin"
+msgstr "主菜单项左外边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:903
+msgid "Menu Item Right Margin"
+msgstr "主菜单项右外边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:904
+msgid "Separator Left Margin"
+msgstr "分隔线左外边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:905
+msgid "Separator Right Margin"
+msgstr "分隔线右外边距"
+
+#: includes/modules/class-fd-sidebar-menu.php:909
+msgid "Enable Menu Drag-and-Drop Sorting"
+msgstr "启用菜单拖拽排序"
+
+#: includes/modules/class-fd-sidebar-menu.php:913
+msgid "Auto Collapse on Post Editor"
+msgstr "文章编辑页自动折叠"
+
+#: includes/modules/class-fd-sidebar-menu.php:921
+msgid "Show Site Branding"
+msgstr "显示站点标识"
+
+#: includes/modules/class-fd-sidebar-menu.php:922
+msgid "Full Logo"
+msgstr "完整 Logo"
+
+#: includes/modules/class-fd-sidebar-menu.php:923
+msgid "Square Logo"
+msgstr "方形 Logo"
+
+#: includes/modules/class-fd-sidebar-menu.php:924
+msgid "Click Link URL"
+msgstr "点击跳转链接"
+
+#: includes/modules/class-fd-sidebar-menu.php:925
+msgid "Show Quick Icon"
+msgstr "显示快捷图标"
+
+#: includes/modules/class-fd-sidebar-menu.php:931
+msgid ""
+"Choose the visual style for the left sidebar menu. Classic style keeps the "
+"traditional WordPress layout; Modern style uses rounded background design "
+"(similar to Notion)."
+msgstr ""
+"选择左侧菜单的视觉风格。经典风格保持 WordPress 传统样式，"
+"现代风格采用圆角背景设计（类似 Notion）。"
+
+#: includes/modules/class-fd-sidebar-menu.php:932
+msgid ""
+"Set the basic appearance of the menu, including background and text colors."
+msgstr "设置菜单的基本外观，包括背景色和文字颜色。"
+
+#: includes/modules/class-fd-sidebar-menu.php:933
+msgid "Set the menu style on mouse hover."
+msgstr "设置鼠标悬停时的菜单样式。"
+
+#: includes/modules/class-fd-sidebar-menu.php:934
+msgid "Set the style for the currently selected menu item."
+msgstr "设置当前选中菜单项的样式。"
+
+#: includes/modules/class-fd-sidebar-menu.php:935
+msgid "Set menu dimensions, spacing, and border radius."
+msgstr "设置菜单的尺寸、间距和圆角。"
+
+#: includes/modules/class-fd-sidebar-menu.php:936
+msgid ""
+"Settings exclusive to the Modern Minimal style, used to achieve a Notion-"
+"like indent effect. Only takes effect when \"Modern Minimal Style\" is "
+"selected."
+msgstr ""
+"现代简约风格专属设置，用于实现类似 Notion 的缩进效果。"
+"仅在选择「现代简约风格」时生效。"
+
+#: includes/modules/class-fd-sidebar-menu.php:937
+msgid ""
+"Some plugins use SVG icons which may cause color control issues. You can "
+"replace them with standard Dashicons."
+msgstr ""
+"部分插件使用 SVG 图标，可能导致颜色控制问题。"
+"你可以将它们替换为标准的 Dashicons 图标。"
+
+#: includes/modules/class-fd-sidebar-menu.php:938
+msgid ""
+"When enabled, administrators can customise the left sidebar menu order by "
+"dragging. The order applies to all users."
+msgstr "启用后，管理员可以通过拖拽来自定义左侧菜单的排序，排序结果将应用到所有用户。"
+
+#: includes/modules/class-fd-sidebar-menu.php:939
+msgid ""
+"Control the auto-collapse behavior of the left sidebar menu on specific "
+"pages to improve the editing experience."
+msgstr "控制左侧菜单在特定页面的自动折叠行为，提升编辑体验。"
+
+#: includes/modules/class-fd-sidebar-menu.php:940
+msgid ""
+"Display site branding at the top of the left sidebar menu, similar to a "
+"Notion workspace identifier."
+msgstr "在左侧菜单顶部显示站点标识，类似 Notion 的工作区标识。"
+
+#: includes/modules/class-fd-sidebar-menu.php:976
+msgid "Modern Minimal Style"
+msgstr "现代简约风格"
+
+#: includes/modules/class-fd-sidebar-menu.php:1065
+msgid ""
+"Choose the visual style for the left sidebar menu. \"Modern Minimal Style\" "
+"references Notion with a rounded background design."
+msgstr "选择左侧菜单的视觉风格。「现代简约风格」参考 Notion，采用圆角背景设计。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1072
+msgid "Default: #f8fafc (fd-gray-50)"
+msgstr "默认值：#f8fafc (fd-gray-50)"
+
+#: includes/modules/class-fd-sidebar-menu.php:1078
+#: includes/modules/class-fd-sidebar-menu.php:1128
+msgid "Default: #ffffff (white)"
+msgstr "默认值：#ffffff（白色）"
+
+#: includes/modules/class-fd-sidebar-menu.php:1084
+msgid "Default: #334155 (fd-gray-700)"
+msgstr "默认值：#334155 (fd-gray-700)"
+
+#: includes/modules/class-fd-sidebar-menu.php:1090
+#: includes/modules/class-fd-sidebar-menu.php:1193
+msgid "Default: #e2e8f0 (fd-gray-200)"
+msgstr "默认值：#e2e8f0 (fd-gray-200)"
+
+#: includes/modules/class-fd-sidebar-menu.php:1096
+msgid "Default: #0f172a (fd-gray-900)"
+msgstr "默认值：#0f172a (fd-gray-900)"
+
+#: includes/modules/class-fd-sidebar-menu.php:1107
+msgid ""
+"When enabled, a left border is shown on hover; when disabled, the border is "
+"hidden."
+msgstr "启用后显示悬停时的左侧边框，关闭则隐藏边框。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1116
+msgid "Default: #72aee6 (hover left border color)"
+msgstr "默认值：#72aee6（悬停时左侧边框颜色）"
+
+#: includes/modules/class-fd-sidebar-menu.php:1122
+#: includes/modules/class-fd-sidebar-menu.php:1140
+msgid "Default: #3b82f6 (fd-primary)"
+msgstr "默认值：#3b82f6 (fd-primary)"
+
+#: includes/modules/class-fd-sidebar-menu.php:1134
+msgid "Default: leave empty (no background color)"
+msgstr "默认值：留空（无背景色）"
+
+#: includes/modules/class-fd-sidebar-menu.php:1151
+msgid ""
+"When enabled, a left border is shown on hover of the current selected item; "
+"when disabled, the border is hidden."
+msgstr "启用后显示当前选中项悬停时的左侧边框，关闭则隐藏边框。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1160
+msgid "Default: #ffffff (current selected item left border color)"
+msgstr "默认值：#ffffff（当前选中项左侧边框颜色）"
+
+#: includes/modules/class-fd-sidebar-menu.php:1166
+msgid ""
+"Default: #ef4444 (fd-error). Background color for update count, "
+"notification badges, etc."
+msgstr "默认值：#ef4444 (fd-error)。用于显示更新数量、通知数量等徽章的背景色。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1172
+msgid "Default: #ffffff (white). Text color inside the badge."
+msgstr "默认值：#ffffff（白色）。徽章内的文字颜色。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1186
+msgid "When enabled, separators are shown between menu items."
+msgstr "启用后显示菜单项之间的分隔线。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1199
+msgid ""
+"Default: WordPress native thickness (leave empty). Unit: px, range 1-10."
+msgstr "默认值：使用 WordPress 原生粗细（留空）。单位：px，范围 1-10。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1207
+msgid "Align with icon left edge"
+msgstr "与图标左侧对齐"
+
+#: includes/modules/class-fd-sidebar-menu.php:1208
+msgid "Align with menu item name"
+msgstr "与菜单项名称对齐"
+
+#: includes/modules/class-fd-sidebar-menu.php:1210
+msgid "Choose the alignment of submenu text relative to the main menu."
+msgstr "选择子菜单文字与主菜单的对齐方式。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1220
+msgid ""
+"Default: WordPress native width (leave empty). Only effective on desktop, "
+"does not affect collapsed state."
+msgstr "默认值：使用 WordPress 原生宽度（留空）。仅在桌面端生效，不影响折叠状态。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1226
+msgid "Default: 12 (unit: px)"
+msgstr "默认值：12（单位：px）"
+
+#: includes/modules/class-fd-sidebar-menu.php:1232
+msgid ""
+"Default: WordPress native padding (leave empty). Sets the top/bottom "
+"padding of main menu items."
+msgstr "默认值：使用 WordPress 原生内边距（留空）。设置主菜单项的上下内边距。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1238
+msgid ""
+"Default: auto-calculated based on menu width (leave empty). Manually set "
+"the left padding of main menu items."
+msgstr "默认值：根据菜单宽度自动计算（留空）。手动设置主菜单项的左侧内边距。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1244
+msgid ""
+"Default: auto-calculated based on menu width (leave empty). Manually set "
+"the right padding of main menu items."
+msgstr "默认值：根据菜单宽度自动计算（留空）。手动设置主菜单项的右侧内边距。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1250
+msgid ""
+"Set the left margin of main menu items for a Notion-like indent effect. "
+"Default: 0"
+msgstr "设置主菜单项的左侧外边距，用于实现类似 Notion 的缩进效果。默认值：0"
+
+#: includes/modules/class-fd-sidebar-menu.php:1256
+msgid ""
+"Set the right margin of main menu items for a Notion-like indent effect. "
+"Default: 0"
+msgstr "设置主菜单项的右侧外边距，用于实现类似 Notion 的缩进效果。默认值：0"
+
+#: includes/modules/class-fd-sidebar-menu.php:1262
+msgid "Set the left margin of separators. Default: 0"
+msgstr "设置分隔线的左侧外边距。默认值：0"
+
+#: includes/modules/class-fd-sidebar-menu.php:1268
+msgid "Set the right margin of separators. Default: 0"
+msgstr "设置分隔线的右侧外边距。默认值：0"
+
+#: includes/modules/class-fd-sidebar-menu.php:1274
+msgid "Default: WordPress native padding (leave empty)"
+msgstr "默认值：使用 WordPress 原生内边距（留空）"
+
+#: includes/modules/class-fd-sidebar-menu.php:1280
+msgid "Default: WordPress native border radius (leave empty)"
+msgstr "默认值：使用 WordPress 原生圆角（留空）"
+
+#: includes/modules/class-fd-sidebar-menu.php:1300
+msgid "Reset Menu Order"
+msgstr "重置菜单排序"
+
+#: includes/modules/class-fd-sidebar-menu.php:1301
+msgid "Restore the WordPress default menu order"
+msgstr "恢复到 WordPress 默认菜单顺序"
+
+#: includes/modules/class-fd-sidebar-menu.php:1306
+msgid ""
+"Are you sure you want to reset the menu order? This will restore the "
+"WordPress default menu order."
+msgstr "确定要重置菜单排序吗？这将恢复到 WordPress 默认的菜单顺序。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1316
+msgid "Menu order has been reset."
+msgstr "菜单排序已重置。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1319
+msgid "Reset failed: "
+msgstr "重置失败："
+
+#: includes/modules/class-fd-sidebar-menu.php:1342
+msgid ""
+"When enabled, the left sidebar menu is automatically collapsed when entering "
+"the post editor, providing more editing space. Users can still expand the "
+"menu manually; after expanding, the state is preserved on page refresh."
+msgstr ""
+"启用后，进入文章编辑页面时左侧菜单会自动折叠，提供更大的编辑空间。"
+"用户仍可手动展开菜单，展开后刷新页面会保持展开状态。"
+
+#: includes/modules/class-fd-sidebar-menu.php:1364
+msgid "When enabled, site branding is displayed at the top of the menu."
+msgstr "启用后在菜单顶部显示站点标识。"

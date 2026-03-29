@@ -1,0 +1,344 @@
+/**
+ * FD Post TOC - 文章编辑器目录面板样式
+ * 面板固定于左侧菜单图标栏右侧，不遮挡内容区
+ */
+
+/* ============================================================
+   CSS 变量（可被 JS 动态覆盖）
+   ============================================================ */
+:root {
+    --fd-toc-width: 220px;
+    --fd-toc-menu-left: 53px;
+    /* JS 运行时会量取 #wpadminbar 实际高度并覆盖此值 */
+    --fd-toc-adminbar-h: 32px;
+    --fd-toc-handle-w: 16px;
+    --fd-toc-transition: 0.25s ease;
+    /* TOC 背景色，默认使用主内容区背景色 */
+    --fd-toc-bg-color: #f8fafc;
+}
+
+/* ============================================================
+   内容区布局偏移
+   只在桌面端 + post 编辑页 + TOC 激活 + 菜单折叠 时生效
+   ============================================================ */
+@media screen and (min-width: 961px) {
+    /* 展开状态：内容区整体向右，为面板腾出空间 */
+    body.folded.fd-toc-active.post-php #wpcontent,
+    body.folded.fd-toc-active.post-new-php #wpcontent {
+        margin-left: calc(var(--fd-toc-menu-left) + var(--fd-toc-width)) !important;
+        transition: margin-left var(--fd-toc-transition);
+    }
+
+    /* 收起状态：仅保留把手宽度 */
+    body.folded.fd-toc-active.fd-toc-collapsed.post-php #wpcontent,
+    body.folded.fd-toc-active.fd-toc-collapsed.post-new-php #wpcontent {
+        margin-left: calc(var(--fd-toc-menu-left) + var(--fd-toc-handle-w)) !important;
+    }
+}
+
+/* ============================================================
+   外层容器
+   ============================================================ */
+#fd-post-toc-wrap {
+    position: fixed;
+    left: var(--fd-toc-menu-left);
+    top: var(--fd-toc-adminbar-h);
+    width: calc(var(--fd-toc-width) + var(--fd-toc-handle-w));
+    height: calc(100vh - var(--fd-toc-adminbar-h));
+    z-index: 100;   /* 低于 WP 菜单飞出层（~9990），高于普通页面内容 */
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    pointer-events: none; /* 子元素按需开启 */
+}
+
+/* 手动展开菜单时（body 无 folded class），整个 TOC 区域隐藏 */
+body.fd-toc-active:not(.folded).post-php #fd-post-toc-wrap,
+body.fd-toc-active:not(.folded).post-new-php #fd-post-toc-wrap {
+    display: none;
+}
+
+/* ============================================================
+   目录面板主体
+   ============================================================ */
+#fd-post-toc-panel {
+    width: var(--fd-toc-width);
+    height: 100%;
+    background: var(--fd-toc-bg-color);
+    border-right: 1px solid var(--fd-gray-200, #e5e7eb);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    pointer-events: auto;
+}
+
+/* 收起时面板完全隐藏，不做位移（避免压住左侧菜单） */
+body.fd-toc-collapsed #fd-post-toc-panel {
+    display: none;
+}
+
+/* ============================================================
+   标题栏
+   ============================================================ */
+#fd-post-toc-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 14px;
+    height: 40px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--fd-gray-200, #e5e7eb);
+    background: var(--fd-toc-bg-color);
+}
+
+#fd-post-toc-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--fd-gray-600, #4b5563);
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 标题栏收起按钮 */
+#fd-post-toc-collapse {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 6px;
+    color: var(--fd-gray-400, #9ca3af);
+    border-radius: var(--fd-radius-sm, 4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background var(--fd-toc-transition), color var(--fd-toc-transition);
+    line-height: 1;
+}
+
+#fd-post-toc-collapse:hover {
+    background: var(--fd-gray-100, #f3f4f6);
+    color: var(--fd-gray-700, #374151);
+}
+
+.fd-toc-arrow {
+    font-size: 18px;
+    line-height: 1;
+    display: block;
+    font-style: normal;
+}
+
+/* ============================================================
+   目录内容区（可滚动）
+   ============================================================ */
+#fd-post-toc-body {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 8px 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--fd-gray-200, #e5e7eb) transparent;
+}
+
+#fd-post-toc-body::-webkit-scrollbar {
+    width: 4px;
+}
+
+#fd-post-toc-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#fd-post-toc-body::-webkit-scrollbar-thumb {
+    background: var(--fd-gray-200, #e5e7eb);
+    border-radius: 2px;
+}
+
+/* 无标题时的提示文字 */
+#fd-post-toc-empty {
+    padding: 20px 14px;
+    color: var(--fd-gray-400, #9ca3af);
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+/* ============================================================
+   目录列表
+   ============================================================ */
+#fd-post-toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 6px 0 12px;
+}
+
+#fd-post-toc-list li {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---- 所有条目基础样式 ---- */
+#fd-post-toc-list a {
+    display: block;
+    padding: 4px 12px 4px 12px;
+    font-size: 12px;
+    line-height: 1.55;
+    color: var(--fd-gray-600, #4b5563);
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-left: 2px solid transparent;
+    border-radius: 0 3px 3px 0;
+    transition: background var(--fd-toc-transition),
+                color var(--fd-toc-transition),
+                border-color var(--fd-toc-transition);
+    cursor: pointer;
+}
+
+#fd-post-toc-list a:hover {
+    background: var(--fd-primary-light, #eff6ff);
+    color: var(--fd-primary, #3b82f6);
+    border-left-color: var(--fd-primary, #3b82f6) !important;
+}
+
+/* 当前光标所在标题高亮 */
+#fd-post-toc-list a.fd-toc-active {
+    background: var(--fd-primary-light, #eff6ff);
+    color: var(--fd-primary, #3b82f6);
+    border-left-color: var(--fd-primary, #3b82f6) !important;
+    font-weight: 600;
+}
+
+/* ================================================================
+   标题层级样式 —— 方案 A：边框粗细渐变
+   所有条目左对齐（padding-left 一致），通过左边框的粗细和颜色表达层级
+   H1/H2 → 主题色实线；H3 → 浅蓝色；H4 → 中灰；H5/H6 → 浅灰
+   ================================================================ */
+
+/* H1：4px 主题色，最粗，极少使用 */
+#fd-post-toc-list li[data-level="1"] > a {
+    padding-left: 12px;
+    border-left-width: 4px;
+    border-left-color: var(--fd-gray-600, #475569);
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--fd-gray-800, #1f2937);
+    letter-spacing: 0.01em;
+}
+
+/* H2：3px 主题色，主要章节锚点 */
+#fd-post-toc-list li[data-level="2"] > a {
+    padding-left: 12px;
+    border-left-width: 3px;
+    border-left-color: var(--fd-gray-500, #64748b);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--fd-gray-700, #374151);
+}
+/* H2 节间距：给主章节留呼吸空间 */
+#fd-post-toc-list li[data-level="2"] {
+    margin-top: 6px;
+}
+#fd-post-toc-list li[data-level="2"]:first-child {
+    margin-top: 0;
+}
+
+/* H3：2px 浅蓝，与 H2 同色系但明显更细 */
+#fd-post-toc-list li[data-level="3"] > a {
+    padding-left: 12px;
+    border-left-width: 2px;
+    border-left-color: var(--fd-gray-400, #94a3b8);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--fd-gray-600, #4b5563);
+}
+
+/* H4：2px 中灰，进入"细节层" */
+#fd-post-toc-list li[data-level="4"] > a {
+    padding-left: 12px;
+    border-left-width: 2px;
+    border-left-color: var(--fd-gray-300, #d1d5db);
+    font-size: 11.5px;
+    font-weight: 400;
+    color: var(--fd-gray-500, #6b7280);
+}
+
+/* H5：1px 浅灰 */
+#fd-post-toc-list li[data-level="5"] > a {
+    padding-left: 12px;
+    border-left-width: 1px;
+    border-left-color: var(--fd-gray-200, #e5e7eb);
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--fd-gray-400, #9ca3af);
+}
+
+/* H6：1px 浅灰，与 H5 相同 */
+#fd-post-toc-list li[data-level="6"] > a {
+    padding-left: 12px;
+    border-left-width: 1px;
+    border-left-color: var(--fd-gray-200, #e5e7eb);
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--fd-gray-400, #9ca3af);
+}
+
+/* ============================================================
+   展开把手（收起时可见）
+   ============================================================ */
+#fd-post-toc-handle {
+    position: absolute;
+    left: var(--fd-toc-width);  /* 面板展开时把手在面板右侧 */
+    top: 0;
+    width: var(--fd-toc-handle-w);
+    height: 100%;
+    background: var(--fd-toc-bg-color);
+    border: none;
+    border-left: 1px solid var(--fd-gray-200, #e5e7eb);
+    border-right: 1px solid var(--fd-gray-200, #e5e7eb);
+    cursor: pointer;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background var(--fd-toc-transition), left var(--fd-toc-transition);
+    z-index: 1;
+}
+
+#fd-post-toc-handle:hover {
+    background: var(--fd-primary-light, #eff6ff);
+}
+
+/* 展开状态：把手隐藏，关闭操作由面板内的 × 按钮负责 */
+body:not(.fd-toc-collapsed) #fd-post-toc-handle {
+    display: none;
+}
+
+/* 收起状态：把手显示在 wrap 左端（视觉位置 = 53px，紧贴菜单图标栏右侧） */
+body.fd-toc-collapsed #fd-post-toc-handle {
+    left: 0;
+    opacity: 1;
+}
+
+.fd-toc-handle-arrow {
+    font-size: 14px;
+    color: var(--fd-gray-400, #9ca3af);
+    line-height: 1;
+    transition: color var(--fd-toc-transition);
+}
+
+#fd-post-toc-handle:hover .fd-toc-handle-arrow {
+    color: var(--fd-primary, #3b82f6);
+}
+
+/* ============================================================
+   响应式：小屏幕完全隐藏目录（面板和把手均不显示）
+   出现汉堡菜单后左侧折叠菜单消失，内容区布局由 WP 原生处理，无需额外干预
+   ============================================================ */
+@media screen and (max-width: 960px) {
+    #fd-post-toc-wrap {
+        display: none !important;
+    }
+}

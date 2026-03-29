@@ -1,0 +1,3366 @@
+# Copyright (C) 2026 FD Admin UI
+# This file is distributed under the same license as the FD Admin UI package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FD Admin UI 1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-19 17:16+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/modules/class-fd-dashboard-settings.php:104
+#: includes/modules/class-fd-dashboard-settings.php:105
+#: includes/modules/class-fd-dashboard-settings.php:106
+#: includes/modules/class-fd-dashboard-settings.php:107
+#, php-format
+msgid "%d Column"
+msgid_plural "%d Columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/modules/class-fd-taxonomy-box.php:202
+#, php-format
+msgid "%d selected"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:113
+msgid "(Empty heading)"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:337
+msgid "Accessibility"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:338
+msgid "Accessibility 2"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:181
+msgid "Action"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:375
+msgid ""
+"Action color for primary buttons (save, publish, submit, and other CTAs). "
+"Leave empty to inherit brand primary color."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:78
+msgid "Activity"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:349
+msgid "Add Page"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:122
+msgid "Add author"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:238
+msgid ""
+"Add enhancement features to the classic editor (TinyMCE) to improve editing "
+"efficiency. Applies to all post type editors (posts, pages, and custom post "
+"types)."
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:568
+msgid "Add failed: "
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:565
+msgid "Add separator"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:132
+msgid "Admin Favicon"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:78
+msgid "Admin UI"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:77
+#: includes/class-fd-admin-ui-settings.php:554
+msgid "Admin UI Settings"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:817
+msgid "Adminbar Height"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:737
+msgid "Adminbar Style"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:901
+msgid "Adminbar basic settings."
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1073
+msgid "Adminbar font size, default 14px"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1058
+msgid ""
+"Adminbar height (32-100 px), default 56px. WordPress native height is 32px."
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1563
+msgid "Administrator"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:44
+msgid "Airplane"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:45
+msgid "Album"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:46
+msgid "Align Center"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:47
+msgid "Align Full Width"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:48
+msgid "Align Left"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:49
+msgid "Align None"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:52
+msgid "Align Right"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:53
+msgid "Align Wide"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:55
+msgid "Analytics"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:23
+msgid "Appearance"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:165
+msgid "Appearance Settings"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:56
+msgid "Archive"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:854
+msgid ""
+"Are you sure you want to reset all settings to defaults? This action cannot "
+"be undone."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:103
+msgid "Area Chart"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:57
+msgid "Arrow Down"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:58
+msgid "Arrow Down 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:59
+msgid "Arrow Down 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:60
+msgid "Arrow Left"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:61
+msgid "Arrow Left 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:62
+msgid "Arrow Left 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:63
+msgid "Arrow Right"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:64
+msgid "Arrow Right 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:65
+msgid "Arrow Right 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:66
+msgid "Arrow Up"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:67
+msgid "Arrow Up 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:68
+msgid "Arrow Up 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:69
+msgid "Art"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:191
+msgid "Aside"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:192
+msgid "Audio"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:272
+msgid "Audio Playlist"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1565
+msgid "Author"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:724
+msgid "Auto Collapse"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:316
+msgid "Automatic Color Scale Generation"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:327
+msgid ""
+"Automatically clean unnecessary styles and markup when pasting content from "
+"Word, web pages, etc., while preserving semantic structure."
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:297
+msgid ""
+"Automatically convert pasted URLs into links; paste a URL with text selected "
+"to create a hyperlink."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:70
+msgid "Awards"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:116
+msgid "Back"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:753
+msgid "Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:172
+msgid "Background Style"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:199
+msgid ""
+"Background color when hovering over table rows. Leave empty for no hover "
+"effect."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:71
+msgid "Backup"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:72
+msgid "Bank"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:104
+msgid "Bar Chart"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:118
+msgid "Base Font Size"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:166
+msgid "Base font size that affects most admin text."
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:647
+#: includes/class-fd-admin-ui-settings.php:717
+#: includes/modules/class-fd-adminbar.php:722
+#: includes/modules/class-fd-login-settings.php:117
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:73
+msgid "Beer"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:74
+msgid "Bell"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:75
+msgid "Block"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:102
+msgid "Blockquote"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:143
+#: includes/modules/class-fd-editor-enhance.php:107
+msgid "Bold"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:76
+msgid "Book"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:77
+msgid "Book 2"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:197
+msgid "Brand Accent"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:173
+msgid "Brand Primary"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:189
+msgid "Brand Secondary"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:405
+msgid ""
+"Brand accent color for highlights, tags, and attention guidance. "
+"Automatically generates accent-50 to accent-900 color scale."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:359
+msgid ""
+"Brand primary color. Automatically generates primary-50 to primary-900 color "
+"scale for link highlights, active states, and brand identity."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:390
+msgid ""
+"Brand secondary color. Automatically generates secondary-50 to secondary-900 "
+"color scale for secondary interactions and informational hints."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:89
+msgid "Building"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:90
+msgid "Businessman"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:91
+msgid "Businessperson"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:92
+msgid "Businesswoman"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:93
+msgid "Button"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:94
+msgid "Calculator"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:95
+msgid "Calendar"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:96
+msgid "Calendar 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:97
+msgid "Camera"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:98
+msgid "Camera 2"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:571
+msgid "Cannot determine position"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:572
+msgid "Cannot determine separator"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:99
+msgid "Car"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:140
+msgid "Card Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:148
+msgid "Card Border Radius"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:156
+msgid "Card Shadow"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:185
+msgid ""
+"Card/panel background color (postbox, meta-box, etc.). Leave empty for "
+"WordPress default (#fff)."
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:200
+msgid "Card/panel border radius size."
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:213
+msgid "Card/panel shadow effect for added depth."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:100
+msgid "Carrot"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:101
+msgid "Cart"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:151
+msgid "Categories & Tags"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:102
+msgid "Category"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:168
+#: includes/modules/class-fd-post-meta-box.php:345
+msgid "Change Cover"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:193
+msgid "Chat"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:463
+msgid ""
+"Choose the background style for the login page. Light background suits most "
+"scenarios, gradient is more modern, and custom image allows uploading a "
+"branded background."
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:155
+msgid "Choose the keyboard shortcut to trigger the search."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:359
+msgid "Choose the light background color. Default: #f0f0f1"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1030
+msgid ""
+"Choose the overall Adminbar style. \"Modern SaaS Style\" is inspired by "
+"Laravel Nova and offers more customization options."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:383
+msgid ""
+"Choose the start and end colors for the gradient. The gradient direction is "
+"fixed at 135 degrees (bottom-right)."
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:112
+msgid "Clear Formatting"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:178
+msgid "Click to set cover image"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:107
+msgid "Clipboard"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:108
+msgid "Clock"
+msgstr ""
+
+#: includes/class-fd-global-search.php:115
+msgid "Close"
+msgstr ""
+
+#: includes/class-fd-global-search.php:102
+msgid "Close (Esc)"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:109
+msgid "Cloud"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:110
+msgid "Cloud Saved"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:111
+msgid "Cloud Upload"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:145
+msgid "Code"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:103
+msgid "Code Block"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:112
+msgid "Code Standards"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:113
+msgid "Coffee"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:24
+msgid "Collapse"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:111
+#: includes/modules/class-fd-post-toc.php:152
+msgid "Collapse TOC"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:114
+msgid "Color Picker"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:648
+#: includes/modules/class-fd-adminbar.php:746
+msgid "Color Settings"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:126
+msgid "Column 1"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:127
+msgid "Column 2"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:128
+msgid "Column 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:115
+msgid "Columns"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:25
+msgid "Comments"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:81
+msgid "Community"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:147
+msgid "Compact Mode"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:334
+msgid ""
+"Configure border radius and shadow effects for UI elements to create a "
+"unified visual style."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:311
+msgid ""
+"Configure the brand color scheme for the admin interface. These colors will "
+"be applied to buttons, links, status indicators, and other elements."
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:132
+msgid ""
+"Configure the global search feature for quickly finding and accessing admin "
+"content. A Notion-like Cmd/Ctrl + K search experience."
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:51
+msgid ""
+"Consolidates categories, tags, and custom taxonomies into a single compact "
+"meta box to improve editing efficiency."
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:587
+msgid "Content Area"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:125
+msgid "Content Area Settings"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:132
+msgid "Content Background Color"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:146
+msgid "Contract"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1566
+msgid "Contributor"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:913
+msgid "Control the visibility of items in the Adminbar."
+msgstr ""
+
+#: fd-admin-ui.php:112
+msgid "Copied"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:125
+#: includes/modules/class-fd-post-meta-box.php:163
+#: includes/modules/class-fd-post-meta-box.php:347
+msgid "Cover Image"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:214
+msgid "Crop"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:493
+msgid "Current Icon"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:719
+msgid "Current Selected Item"
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:80
+msgid "Custom Footer Text"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:346
+msgid "Custom Image"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:833
+msgid "Custom Logo"
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:120
+msgid ""
+"Custom footer text to replace \"Thank you for creating with WordPress\". "
+"HTML supported. Leave empty for default."
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:555
+msgid "Customize WordPress admin interface appearance"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:159
+msgid "Customize admin list tables (posts, users, etc.) appearance."
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:905
+msgid "Customize the Adminbar color scheme."
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:100
+msgid "Customize the admin footer display content."
+msgstr ""
+
+#: includes/modules/class-fd-dashboard-settings.php:83
+msgid "Customize the dashboard page display."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:220
+msgid ""
+"Customize the logo image and link on the login page (logo size is auto-"
+"adapted, no manual setup needed)."
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:168
+msgid ""
+"Customize the main content area appearance, including background and card "
+"styles."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:26
+msgid "Customizer"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:126
+msgid "Dashboard"
+msgstr ""
+
+#: includes/modules/class-fd-dashboard-settings.php:56
+msgid "Dashboard Settings"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:127
+msgid "Database"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:128
+msgid "Database Add"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:129
+msgid "Database Export"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:130
+msgid "Database Import"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:131
+msgid "Database Remove"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:132
+msgid "Database View"
+msgstr ""
+
+#: includes/modules/class-fd-dashboard-settings.php:71
+msgid "Default Columns"
+msgstr ""
+
+#: includes/modules/class-fd-dashboard-settings.php:109
+msgid ""
+"Default number of dashboard columns. Users can still adjust via Screen "
+"Options."
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1229
+msgid "Default: #1d2327"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1277
+msgid "Default: #2c3338"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1265
+msgid "Default: #72aee6"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1241
+#: includes/modules/class-fd-adminbar.php:1289
+msgid "Default: #f0f0f1"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:316
+#: includes/modules/class-fd-editor-enhance.php:122
+msgid "Delete Column"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:319
+#: includes/modules/class-fd-editor-enhance.php:121
+msgid "Delete Row"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:123
+msgid "Delete Table"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:339
+msgid "Design Token System"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:133
+msgid "Desktop"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1141
+msgid "Desktop logo display height (16-60 px), default 28px."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:134
+msgid "Dismiss"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1157
+msgid ""
+"Display a global search box in the center of the Adminbar, similar to "
+"Laravel Nova / Notion style"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:249
+msgid ""
+"Display an outline TOC on the left side of the classic post editor. Click an "
+"entry to quickly jump to the corresponding heading."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:301
+msgid ""
+"Display height of the logo (40-200 pixels), width auto-adapts. Default: 84px."
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1169
+msgid ""
+"Display user avatar and nickname on the right side of the Adminbar, "
+"replacing the native WordPress \"Howdy, xxx\""
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:466
+#: includes/class-fd-admin-ui-settings.php:514
+msgid "Do not replace (keep SVG)"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:135
+msgid "Download"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:561
+msgid "Drag menu items to reorder"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:785
+msgid "Dropdown Menu Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:793
+msgid "Dropdown Menu Text Color"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:136
+msgid "Drumstick"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:137
+msgid "Edit"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:138
+msgid "Edit (Large)"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:139
+msgid "Edit Page"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1564
+msgid "Editor"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:140
+msgid "Editor Align Center"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:141
+msgid "Editor Align Left"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:142
+msgid "Editor Align Right"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:171
+msgid "Editor Enhancement"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:617
+msgid "Editor Enhancements"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:173
+msgid "Ellipsis"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:174
+msgid "Email"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:175
+msgid "Email 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:176
+msgid "Email 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:177
+msgid "Embed Audio"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:178
+msgid "Embed Generic"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:179
+msgid "Embed Photo"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:180
+msgid "Embed Post"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:181
+msgid "Embed Video"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:307
+msgid "Empty Star"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:178
+msgid "Enable Editor Enhancement"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:80
+msgid "Enable Global Search"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:124
+msgid "Enable Login Page Customization"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:437
+msgid "Enable Meta Box Enhancement"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:213
+msgid "Enable Post TOC"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:40
+msgid "Enable Taxonomy Meta Box Integration"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:211
+msgid "Enable alternating row colors (zebra striping) for better readability."
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:223
+msgid ""
+"Enable compact mode to reduce row height and display more data on screen."
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:190
+msgid ""
+"Enable horizontal scrolling for tables with many columns, preventing layout "
+"distortion."
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:143
+msgid "Enable keyboard shortcut to quickly search admin content."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:216
+msgid "Enable login page customization and set the admin favicon."
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:182
+msgid ""
+"Enable modern styling for WordPress settings and tools pages, including form "
+"elements, buttons, and card components."
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:174
+msgid ""
+"Enable modern table styling with rounded borders, soft colors, optimized "
+"spacing, and improved interactions."
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:66
+msgid "Enable unified taxonomy meta box (compact list layout)"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:375
+msgid "End Color"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:279
+#, php-format
+msgid "Enter %s, press Enter to add"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:200
+msgid ""
+"Enter an excerpt (optional; if left blank, the beginning of the content will "
+"be used)"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:116
+msgid "Enter the link URL:"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:213
+msgid "Error"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:435
+msgid "Error color for indicating errors or negative states."
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:190
+msgid "Excerpt"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:182
+msgid "Excerpt View"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:183
+msgid "Exit"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:201
+msgid "Exit Fullscreen"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:148
+msgid "Expand"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:112
+#: includes/modules/class-fd-post-toc.php:143
+msgid "Expand TOC"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:229
+msgid "Expand TOC by Default"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:184
+msgid "External Link"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:301
+msgid ""
+"FD Theme is active. Color settings are automatically synced with the theme's "
+"VI settings."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:187
+msgid "Feedback"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:308
+msgid "Filled Star"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:188 includes/class-fd-icon-picker.php:215
+msgid "Filter"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:189
+msgid "Flag"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:216
+msgid "Flip Horizontal"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:217
+msgid "Flip Vertical"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:194
+msgid "Floating Toolbar"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:825
+msgid "Font Size"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:190
+msgid "Food"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:597
+msgid "Footer"
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:65
+msgid "Footer Settings"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:196
+msgid "Form Background Opacity"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:188
+msgid "Form Width"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:199
+msgid "Forms"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:82
+msgid "Forums"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:117
+msgid "Forward"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:83
+msgid "Friends"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:200
+msgid "Fullscreen"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:194
+msgid "Gallery"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:202
+msgid "Games"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:27
+msgid "Generic"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:110
+msgid "Global Border Radius"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:607
+msgid "Global Search"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:73
+msgid "Global Search Settings"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:567
+#: includes/modules/class-fd-global-settings.php:103
+msgid "Global Settings"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:138
+msgid "Global appearance settings that affect the entire admin interface."
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:152
+msgid "Global border radius for buttons, inputs, cards, and other elements."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:303
+msgid "Go to Theme VI Settings"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:339
+msgid "Gradient Background"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:364
+msgid "Gradient Background Colors"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:204
+msgid "Grid View"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:84 includes/class-fd-icon-picker.php:205
+msgid "Groups"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:309
+msgid "Half Star"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:206
+msgid "Hammer"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:207
+#: includes/modules/class-fd-editor-enhance.php:113
+msgid "Heading"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:96
+msgid "Heading 2"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:97
+msgid "Heading 3"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:98
+msgid "Heading 4"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:221
+msgid "Heading Levels to Display"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:208
+msgid "Heart"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:149
+msgid "Help"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:209
+msgid "Hidden"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:873
+msgid "Hide \"Comments\""
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:881
+msgid "Hide \"New\""
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:865
+msgid "Hide \"Updates\""
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:729
+msgid "Hide Adminbar"
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:72
+msgid "Hide Footer"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:226
+msgid "Hide Permalink"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:889
+msgid "Hide Plugin-Added Items"
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:88
+msgid "Hide Version Number"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:801
+msgid "Hide WP Logo"
+msgstr ""
+
+#: includes/modules/class-fd-dashboard-settings.php:63
+msgid "Hide Welcome Panel"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1217
+msgid ""
+"Hide items added to the Adminbar by third-party plugins (e.g., GraphiQL IDE, "
+"Object Cache, etc.)"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1193
+msgid "Hide the \"Comments\" button in the Adminbar"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1205
+msgid "Hide the \"New\" button in the Adminbar"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1181
+msgid "Hide the \"Updates\" button in the Adminbar"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1042
+msgid ""
+"Hide the WordPress Logo and its dropdown menu on the far left of the Adminbar"
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:132
+msgid "Hide the WordPress version number in the footer (for security reasons)."
+msgstr ""
+
+#: includes/modules/class-fd-footer-settings.php:111
+msgid ""
+"Hide the admin footer area (\"Thank you for creating with WordPress\", etc.)"
+msgstr ""
+
+#: includes/modules/class-fd-dashboard-settings.php:94
+msgid "Hide the dashboard Welcome Panel."
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:342
+msgid ""
+"Hide the permalink section on the post editor page. Useful for headless "
+"architectures where the backend permalink is no longer relevant."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:28
+msgid "Home"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1086
+msgid "Horizontal Logo (Desktop)"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:101
+msgid "Horizontal Rule"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:123
+msgid "Horizontal Scroll"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:290
+msgid ""
+"Horizontal full logo (icon + text combination), recommended size: 400x100px "
+"or similar ratio. Displayed when the sidebar is expanded on desktop."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:210
+msgid "Hourglass"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:769
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:718
+msgid "Hover Effect"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:777
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:212
+msgid "ID Card"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:213
+msgid "ID Card 2"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1144
+msgid ""
+"If not set, the logo from \"Left Menu Settings > Site Identity\" will be "
+"used automatically."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:195
+msgid "Image"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:221
+msgid "Images"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:222
+msgid "Images 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:150
+msgid "Indent"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:223
+msgid "Index Card"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:224
+msgid "Info"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:225
+msgid "Info Outline"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:111
+msgid "Inline Code"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:226
+msgid "Insert"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:227
+msgid "Insert After"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:228
+msgid "Insert Before"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:314
+msgid "Insert Column After"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:315
+msgid "Insert Column Before"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:119
+msgid "Insert Column Left"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:120
+msgid "Insert Column Right"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:105
+msgid "Insert Image"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:110
+msgid "Insert Link"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:151
+msgid "Insert More"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:117
+msgid "Insert Row Above"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:317
+msgid "Insert Row After"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:318
+msgid "Insert Row Before"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:118
+msgid "Insert Row Below"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:57
+#: includes/class-fd-menu-sort.php:295 includes/class-fd-menu-sort.php:325
+#: includes/class-fd-menu-sort.php:363 includes/class-fd-menu-sort.php:387
+#: includes/class-fd-menu-sort.php:449
+msgid "Insufficient permissions"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:449
+msgid ""
+"Integrate author, cover image, and excerpt into the editor area as a fixed "
+"editing group that cannot be dragged."
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:300
+msgid "Invalid menu order data"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:346
+msgid "Invalid parameters"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:330
+msgid "Invalid submenu order data"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:152
+#: includes/modules/class-fd-editor-enhance.php:108
+msgid "Italic"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:650
+msgid "Item Display Control"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:858
+msgid "Item Display Controls"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:153
+msgid "Justify"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:230
+msgid "Laptop"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:253
+msgid "Large Border Radius"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:277
+msgid "Large Shadow"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:498
+msgid "Large border radius value (e.g., 16px)"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:549
+msgid "Large shadow CSS value (e.g., 0 10px 15px -3px rgba(0, 0, 0, 0.1))"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:231
+msgid "Layout"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:351
+msgid "Learn More"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1253
+msgid "Leave empty for transparent (no background color change)"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:373
+msgid "Leave empty to match brand primary color"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:232
+msgid "Left Right"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:155
+msgid "Left to Right"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:332
+msgid "Light Background"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:353
+msgid "Light Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:210
+msgid "Light Shadow"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:233
+msgid "Lightbulb"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:144
+msgid "Line Break"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:105
+msgid "Line Chart"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:114
+msgid "Link created automatically"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:415
+msgid ""
+"Link to navigate to when clicking the site branding. Defaults to the "
+"homepage. Can be set to a front-end application URL."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:29
+msgid "Links"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:235
+msgid "List View"
+msgstr ""
+
+#: fd-admin-ui.php:111
+msgid "Loading..."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:236
+msgid "Location"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:237
+msgid "Location 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:238
+msgid "Lock"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1581
+#: includes/class-fd-admin-ui-settings.php:1764
+msgid "Log Out"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:612
+msgid "Login Page"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1132
+#: includes/modules/class-fd-login-settings.php:292
+msgid "Logo Height"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:148
+msgid "Logo Image"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:156
+msgid "Logo Link"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:141
+msgid "Logo Settings"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:176
+msgid "Main content area background color. Default: #f8fafc (fd-gray-50)"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:239
+msgid "Marker"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:252
+msgid ""
+"Master switch. When enabled, activates the following enhancement features in "
+"the classic editor for all post types."
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:198
+msgid "Maximum number of results per category (5-20)."
+msgstr ""
+
+#: includes/class-fd-global-search.php:77 includes/class-fd-icon-picker.php:30
+#: includes/modules/class-fd-search-settings.php:166
+msgid "Media"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:240
+msgid "Media Archive"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:241
+msgid "Media Audio"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:242
+msgid "Media Code"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:243
+msgid "Media Default"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:244
+msgid "Media Document"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:245
+msgid "Media Interactive"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:246
+msgid "Media Spreadsheet"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:247
+msgid "Media Text"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:248
+msgid "Media Video"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:149
+msgid "Medium"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:245
+msgid "Medium Border Radius"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:211
+#: includes/modules/class-fd-vi-settings.php:269
+msgid "Medium Shadow"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:482
+msgid "Medium border radius value (e.g., 8px)"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:532
+msgid "Medium shadow CSS value (e.g., 0 4px 6px -1px rgba(0, 0, 0, 0.1))"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:249
+msgid "Megaphone"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:250
+msgid "Menu"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:251
+msgid "Menu 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:252
+msgid "Menu 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:253
+msgid "Menu 4"
+msgstr ""
+
+#: includes/class-fd-global-search.php:78
+#: includes/modules/class-fd-search-settings.php:167
+msgid "Menu Items"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:492
+msgid "Menu Name"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:723
+msgid "Menu Sorting"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:716
+msgid "Menu Style"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:372
+msgid "Menu order has been reset"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:309 includes/class-fd-menu-sort.php:562
+msgid "Menu order saved"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:560
+msgid "Menu sort mode enabled"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:254
+msgid "Microphone"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:255
+msgid "Migrate"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:256
+msgid "Minus"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:392 includes/class-fd-menu-sort.php:453
+msgid "Missing parameter"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:956
+msgid "Modern SaaS Style"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:909
+msgid ""
+"Modern SaaS style exclusive settings, only effective when \"Modern SaaS "
+"Style\" is selected."
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:126
+msgid "Modern Settings Pages"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:115
+msgid "Modern Style"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:649
+#: includes/class-fd-admin-ui-settings.php:721
+#: includes/modules/class-fd-adminbar.php:810
+msgid "Modern Style Settings"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:661
+#: includes/class-fd-admin-ui-settings.php:738
+msgid "Modern style only"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:257
+msgid "Money"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:258
+msgid "Money 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:154
+msgid "More Tools"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:259
+msgid "Move"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:31
+msgid "Multisite"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:123
+msgid "Mute"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:260
+msgid "Nametag"
+msgstr ""
+
+#: includes/class-fd-global-search.php:113
+msgid "Navigate"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:32
+msgid "Network"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:573
+msgid "Network error"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:564
+msgid "Network error, save failed"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:261
+msgid "Networking"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:262
+msgid "No"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:230
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:263
+msgid "No 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:21 includes/class-fd-icon-picker.php:1088
+#: includes/class-fd-icon-picker.php:1102
+msgid "No Icon"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:209
+msgid "No Shadow (WordPress Default)"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:110
+#: includes/modules/class-fd-post-toc.php:158
+msgid "No headings found"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:125
+msgid "No matching commands"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:1014
+msgid "No matching icons found"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:460
+msgid "No menu items using SVG icons were detected."
+msgstr ""
+
+#: includes/class-fd-global-search.php:69
+msgid "No results found"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:171
+msgid "No taxonomies available for this post type."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:509
+msgid ""
+"Opacity of the form background (0% = fully transparent, 100% = fully opaque)."
+msgstr ""
+
+#: includes/class-fd-global-search.php:114
+msgid "Open"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:264
+msgid "Open Folder"
+msgstr ""
+
+#: fd-admin-ui.php:118
+msgid "Operation failed"
+msgstr ""
+
+#: fd-admin-ui.php:117
+msgid "Operation successful"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:156
+#: includes/modules/class-fd-editor-enhance.php:100
+msgid "Ordered List"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:157
+msgid "Ordered List RTL"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:158
+msgid "Outdent"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:33
+msgid "Page"
+msgstr ""
+
+#: includes/class-fd-global-search.php:76
+#: includes/modules/class-fd-search-settings.php:165
+msgid "Pages"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:265
+msgid "Palm Tree"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:266
+msgid "Paperclip"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:159
+msgid "Paragraph"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:218
+msgid "Paste Cleanup"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:160
+msgid "Paste Text"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:161
+msgid "Paste Word"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:124
+msgid "Pasted content cleaned"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:118
+msgid "Pause"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:268
+msgid "Performance"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:269
+msgid "Pets"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:270
+msgid "Phone"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:106
+msgid "Pie Chart"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:119
+msgid "Play"
+msgstr ""
+
+#: includes/class-fd-global-search.php:367
+msgid "Please enter a search keyword"
+msgstr ""
+
+#: includes/class-fd-global-search.php:80 includes/class-fd-icon-picker.php:34
+#: includes/modules/class-fd-search-settings.php:169
+msgid "Plugins"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:274
+msgid "Plugins Checked"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:275
+msgid "Plus"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:276
+msgid "Plus 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:277
+msgid "Plus 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:279
+msgid "Portfolio"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:35
+msgid "Post"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:206
+msgid "Post Editor TOC"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:430
+msgid "Post Meta Box Enhancement"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:280
+msgid "Post Status"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:109
+#: includes/modules/class-fd-post-toc.php:148
+#: includes/modules/class-fd-post-toc.php:151
+msgid "Post TOC"
+msgstr ""
+
+#: includes/class-fd-global-search.php:75
+#: includes/modules/class-fd-search-settings.php:164
+msgid "Posts"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:495
+#: includes/modules/class-fd-post-meta-box.php:407
+msgid "Preview"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:822
+msgid "Preview Login Page"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:282
+msgid "Printer"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:283
+msgid "Privacy"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:85
+msgid "Private Message"
+msgstr ""
+
+#: fd-admin-ui.php:116
+msgid "Processing..."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:284
+msgid "Products"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1577
+#: includes/class-fd-admin-ui-settings.php:1757
+msgid "Profile"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:381
+msgid "Publish"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:50
+msgid "Pull Left"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:51
+msgid "Pull Right"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:202
+msgid "Quick Link Insertion"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:162 includes/class-fd-icon-picker.php:196
+msgid "Quote"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:285
+msgid "Randomize"
+msgstr ""
+
+#: includes/class-fd-global-search.php:74
+msgid "Recent Searches"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1127
+msgid "Recommended size: 56x56px square"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1104
+msgid "Recommended size: height 56-80px, width auto"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:287
+msgid "Redo"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:287
+#: includes/class-fd-admin-ui-settings.php:318
+#: includes/class-fd-admin-ui-settings.php:355
+#: includes/class-fd-admin-ui-settings.php:386
+#: includes/class-fd-admin-ui-settings.php:917
+#: includes/class-fd-icon-picker.php:288
+#: includes/modules/class-fd-adminbar.php:1096
+#: includes/modules/class-fd-adminbar.php:1119
+#: includes/modules/class-fd-login-settings.php:256
+#: includes/modules/class-fd-login-settings.php:282
+#: includes/modules/class-fd-login-settings.php:400
+#: includes/modules/class-fd-taxonomy-box.php:263
+#: includes/modules/class-fd-taxonomy-box.php:409
+msgid "Remove"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:171
+#: includes/modules/class-fd-post-meta-box.php:346
+msgid "Remove Cover"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:163
+msgid "Remove Formatting"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:570
+msgid "Remove failed: "
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:566
+msgid "Remove separator"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:120
+msgid "Repeat"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:284
+#: includes/class-fd-admin-ui-settings.php:316
+msgid "Replace Full Logo"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:352
+#: includes/class-fd-admin-ui-settings.php:384
+msgid "Replace Square Logo"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:494
+msgid "Replace with Dashicons"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:86
+msgid "Replies"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:836
+msgid "Reset to Defaults"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:104
+msgid "Results Per Category"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:164
+msgid "Right to Left"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:218
+msgid "Rotate"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:219
+msgid "Rotate Left"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:220
+msgid "Rotate Right"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:150
+msgid "Rounded"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:131
+msgid "Row Hover Color"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:507
+msgid "SVG Icon"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:725
+msgid "SVG Icon Replacement"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:405
+msgid "Save Draft"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:834
+msgid "Save Settings"
+msgstr ""
+
+#: fd-admin-ui.php:115
+msgid "Save failed"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:563
+msgid "Save failed: "
+msgstr ""
+
+#: fd-admin-ui.php:114 includes/class-fd-icon-picker.php:291
+msgid "Saved"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:400
+msgid "Saved at"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:292
+msgid "Schedule"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:293
+msgid "Screen Options"
+msgstr ""
+
+#: includes/class-fd-global-search.php:308
+#: includes/class-fd-icon-picker.php:294
+msgid "Search"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:96
+msgid "Search Scope"
+msgstr ""
+
+#: includes/class-fd-global-search.php:68
+#: includes/class-fd-global-search.php:100
+msgid "Search content, menus, settings..."
+msgstr ""
+
+#: includes/class-fd-global-search.php:71
+msgid "Search failed, please try again"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:1130
+msgid "Search icons..."
+msgstr ""
+
+#: includes/class-fd-global-search.php:73
+msgid "Search posts, pages, menus, users, and more"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1721
+#: includes/modules/class-fd-adminbar.php:953
+msgid "Search..."
+msgstr ""
+
+#: includes/class-fd-global-search.php:70
+msgid "Searching..."
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:290 includes/class-fd-menu-sort.php:320
+#: includes/class-fd-menu-sort.php:358 includes/class-fd-menu-sort.php:382
+#: includes/class-fd-menu-sort.php:444
+msgid "Security verification failed"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1094
+#: includes/modules/class-fd-adminbar.php:1117
+msgid "Select"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:343
+msgid "Select Cover Image"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:305
+msgid "Select Full Logo"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:893
+#: includes/modules/class-fd-login-settings.php:254
+#: includes/modules/class-fd-login-settings.php:280
+#: includes/modules/class-fd-login-settings.php:398
+msgid "Select Image"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:373
+msgid "Select Square Logo"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:528
+msgid ""
+"Select a Dashicons icon to replace the SVG icon. The replaced icon will "
+"automatically use your configured menu colors, avoiding color control issues."
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:183
+msgid "Select the content types to include in search results."
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:284
+msgid "Select which heading levels to display in the TOC."
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:410
+msgid "Selected"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:115
+msgid "Selected text converted to link"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:432 includes/class-fd-menu-sort.php:567
+msgid "Separator added"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:475 includes/class-fd-menu-sort.php:569
+msgid "Separator removed"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:344
+msgid "Set as Cover"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:224
+msgid ""
+"Set the background style, theme color, and form styles for the login page."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:264
+msgid ""
+"Set the favicon for the admin dashboard and login page (recommended: 32x32 "
+"or 192x192 pixel PNG/ICO file)."
+msgstr ""
+
+#: fd-admin-ui.php:403 includes/class-fd-icon-picker.php:36
+msgid "Settings"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:550
+msgid ""
+"Settings have been reset to defaults. The current page displays the new "
+"default appearance."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:295
+msgid "Share"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:296
+msgid "Share 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:297
+msgid "Share 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:298
+msgid "Shield"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:299
+msgid "Shield 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:300
+msgid "Shortcode"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:88
+msgid "Shortcut Key"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:120
+msgid "Show Menu Search Button"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:841
+msgid "Show Search Box"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:112
+msgid "Show Search History"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:849
+msgid "Show User Info"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:282
+msgid ""
+"Show a floating toolbar near the cursor when text is selected for quick "
+"formatting such as bold, italic, and links."
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:427
+msgid "Show a quick access icon (external link icon) next to the site branding"
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:222
+msgid ""
+"Show a search button at the top of the sidebar menu, similar to Notion's "
+"search entry."
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:312
+msgid ""
+"Show an enhanced context menu on right-click within tables for quick row and "
+"column management."
+msgstr ""
+
+#: includes/modules/class-fd-search-settings.php:210
+msgid "Show recent search history in the search modal."
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:582
+msgid "Sidebar Menu"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:37
+msgid "Site"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:38
+msgid "Site 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:39
+msgid "Site 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:40
+msgid "Site 4"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:722
+msgid "Site Branding"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:720
+msgid "Size & Spacing"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:121
+msgid "Skip Back"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:122
+msgid "Skip Forward"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:186
+msgid "Slash Commands"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:301
+msgid "Slides"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:148
+msgid "Slight"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:237
+msgid "Small Border Radius"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:261
+msgid "Small Shadow"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:466
+msgid "Small border radius value (e.g., 4px)"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:515
+msgid "Small shadow CSS value (e.g., 0 1px 2px 0 rgba(0, 0, 0, 0.05))"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:302
+msgid "Smartphone"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:303
+msgid "Smiley"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:304
+msgid "Sort"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:147
+msgid "Special Character"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:165
+msgid "Spellcheck"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:147
+msgid "Square"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1109
+msgid "Square Logo (Menu Collapsed)"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:358
+msgid ""
+"Square icon logo, recommended size: 200x200px. Displayed when the menu is "
+"collapsed."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:367
+msgid "Start Color"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:342
+msgid "Start writing..."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:197
+msgid "Status"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:310
+msgid "Sticky"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:311
+msgid "Store"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:166
+#: includes/modules/class-fd-editor-enhance.php:109
+msgid "Strikethrough"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:139
+msgid "Striped Rows"
+msgstr ""
+
+#: includes/class-fd-menu-sort.php:346 includes/class-fd-menu-sort.php:574
+msgid "Submenu order saved"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1567
+msgid "Subscriber"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:205
+msgid "Success"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:420
+msgid "Success color for indicating successful operations or positive states."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:312
+msgid "Superhero"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:313
+msgid "Superhero 2"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:70
+msgid "Supports categories, tags, and all custom taxonomies."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:300
+msgid "Synced with Theme VI Settings"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:237
+msgid "TOC Panel Width"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:311
+msgid "TOC panel width, range 160 - 400px, default 220px."
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:592
+#: includes/class-fd-icon-picker.php:167
+#: includes/modules/class-fd-editor-enhance.php:104
+msgid "Table"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:210
+msgid "Table Enhancement"
+msgstr ""
+
+#: includes/modules/class-fd-table-settings.php:108
+msgid "Table Settings"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:320
+msgid "Tablet"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:321
+msgid "Tag"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:322
+msgid "Tag Cloud"
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:33
+msgid "Taxonomy Meta Box Integration"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:323
+msgid "Testimonial"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:324
+msgid "Text"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:168
+#: includes/modules/class-fd-adminbar.php:761
+#: includes/modules/class-fd-login-settings.php:204
+msgid "Text Color"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:325
+msgid "Text Page"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:531
+msgid ""
+"Text color for login page navigation links (register, forgot password, back "
+"to site, etc.). Leave empty to auto-detect based on the background."
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:450
+msgid ""
+"The author section is displayed above the editor, and the cover image and "
+"excerpt are displayed below the editor."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:317
+msgid ""
+"The first 3 brand colors (primary, secondary, accent) automatically generate "
+"a complete color scale system (50-900, 10 shades) for various UI elements in "
+"the admin interface. The scales are calculated based on the HSL color space "
+"to ensure visual consistency."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:330
+msgid ""
+"The following settings are read-only, showing the current theme UI design "
+"token configuration."
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:307
+msgid ""
+"The following settings are read-only, showing the current theme VI color "
+"configuration."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:476
+msgid ""
+"The theme color is applied to the login button, input focus state, and "
+"links. Default: #2271b1 (WordPress blue)."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:180
+msgid "Theme Color"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:340
+msgid ""
+"These design tokens define the foundational visual styles for the admin "
+"interface. Through unified border radius and shadow settings, you can "
+"quickly adjust the overall visual style of the admin panel while maintaining "
+"design consistency."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:326
+msgid "Thumbs Down"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:327
+msgid "Thumbs Up"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:328
+msgid "Tickets"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:329
+msgid "Tickets 2"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:528
+msgid "Tip:"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:41
+msgid "Tools"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:87
+msgid "Topics"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:88
+msgid "Tracking"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:331
+msgid "Translation"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:332
+msgid "Trash"
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:267
+msgid ""
+"Type / on an empty line to open a quick insert menu. Supports headings, "
+"lists, blockquotes, code blocks, tables, images, and more."
+msgstr ""
+
+#: includes/modules/class-fd-editor-enhance.php:106
+msgid "Type a command to filter..."
+msgstr ""
+
+#: includes/class-fd-global-search.php:72
+msgid "Type a keyword to start searching"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:230
+msgid "UI Design Tokens"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:317
+msgid ""
+"URL to navigate to when the logo is clicked. Defaults to the homepage. The "
+"title automatically uses the site name."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:170
+msgid "Underline"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:336
+msgid "Undo"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:171
+msgid "Unlink"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:339
+msgid "Unlock"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:169
+#: includes/modules/class-fd-editor-enhance.php:99
+msgid "Unordered List"
+msgstr ""
+
+#: fd-admin-ui.php:113
+msgid "Unsaved..."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:340
+#: includes/modules/class-fd-post-meta-box.php:381
+msgid "Update"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:341
+msgid "Update 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:342
+msgid "Upload"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:284
+#: includes/class-fd-admin-ui-settings.php:329
+msgid "Upload Full Logo"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:352
+#: includes/class-fd-admin-ui-settings.php:397
+msgid "Upload Square Logo"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:307
+#: includes/class-fd-admin-ui-settings.php:375
+#: includes/class-fd-admin-ui-settings.php:895
+msgid "Use This Image"
+msgstr ""
+
+#: includes/class-fd-global-search.php:79 includes/class-fd-icon-picker.php:42
+#: includes/modules/class-fd-search-settings.php:168
+msgid "Users"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:166
+msgid "VI Color Settings"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:572
+msgid "VI Settings"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:343
+msgid "Vault"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:172 includes/class-fd-icon-picker.php:198
+msgid "Video"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:344
+msgid "Video 2"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:345
+msgid "Video 3"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:346
+msgid "Video 4"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:273
+msgid "Video Playlist"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:352
+msgid "View Site"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:824
+msgid "View the login page appearance in a new window"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:347
+msgid "Visible"
+msgstr ""
+
+#: includes/class-fd-admin-ui-settings.php:1331
+msgid "Visit Front End"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:124
+msgid "Volume"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:944
+msgid "WP Classic Style"
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:1068
+msgid "WP Default"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:348
+#: includes/modules/class-fd-vi-settings.php:221
+msgid "Warning"
+msgstr ""
+
+#: includes/modules/class-fd-vi-settings.php:450
+msgid "Warning color for warnings and informational notices."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:350
+msgid "Welcome Comments"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:263
+msgid ""
+"When enabled, a TOC panel will appear on the left side of the post edit "
+"page, and the left menu will be automatically collapsed."
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:464
+msgid ""
+"When enabled, integrates author, cover image, and excerpt into the editor "
+"area as a fixed editing group."
+msgstr ""
+
+#: includes/modules/class-fd-taxonomy-box.php:69
+msgid ""
+"When enabled, the default WordPress taxonomy meta boxes will be replaced "
+"with a unified compact layout."
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:239
+msgid ""
+"When enabled, the login page customization settings below will be applied."
+msgstr ""
+
+#: includes/modules/class-fd-adminbar.php:928
+msgid ""
+"When enabled, the top Adminbar will be hidden (hamburger menu is preserved "
+"on small screens)"
+msgstr ""
+
+#: includes/modules/class-fd-post-toc.php:298
+msgid ""
+"Whether the TOC panel should be automatically expanded when entering the "
+"edit page (state is also saved to localStorage)."
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:353
+msgid "Widgets Menus"
+msgstr ""
+
+#: includes/modules/class-fd-login-settings.php:491
+msgid ""
+"Width of the login form (280-600 pixels). Default: 360px. Automatically "
+"adapts on mobile."
+msgstr ""
+
+#: includes/modules/class-fd-dashboard-settings.php:103
+#: includes/modules/class-fd-global-settings.php:146
+msgid "WordPress Default"
+msgstr ""
+
+#: includes/modules/class-fd-content-area.php:194
+msgid "WordPress Default (0)"
+msgstr ""
+
+#: includes/modules/class-fd-global-settings.php:161
+msgid "WordPress Default (13px)"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:354
+msgid "Write Blog"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:359
+msgid "Yes"
+msgstr ""
+
+#: includes/class-fd-icon-picker.php:360
+msgid "Yes 2"
+msgstr ""
+
+#: includes/modules/class-fd-post-meta-box.php:397
+msgid "words"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:854
+msgid "Select Style"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:864
+msgid "Menu Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:865
+msgid "Submenu Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:866
+msgid "Menu Item Text Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:867
+msgid "Show Menu Separator"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:868
+msgid "Separator Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:869
+msgid "Separator Thickness"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:873
+msgid "Menu Item Hover Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:874
+msgid "Menu Item Hover Text Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:875
+msgid "Show Hover Border"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:876
+msgid "Hover Border Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:880
+msgid "Current Item Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:881
+msgid "Current Item Text Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:882
+msgid "Submenu Current Item Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:883
+msgid "Submenu Current Item Text Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:884
+msgid "Show Current Item Border"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:885
+msgid "Current Item Border Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:889
+msgid "Menu Width"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:890
+msgid "Menu Top Margin"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:891
+msgid "Menu Item Padding"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:892
+msgid "Menu Item Left Padding"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:893
+msgid "Menu Item Right Padding"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:894
+msgid "Submenu Item Padding"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:895
+msgid "Submenu Alignment"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:896
+msgid "Menu Item Border Radius"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:897
+msgid "Badge Background Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:898
+msgid "Badge Text Color"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:902
+msgid "Menu Item Left Margin"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:903
+msgid "Menu Item Right Margin"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:904
+msgid "Separator Left Margin"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:905
+msgid "Separator Right Margin"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:909
+msgid "Enable Menu Drag-and-Drop Sorting"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:913
+msgid "Auto Collapse on Post Editor"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:921
+msgid "Show Site Branding"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:922
+msgid "Full Logo"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:923
+msgid "Square Logo"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:924
+msgid "Click Link URL"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:925
+msgid "Show Quick Icon"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:931
+msgid ""
+"Choose the visual style for the left sidebar menu. Classic style keeps the "
+"traditional WordPress layout; Modern style uses rounded background design "
+"(similar to Notion)."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:932
+msgid ""
+"Set the basic appearance of the menu, including background and text colors."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:933
+msgid "Set the menu style on mouse hover."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:934
+msgid "Set the style for the currently selected menu item."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:935
+msgid "Set menu dimensions, spacing, and border radius."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:936
+msgid ""
+"Settings exclusive to the Modern Minimal style, used to achieve a Notion-"
+"like indent effect. Only takes effect when \"Modern Minimal Style\" is "
+"selected."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:937
+msgid ""
+"Some plugins use SVG icons which may cause color control issues. You can "
+"replace them with standard Dashicons."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:938
+msgid ""
+"When enabled, administrators can customise the left sidebar menu order by "
+"dragging. The order applies to all users."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:939
+msgid ""
+"Control the auto-collapse behavior of the left sidebar menu on specific "
+"pages to improve the editing experience."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:940
+msgid ""
+"Display site branding at the top of the left sidebar menu, similar to a "
+"Notion workspace identifier."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:976
+msgid "Modern Minimal Style"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1065
+msgid ""
+"Choose the visual style for the left sidebar menu. \"Modern Minimal Style\" "
+"references Notion with a rounded background design."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1072
+msgid "Default: #f8fafc (fd-gray-50)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1078
+#: includes/modules/class-fd-sidebar-menu.php:1128
+msgid "Default: #ffffff (white)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1084
+msgid "Default: #334155 (fd-gray-700)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1090
+msgid "Default: #e2e8f0 (fd-gray-200)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1096
+msgid "Default: #0f172a (fd-gray-900)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1107
+msgid ""
+"When enabled, a left border is shown on hover; when disabled, the border is "
+"hidden."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1116
+msgid "Default: #72aee6 (hover left border color)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1122
+#: includes/modules/class-fd-sidebar-menu.php:1140
+msgid "Default: #3b82f6 (fd-primary)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1134
+msgid "Default: leave empty (no background color)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1151
+msgid ""
+"When enabled, a left border is shown on hover of the current selected item; "
+"when disabled, the border is hidden."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1160
+msgid "Default: #ffffff (current selected item left border color)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1166
+msgid ""
+"Default: #ef4444 (fd-error). Background color for update count, "
+"notification badges, etc."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1172
+msgid "Default: #ffffff (white). Text color inside the badge."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1186
+msgid "When enabled, separators are shown between menu items."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1090
+#: includes/modules/class-fd-sidebar-menu.php:1193
+msgid "Default: #e2e8f0 (fd-gray-200)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1199
+msgid ""
+"Default: WordPress native thickness (leave empty). Unit: px, range 1-10."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1207
+msgid "Align with icon left edge"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1208
+msgid "Align with menu item name"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1210
+msgid "Choose the alignment of submenu text relative to the main menu."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1220
+msgid ""
+"Default: WordPress native width (leave empty). Only effective on desktop, "
+"does not affect collapsed state."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1226
+msgid "Default: 12 (unit: px)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1232
+msgid ""
+"Default: WordPress native padding (leave empty). Sets the top/bottom "
+"padding of main menu items."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1238
+msgid ""
+"Default: auto-calculated based on menu width (leave empty). Manually set "
+"the left padding of main menu items."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1244
+msgid ""
+"Default: auto-calculated based on menu width (leave empty). Manually set "
+"the right padding of main menu items."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1250
+msgid ""
+"Set the left margin of main menu items for a Notion-like indent effect. "
+"Default: 0"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1256
+msgid ""
+"Set the right margin of main menu items for a Notion-like indent effect. "
+"Default: 0"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1262
+msgid "Set the left margin of separators. Default: 0"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1268
+msgid "Set the right margin of separators. Default: 0"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1274
+msgid "Default: WordPress native padding (leave empty)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1280
+msgid "Default: WordPress native border radius (leave empty)"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1300
+msgid "Reset Menu Order"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1301
+msgid "Restore the WordPress default menu order"
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1306
+msgid ""
+"Are you sure you want to reset the menu order? This will restore the "
+"WordPress default menu order."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1316
+msgid "Menu order has been reset."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1319
+msgid "Reset failed: "
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1342
+msgid ""
+"When enabled, the left sidebar menu is automatically collapsed when entering "
+"the post editor, providing more editing space. Users can still expand the "
+"menu manually; after expanding, the state is preserved on page refresh."
+msgstr ""
+
+#: includes/modules/class-fd-sidebar-menu.php:1364
+msgid "When enabled, site branding is displayed at the top of the menu."
+msgstr ""

@@ -1,0 +1,908 @@
+/**
+ * FD Post Meta Box - 文章元框增强样式
+ * 将作者、封面和摘要整合到编辑器区域
+ */
+
+/* ========================================
+   编辑器区域整体布局优化
+   ======================================== */
+
+/* 隐藏文章编辑页面的页脚文字和版本号 */
+.post-php #wpfooter,
+.post-new-php #wpfooter {
+    display: none !important;
+}
+
+/* 文章编辑页面：突出编辑器区域 */
+.post-php #poststuff,
+.post-new-php #poststuff {
+    background: transparent;
+}
+
+/* 左侧目录和右侧元框使用主内容区背景色 */
+.post-php #post-body.columns-2 #postbox-container-1,
+.post-php #post-body.columns-2 #postbox-container-2,
+.post-new-php #post-body.columns-2 #postbox-container-1,
+.post-new-php #post-body.columns-2 #postbox-container-2 {
+    background: transparent;
+}
+
+/* 中间编辑器区域白色背景 */
+.post-php #post-body-content,
+.post-new-php #post-body-content {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+/* 标题输入框区域 */
+.post-php #titlediv,
+.post-new-php #titlediv {
+    background: #fff;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    padding: 20px 24px 12px 24px;
+    margin: 0;
+}
+
+.post-php #titlewrap,
+.post-new-php #titlewrap {
+    border: none;
+    padding: 0;
+}
+
+.post-php #title,
+.post-new-php #title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 0 !important;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.post-php #title:focus,
+.post-new-php #title:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* 标题下方的固定链接 - 隐藏分割线 */
+.post-php #edit-slug-box,
+.post-new-php #edit-slug-box {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* ========================================
+   作者区域（编辑器上方）
+   ======================================== */
+
+.fd-editor-author-section {
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 12px 24px;
+    margin: 0;
+}
+
+.fd-author-row {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.fd-author-field-wrapper {
+    flex: 1;
+    max-width: 200px;
+}
+
+.fd-author-input-container {
+    position: relative;
+}
+
+.fd-author-input {
+    width: 100%;
+    padding: 4px 0;
+    font-size: 13px;
+    border: none !important;
+    border-radius: 0;
+    transition: none;
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.fd-author-input:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.fd-author-input::placeholder {
+    color: #8c8f94;
+}
+
+/* 作者建议下拉框 */
+.fd-author-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    max-width: 350px;
+    background: #fff;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 999999;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin-top: 4px;
+}
+
+.fd-author-suggestions.show {
+    display: block;
+}
+
+.fd-author-suggestion-item {
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+.fd-author-suggestion-item:hover,
+.fd-author-suggestion-item.active {
+    background: #f1f5f9;
+}
+
+.fd-author-suggestion-name {
+    flex: 1;
+    color: #2c3338;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fd-author-suggestion-login {
+    color: #999;
+    font-size: 11px;
+    margin-left: 8px;
+    flex-shrink: 0;
+}
+
+.fd-author-field {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fd-author-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #646970;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.fd-author-field select,
+.fd-author-field input {
+    flex: 1;
+    padding: 4px 8px;
+    font-size: 13px;
+    border: 1px solid #dcdcde;
+    border-radius: 3px;
+    transition: border-color 0.15s;
+}
+
+.fd-author-field select:focus,
+.fd-author-field input:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+.fd-author-hint {
+    font-size: 11px;
+    color: #646970;
+    margin: 4px 0 0 0;
+}
+
+/* ========================================
+   TinyMCE 编辑器区域
+   ======================================== */
+
+.post-php #postdivrich,
+.post-new-php #postdivrich {
+    background: #fff;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.post-php #wp-content-wrap,
+.post-new-php #wp-content-wrap {
+    border: none;
+}
+
+.post-php #wp-content-editor-container,
+.post-new-php #wp-content-editor-container {
+    border: none;
+}
+
+.post-php .mce-tinymce,
+.post-new-php .mce-tinymce {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.post-php #wp-content-editor-tools,
+.post-new-php #wp-content-editor-tools {
+    background: #fff;
+    border: none;
+    padding: 8px 24px;
+    overflow: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.post-php .mce-toolbar-grp,
+.post-new-php .mce-toolbar-grp {
+    background: #fff !important;
+    border: none !important;
+    padding: 0 8px !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+}
+
+/* 隐藏第二行工具栏（PHP过滤器已将所有按钮合并到第一行） */
+/* 注意：用 display:none 而非 display:contents，后者会破坏 TinyMCE 内部定位计算 */
+.post-php .mce-toolbar-grp .mce-toolbar ~ .mce-toolbar,
+.post-new-php .mce-toolbar-grp .mce-toolbar ~ .mce-toolbar {
+    display: none !important;
+}
+
+/* 隐藏：显示/隐藏工具栏切换按钮 和 键盘快捷键帮助按钮 */
+.post-php .mce-btn.mce-wp-adv,
+.post-new-php .mce-btn.mce-wp-adv,
+.post-php button:has(.mce-i-wp_help),
+.post-new-php button:has(.mce-i-wp_help) {
+    display: none !important;
+}
+
+/* 工具栏按钮样式优化 */
+.post-php .mce-toolbar .mce-btn:not(.mce-listbox),
+.post-new-php .mce-toolbar .mce-btn:not(.mce-listbox),
+.post-php .mce-toolbar .mce-btn:not(.mce-listbox):hover,
+.post-new-php .mce-toolbar .mce-btn:not(.mce-listbox):hover,
+.post-php .mce-toolbar .mce-btn:not(.mce-listbox):focus,
+.post-new-php .mce-toolbar .mce-btn:not(.mce-listbox):focus,
+.post-php .mce-toolbar .mce-btn:not(.mce-listbox):active,
+.post-new-php .mce-toolbar .mce-btn:not(.mce-listbox):active {
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+}
+
+.post-php .mce-toolbar .mce-btn.mce-active:not(.mce-listbox),
+.post-new-php .mce-toolbar .mce-btn.mce-active:not(.mce-listbox) {
+    border: 1px solid transparent !important;
+}
+
+/* 标题选择按钮样式调整 */
+.post-php .mce-toolbar .mce-listbox button,
+.post-new-php .mce-toolbar .mce-listbox button {
+    font-size: 13px;
+    line-height: 1.53846153;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* 标题选择按钮容器左侧外边距 */
+.post-php .mce-toolbar .mce-listbox,
+.post-new-php .mce-toolbar .mce-listbox {
+    margin-left: 12px !important;
+}
+
+/* 工具栏换行时，第二行第一个按钮组的左边距 */
+.post-php .mce-toolbar .mce-flow-layout-item:first-child .mce-btn-group,
+.post-new-php .mce-toolbar .mce-flow-layout-item:first-child .mce-btn-group {
+    margin-left: 12px !important;
+}
+
+/* 标题选择按钮 hover 时保持默认边框 */
+.post-php .mce-toolbar .mce-btn.mce-listbox:hover,
+.post-new-php .mce-toolbar .mce-btn.mce-listbox:hover,
+.post-php .mce-toolbar .mce-btn.mce-listbox:focus,
+.post-new-php .mce-toolbar .mce-btn.mce-listbox:focus {
+    border: 1px solid #b5b5b5 !important;
+    box-shadow: none !important;
+}
+
+/* 专注写作模式按钮固定在右侧 */
+.post-php .mce-toolbar .mce-btn-group .mce-btn.mce-wp-dfw,
+.post-new-php .mce-toolbar .mce-btn-group .mce-btn.mce-wp-dfw {
+    position: absolute;
+    top: 0;
+    right: 14px;
+}
+
+.post-php .mce-toolbar-grp .mce-flow-layout,
+.post-new-php .mce-toolbar-grp .mce-flow-layout {
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+/* 缩小按钮组之间的间距，确保合并后的工具栏能在一行内放下 */
+.post-php .mce-toolbar .mce-btn-group,
+.post-new-php .mce-toolbar .mce-btn-group {
+    margin: 0 !important;
+    padding: 0 1px !important;
+}
+
+.post-php .mce-toolbar .mce-btn-group + .mce-btn-group,
+.post-new-php .mce-toolbar .mce-btn-group + .mce-btn-group {
+    border-left-width: 1px !important;
+    padding-left: 2px !important;
+    margin-left: 2px !important;
+}
+
+.post-php .mce-edit-area,
+.post-new-php .mce-edit-area {
+    border: none !important;
+    padding: 40px 24px 24px 24px !important;
+}
+
+/* 隐藏编辑器底部的字数统计和最后编辑时间 */
+.post-php #post-status-info,
+.post-new-php #post-status-info {
+    display: none !important;
+}
+
+.post-php .wp-editor-expand #post-status-info,
+.post-new-php .wp-editor-expand #post-status-info {
+    border-top: none !important;
+}
+
+/* TinyMCE 编辑器 placeholder */
+.mce-content-body[data-mce-placeholder]::before,
+#tinymce[data-mce-placeholder]::before,
+body.mce-content-body[data-mce-placeholder]::before {
+    color: #8c8f94 !important;
+    content: attr(data-mce-placeholder) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    pointer-events: none !important;
+    opacity: 1 !important;
+    display: block !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+/* 获得焦点时降低 placeholder 透明度 */
+.mce-content-body.mce-placeholder-focus[data-mce-placeholder]::before,
+#tinymce.mce-placeholder-focus[data-mce-placeholder]::before,
+body.mce-content-body.mce-placeholder-focus[data-mce-placeholder]::before {
+    opacity: 0.5 !important;
+}
+
+/* ========================================
+   封面摘要区域（编辑器下方）
+   ======================================== */
+
+.fd-editor-featured-excerpt-section {
+    background: #fff;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    border-radius: 0 0 8px 8px;
+    padding: 20px 24px;
+    margin: 0;
+}
+
+.fd-featured-excerpt-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.fd-featured-section {
+    flex-shrink: 0;
+    width: 160px;
+}
+
+.fd-excerpt-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fd-section-label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #1d2327;
+    margin: 0 0 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 封面图片预览 */
+.fd-featured-image-preview {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #f6f7f7;
+    cursor: pointer;
+    border: 1px solid #dcdcde;
+}
+
+.fd-featured-image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.fd-featured-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: #8c8f94;
+    transition: all 0.2s;
+}
+
+.fd-featured-image-placeholder:hover {
+    background: #f1f5f9;
+    color: #2c3338;
+}
+
+.fd-featured-image-placeholder .dashicons {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+}
+
+.fd-featured-image-placeholder span:last-child {
+    font-size: 12px;
+}
+
+/* 封面图片悬浮操作按钮 */
+.fd-featured-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.fd-featured-image-preview:hover .fd-featured-image-overlay {
+    opacity: 1;
+}
+
+.fd-image-action {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #2c3338;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.fd-image-action:hover {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.fd-image-action .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.fd-image-action.fd-remove-featured-image:hover {
+    background: #dc3232;
+    color: #fff;
+}
+
+/* 摘要输入框 */
+.fd-excerpt-section textarea {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    resize: vertical;
+    transition: border-color 0.15s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.fd-excerpt-section textarea:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+.fd-excerpt-counter {
+    font-size: 11px;
+    color: #646970;
+}
+
+.fd-excerpt-count {
+    font-weight: 500;
+    color: #2c3338;
+}
+
+/* ========================================
+   响应式
+   ======================================== */
+
+@media screen and (max-width: 782px) {
+    .post-php #titlediv,
+    .post-new-php #titlediv {
+        padding: 16px 16px 12px 16px;
+    }
+
+    .fd-editor-author-section {
+        padding: 10px 16px;
+    }
+
+    .fd-author-row {
+        flex-direction: column;
+        gap: 8px;
+        align-items: stretch;
+    }
+
+    .fd-author-field-wrapper {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+    }
+
+    .fd-author-field {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+    }
+
+    .post-php #wp-content-editor-tools,
+    .post-new-php #wp-content-editor-tools {
+        padding: 8px 16px;
+    }
+
+    .post-php .mce-edit-area,
+    .post-new-php .mce-edit-area {
+        padding: 0 16px 16px 16px !important;
+    }
+
+    .fd-editor-featured-excerpt-section {
+        padding: 16px;
+    }
+
+    .fd-featured-excerpt-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .fd-featured-section {
+        width: 100%;
+    }
+
+    .fd-featured-image-preview {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+/* ========================================
+   隐藏 ACF 字段组中的重复字段
+   ======================================== */
+
+.acf-field[data-name="article_author"] {
+    display: none !important;
+}
+
+/* ========================================
+   发布元框优化
+   ======================================== */
+
+/* 隐藏发布元框的头部 */
+.post-php #submitdiv .postbox-header,
+.post-new-php #submitdiv .postbox-header {
+    display: none !important;
+}
+
+/* 发布元框背景色（与主内容区一致，使用透明继承） */
+.post-php #submitdiv.postbox,
+.post-new-php #submitdiv.postbox,
+.post-php #submitdiv .inside,
+.post-new-php #submitdiv .inside,
+.post-php #submitdiv #misc-publishing-actions,
+.post-new-php #submitdiv #misc-publishing-actions {
+    background: transparent !important;
+}
+
+/* 添加浅色边框 */
+.post-php #submitdiv.postbox,
+.post-new-php #submitdiv.postbox {
+    border: 1px solid #dcdcde !important;
+    box-shadow: none !important;
+}
+
+/* 隐藏发布元框内的所有按钮 */
+.post-php #submitdiv #major-publishing-actions,
+.post-new-php #submitdiv #major-publishing-actions,
+.post-php #submitdiv #minor-publishing-actions,
+.post-new-php #submitdiv #minor-publishing-actions {
+    display: none !important;
+}
+
+/* 隐藏"保存草稿"、"预览"等按钮 */
+.post-php #submitdiv .preview,
+.post-new-php #submitdiv .preview,
+.post-php #submitdiv #save-post,
+.post-new-php #submitdiv #save-post {
+    display: none !important;
+}
+
+/* 隐藏"移至回收站"链接（将移到底部 bar） */
+.post-php #submitdiv #delete-action,
+.post-new-php #submitdiv #delete-action {
+    display: none !important;
+}
+
+/* 只保留状态信息区域 */
+.post-php #submitdiv #misc-publishing-actions,
+.post-new-php #submitdiv #misc-publishing-actions {
+    padding: 12px;
+}
+
+/* 优化状态信息的样式 */
+.post-php #submitdiv .misc-pub-section,
+.post-new-php #submitdiv .misc-pub-section {
+    padding: 8px 0;
+}
+
+.post-php #submitdiv .misc-pub-section:first-child,
+.post-new-php #submitdiv .misc-pub-section:first-child {
+    padding-top: 0;
+}
+
+.post-php #submitdiv .misc-pub-section:last-child,
+.post-new-php #submitdiv .misc-pub-section:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* ========================================
+   侧边栏元框样式优化
+   ======================================== */
+
+/* 侧边栏元框背景色与主内容区保持一致 */
+.post-php #postbox-container-1 .postbox,
+.post-new-php #postbox-container-1 .postbox {
+    background: transparent;
+    border: 1px solid #dcdcde;
+}
+
+/* 元框标题容器 */
+.post-php #postbox-container-1 .postbox .postbox-header,
+.post-new-php #postbox-container-1 .postbox .postbox-header {
+    background: var(--fd-gray-100, #f6f7f7);
+    border-bottom: 1px solid #dcdcde;
+}
+
+/* 侧边栏元框标题 */
+.post-php #postbox-container-1 .postbox .hndle,
+.post-new-php #postbox-container-1 .postbox .hndle {
+    background: transparent;
+    border-bottom: none;
+}
+
+/* 元框内容区背景透明，继承容器背景 */
+.post-php #postbox-container-1 .postbox .inside,
+.post-new-php #postbox-container-1 .postbox .inside {
+    background: transparent;
+}
+
+/* 元框标题右侧操作按钮容器 */
+.post-php #postbox-container-1 .postbox .handle-actions,
+.post-new-php #postbox-container-1 .postbox .handle-actions {
+    background: transparent !important;
+}
+
+/* 元框标题右侧所有按钮背景色 */
+.post-php #postbox-container-1 .postbox .handlediv,
+.post-new-php #postbox-container-1 .postbox .handlediv,
+.post-php #postbox-container-1 .postbox .handle-actions button,
+.post-new-php #postbox-container-1 .postbox .handle-actions button {
+    background: transparent !important;
+}
+
+.post-php #postbox-container-1 .postbox .handlediv:hover,
+.post-new-php #postbox-container-1 .postbox .handlediv:hover,
+.post-php #postbox-container-1 .postbox .handle-actions button:hover,
+.post-new-php #postbox-container-1 .postbox .handle-actions button:hover {
+    background: rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 属性元框（排序）背景色与分类标签元框保持一致 */
+/* 背景色通过内联样式动态设置，使用主内容区背景色 */
+.post-php #pageparentdiv,
+.post-new-php #pageparentdiv {
+    border: 1px solid #dcdcde !important;
+    box-shadow: none !important;
+}
+
+.post-php #pageparentdiv .postbox-header,
+.post-new-php #pageparentdiv .postbox-header {
+    background: var(--fd-gray-100, #f6f7f7) !important;
+    border-bottom: 1px solid var(--fd-gray-200, #dcdcde) !important;
+}
+
+.post-php #pageparentdiv .hndle,
+.post-new-php #pageparentdiv .hndle {
+    background: transparent !important;
+    border-bottom: none !important;
+}
+
+.post-php #pageparentdiv .handle-actions,
+.post-new-php #pageparentdiv .handle-actions {
+    background: transparent !important;
+}
+
+.post-php #pageparentdiv .handlediv,
+.post-new-php #pageparentdiv .handlediv,
+.post-php #pageparentdiv .handle-actions button,
+.post-new-php #pageparentdiv .handle-actions button {
+    background: transparent !important;
+}
+
+.post-php #pageparentdiv .handlediv:hover,
+.post-new-php #pageparentdiv .handlediv:hover,
+.post-php #pageparentdiv .handle-actions button:hover,
+.post-new-php #pageparentdiv .handle-actions button:hover {
+    background: rgba(0, 0, 0, 0.05) !important;
+}
+
+/* ========================================
+   底部固定状态栏
+   ======================================== */
+
+/* 隐藏 TinyMCE 原生状态栏 */
+.post-php .mce-statusbar,
+.post-new-php .mce-statusbar {
+    display: none !important;
+}
+
+/* 页面底部留白，防止内容被固定栏遮挡 */
+.post-php #wpwrap,
+.post-new-php #wpwrap {
+    padding-bottom: 52px;
+}
+
+/* left / width 由 JS 动态设置，与 #post-body-content 对齐 */
+#fd-editor-bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 44px;
+    background: #fff;
+    border-top: 1px solid #dcdcde;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 9999;
+    box-sizing: border-box;
+}
+
+.fd-bottom-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.fd-bottom-bar-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fd-bar-stat {
+    font-size: 12px;
+    color: #646970;
+    white-space: nowrap;
+}
+
+.fd-bar-saved-time {
+    display: none;
+}
+
+.fd-bar-saved-time.fd-bar-visible {
+    display: inline;
+}
+
+#fd-bar-saved-at {
+    font-weight: 500;
+    color: #2c3338;
+}
+
+/* 底部栏按钮基础样式 */
+.fd-bar-btn {
+    height: 28px;
+    padding: 0 12px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    line-height: 26px;
+    transition: all 0.15s;
+    white-space: nowrap;
+}
+
+.fd-bar-btn-ghost {
+    background: transparent;
+    border-color: #dcdcde;
+    color: #2c3338;
+}
+
+.fd-bar-btn-ghost:hover {
+    background: #f6f7f7;
+    border-color: #8c8f94;
+    color: #1d2327;
+}
+
+.fd-bar-btn-primary {
+    background: var(--fd-primary, #0073aa);
+    border-color: var(--fd-primary, #0073aa);
+    color: #fff;
+}
+
+.fd-bar-btn-primary:hover {
+    background: var(--fd-primary-hover, var(--fd-primary-600, #006799));
+    border-color: var(--fd-primary-hover, var(--fd-primary-600, #006799));
+    color: #fff;
+}
+
+@media screen and (max-width: 782px) {
+    #fd-editor-bottom-bar {
+        padding: 0 12px;
+    }
+}
+
