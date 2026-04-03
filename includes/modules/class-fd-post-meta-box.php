@@ -87,10 +87,14 @@ class FD_Post_Meta_Box {
             return;
         }
 
-        // Get ACF custom author field value
         $custom_author = '';
-        if ( function_exists( 'get_field' ) ) {
-            $custom_author = get_field( 'article_author', $post->ID );
+
+        if ( 'post' === $post->post_type ) {
+            $custom_author = get_post_meta( $post->ID, 'article_author', true );
+
+            if ( '' === $custom_author && function_exists( 'get_field' ) ) {
+                $custom_author = get_field( 'article_author', $post->ID );
+            }
         }
 
         // Get WordPress default author
@@ -129,7 +133,7 @@ class FD_Post_Meta_Box {
                     <input type="hidden" name="post_author_override" id="fd-wp-author-id" value="<?php echo esc_attr( $post_author ); ?>">
 
                     <!-- Hidden field: Custom author name -->
-                    <input type="hidden" name="acf[field_article_author]" id="fd-custom-author-name" value="<?php echo esc_attr( $custom_author ); ?>">
+                    <input type="hidden" name="fd_post_template_article_author" id="fd-custom-author-name" value="<?php echo esc_attr( $custom_author ); ?>">
                 </div>
             </div>
         </div>
@@ -242,7 +246,13 @@ class FD_Post_Meta_Box {
 
         // Save excerpt (WordPress handles the excerpt field automatically)
 
-        // Save custom author (ACF handles this automatically)
+        if ( 'post' === $post->post_type && array_key_exists( 'fd_post_template_article_author', $_POST ) ) {
+            update_post_meta(
+                $post_id,
+                'article_author',
+                sanitize_text_field( wp_unslash( $_POST['fd_post_template_article_author'] ) )
+            );
+        }
     }
 
     /**
