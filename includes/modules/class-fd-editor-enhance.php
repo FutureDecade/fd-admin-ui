@@ -13,13 +13,13 @@ class FD_Editor_Enhance {
      */
     public static function get_defaults() {
         return array(
-            'editor_enhance_enable'        => false,
+            'editor_enhance_enable'        => true,
             'editor_enhance_slash_cmd'     => true,
             'editor_enhance_float_toolbar' => true,
             'editor_enhance_quick_link'    => true,
             'editor_enhance_table'         => true,
             'editor_enhance_paste_clean'   => true,
-            'editor_enhance_hide_permalink' => false,
+            'editor_enhance_hide_permalink' => true,
         );
     }
 

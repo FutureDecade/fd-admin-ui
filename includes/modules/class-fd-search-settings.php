@@ -15,10 +15,10 @@ class FD_Search_Settings {
         return array(
             'search_enable' => true,
             'search_shortcut_key' => 'k',
-            'search_scope' => array('posts', 'pages', 'media', 'menu_items'),
+            'search_scope' => array('posts', 'pages', 'media', 'menu_items', 'users', 'plugins'),
             'search_results_limit' => 10,
             'search_show_history' => true,
-            'search_show_menu_button' => true,
+            'search_show_menu_button' => false,
         );
     }
 
@@ -158,7 +158,7 @@ class FD_Search_Settings {
 
     public static function scope_callback() {
         $options = self::get_options();
-        $scope = isset($options['search_scope']) ? $options['search_scope'] : array('posts', 'pages', 'media', 'menu_items');
+        $scope = isset($options['search_scope']) ? $options['search_scope'] : array('posts', 'pages', 'media', 'menu_items', 'users', 'plugins');
 
         $available_scopes = array(
             'posts'      => __('Posts', 'fd-admin-ui'),

@@ -28,6 +28,88 @@ class FD_Menu_Sort {
     }
 
     /**
+     * Get default top-level menu order.
+     */
+    public static function get_default_menu_order() {
+        return array(
+            'fd-ai-hub',
+            'index.php',
+            'separator1',
+            'edit.php',
+            'edit.php?post_type=page',
+            'edit.php?post_type=note',
+            'edit.php?post_type=book',
+            'edit.php?post_type=app',
+            'edit.php?post_type=event',
+            'fd-separator-media',
+            'upload.php',
+            'gf_edit_forms',
+            'fd-separator-commerce',
+            'edit.php?post_type=product',
+            'fd-payment-settings',
+            'fd-separator-membership',
+            'fd-member',
+            'users.php',
+            'edit-comments.php',
+            'fd-separator-theme',
+            'fd-theme-settings',
+            'edit.php?post_type=acf-field-group',
+            'fd-separator-system',
+            'options-general.php',
+            'themes.php',
+            'plugins.php',
+            'tools.php',
+            'graphiql-ide',
+        );
+    }
+
+    /**
+     * Get default submenu order.
+     */
+    public static function get_default_submenu_order() {
+        return array(
+            'options-general.php' => array(
+                'options-general.php',
+                'options-writing.php',
+                'options-reading.php',
+                'options-discussion.php',
+                'options-media.php',
+                'options-permalink.php',
+                'options-privacy.php',
+                'options-general.php?page=fluent-mail',
+                'options-general.php?page=kodo-qiniu/qiniu-kodo-wordpress.php',
+                'options-general.php?page=redis-cache',
+                'options-general.php?page=fd-admin-ui-settings',
+            ),
+            'tools.php' => array(
+                'tools.php',
+                'import.php',
+                'export.php',
+                'site-health.php',
+                'export-personal-data.php',
+                'erase-personal-data.php',
+                'action-scheduler',
+                'fd-grabweixin-settings',
+                'fd-debug-tools',
+                'fd-websocket-events',
+            ),
+        );
+    }
+
+    /**
+     * Get default custom separators.
+     */
+    public static function get_default_custom_separators() {
+        return array(
+            'fd-separator-media',
+            'fd-separator-commerce',
+            'fd-separator-membership',
+            'fd-separator-theme',
+            'fd-separator-system',
+        );
+    }
+
+    /**
      * Apply custom menu order
      */
     public static function apply_custom_menu_order() {
@@ -363,10 +445,9 @@ class FD_Menu_Sort {
             wp_send_json_error(__('Insufficient permissions', 'fd-admin-ui'));
         }
 
-        // Delete saved menu order, submenu order, and custom separators
-        delete_option('fd_admin_menu_order');
-        delete_option('fd_admin_submenu_order');
-        delete_option('fd_admin_custom_separators');
+        update_option('fd_admin_menu_order', self::get_default_menu_order());
+        update_option('fd_admin_submenu_order', self::get_default_submenu_order());
+        update_option('fd_admin_custom_separators', self::get_default_custom_separators());
 
         wp_send_json_success(array(
             'message' => __('Menu order has been reset', 'fd-admin-ui')

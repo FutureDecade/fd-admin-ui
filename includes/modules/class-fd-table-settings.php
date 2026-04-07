@@ -15,7 +15,7 @@ class FD_Table_Settings {
         return array(
             'table_row_hover_color' => '',
             'table_striped' => false,
-            'table_compact' => false,
+            'table_compact' => true,
             'table_horizontal_scroll' => true, // Enable horizontal scroll by default
             'table_modern_style' => true, // Enable modern style by default
         );

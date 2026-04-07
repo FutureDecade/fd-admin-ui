@@ -4,7 +4,7 @@ Tags: admin theme, admin ui, custom admin, admin customization, dashboard
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,11 @@ Absolutely. If you use the FD Theme, visual identity settings will automatically
 
 == Changelog ==
 
+= 1.3.2 =
+* Aligned first-install defaults with the legacy Future Decade admin configuration
+* Seed plugin options and menu ordering on activation so fresh deployments inherit the expected baseline
+* Route default option reads through the shared settings accessor so empty sites still resolve the packaged defaults
+
 = 1.3.1 =
 * Added full internationalization (i18n) support with English as default language
 * Added Chinese (zh_CN) translation
@@ -100,6 +105,9 @@ Absolutely. If you use the FD Theme, visual identity settings will automatically
 * Settings page with tabbed interface
 
 == Upgrade Notice ==
+
+= 1.3.2 =
+Fresh installs now apply the packaged Future Decade admin defaults more reliably.
 
 = 1.3.1 =
 Added internationalization support. The plugin now defaults to English with Chinese translation available.

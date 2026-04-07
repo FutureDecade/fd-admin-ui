@@ -13,7 +13,7 @@ class FD_Post_Meta_Box {
      */
     public static function get_defaults() {
         return array(
-            'post_meta_box_enable' => false,
+            'post_meta_box_enable' => true,
         );
     }
 

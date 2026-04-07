@@ -3,7 +3,7 @@
  * Plugin Name: FD Admin UI
  * Plugin URI: https://futuredecade.com
  * Description: A modern, lightweight admin UI framework for WordPress. Customize colors, menus, login page, global search, and more.
- * Version: 1.3.1
+ * Version: 1.3.2
  * Author: Future Decade
  * Author URI: https://futuredecade.com
  * Text Domain: fd-admin-ui
@@ -19,10 +19,26 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('FD_ADMIN_UI_VERSION', '1.3.1');
+define('FD_ADMIN_UI_VERSION', '1.3.2');
 define('FD_ADMIN_UI_FILE', __FILE__);
 define('FD_ADMIN_UI_PATH', plugin_dir_path(__FILE__));
 define('FD_ADMIN_UI_URI', plugin_dir_url(__FILE__));
+
+if (!defined('FD_ADMIN_UI_BRAND_LOGO_FULL_URL')) {
+    define('FD_ADMIN_UI_BRAND_LOGO_FULL_URL', 'https://img.futuredecade.com/s3/fd_logo_full.svg');
+}
+
+if (!defined('FD_ADMIN_UI_BRAND_LOGO_SQUARE_URL')) {
+    define('FD_ADMIN_UI_BRAND_LOGO_SQUARE_URL', 'https://img.futuredecade.com/s3/fd_logo_square.svg');
+}
+
+if (!defined('FD_ADMIN_UI_LOGIN_BG_IMAGE_URL')) {
+    define('FD_ADMIN_UI_LOGIN_BG_IMAGE_URL', 'https://img.futuredecade.com/s3/fd_login_register_bg.svg');
+}
+
+if (!defined('FD_ADMIN_UI_ADMIN_FAVICON_URL')) {
+    define('FD_ADMIN_UI_ADMIN_FAVICON_URL', 'https://img.futuredecade.com/s3/logo_square.png');
+}
 
 // Load FD Design Tokens shared library (version-competitive loading)
 require_once FD_ADMIN_UI_PATH . 'lib/fd-design-tokens/fd-design-tokens.php';
@@ -172,7 +188,7 @@ function fd_admin_ui_inject_vi_css_variables_legacy() {
             'shadow_large' => get_option('fd_shadow_large', '0 10px 15px -3px rgba(0, 0, 0, 0.1)'),
         );
     } else {
-        $options = get_option('fd_admin_ui_options', array());
+        $options = FD_Admin_UI_Settings::get_options();
         $vi_settings = array(
             'primary_color' => isset($options['vi_primary_color']) ? $options['vi_primary_color'] : '#3b82f6',
             'action_color'  => isset($options['vi_action_color']) ? $options['vi_action_color'] : '',
@@ -409,7 +425,10 @@ add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'fd_admin_ui_plug
  * Plugin activation hook
  */
 function fd_admin_ui_activate() {
-    // Actions on plugin activation
+    add_option('fd_admin_ui_options', FD_Admin_UI_Settings::get_default_options());
+    add_option('fd_admin_menu_order', FD_Menu_Sort::get_default_menu_order());
+    add_option('fd_admin_submenu_order', FD_Menu_Sort::get_default_submenu_order());
+    add_option('fd_admin_custom_separators', FD_Menu_Sort::get_default_custom_separators());
     flush_rewrite_rules();
 }
 register_activation_hook(__FILE__, 'fd_admin_ui_activate');
@@ -441,7 +460,7 @@ function fd_admin_ui_add_table_wrapper_early() {
     }
 
     // Check if horizontal scrolling is enabled
-    $options = get_option('fd_admin_ui_options', array());
+    $options = FD_Admin_UI_Settings::get_options();
     $table_scroll = isset($options['table_horizontal_scroll']) ? $options['table_horizontal_scroll'] : true;
 
     if (!$table_scroll) {
@@ -513,7 +532,7 @@ function fd_admin_ui_add_table_modern_class($classes) {
     }
 
     // Get settings options
-    $options = get_option('fd_admin_ui_options', array());
+    $options = FD_Admin_UI_Settings::get_options();
 
     // Check if modern style is enabled
     $modern_style = isset($options['table_modern_style']) ? $options['table_modern_style'] : true;
@@ -590,7 +609,7 @@ function fd_admin_ui_add_settings_modern_class($classes) {
     }
 
     // Get settings options
-    $options = get_option('fd_admin_ui_options', array());
+    $options = FD_Admin_UI_Settings::get_options();
 
     // Check if settings page modernization is enabled
     $modern_style = isset($options['settings_modern_style']) ? $options['settings_modern_style'] : true;
@@ -607,7 +626,7 @@ add_filter('admin_body_class', 'fd_admin_ui_add_settings_modern_class');
  */
 function fd_admin_ui_custom_author_column($actions, $post) {
     // Get settings options
-    $options = get_option('fd_admin_ui_options', array());
+    $options = FD_Admin_UI_Settings::get_options();
     $modern_style = isset($options['table_modern_style']) ? $options['table_modern_style'] : true;
 
     // Only process when modern style is enabled
@@ -632,7 +651,7 @@ function fd_admin_ui_add_author_avatar_script() {
     }
 
     // Get settings options
-    $options = get_option('fd_admin_ui_options', array());
+    $options = FD_Admin_UI_Settings::get_options();
     $modern_style = isset($options['table_modern_style']) ? $options['table_modern_style'] : true;
 
     if (!$modern_style) {

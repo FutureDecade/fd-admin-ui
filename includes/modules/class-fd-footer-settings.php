@@ -13,9 +13,9 @@ class FD_Footer_Settings {
      */
     public static function get_defaults() {
         return array(
-            'footer_hide' => false,
-            'footer_custom_text' => '',
-            'footer_hide_version' => false,
+            'footer_hide' => true,
+            'footer_custom_text' => '版权所有 © 讯鸟云服智能科技（青岛）有限公司',
+            'footer_hide_version' => true,
         );
     }
 

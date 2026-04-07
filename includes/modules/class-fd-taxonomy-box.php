@@ -13,7 +13,7 @@ class FD_Taxonomy_Box {
      */
     public static function get_defaults() {
         return array(
-            'taxonomy_box_enable' => false,
+            'taxonomy_box_enable' => true,
         );
     }
 

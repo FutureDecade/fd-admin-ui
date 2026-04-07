@@ -13,8 +13,8 @@ class FD_Post_TOC {
      */
     public static function get_defaults() {
         return array(
-            'content_toc_enable'        => false,
-            'content_toc_heading_levels' => array( 'h2', 'h3', 'h4' ),
+            'content_toc_enable'        => true,
+            'content_toc_heading_levels' => array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' ),
             'content_toc_default_open'  => true,
             'content_toc_width'         => 220,
         );
@@ -78,7 +78,7 @@ class FD_Post_TOC {
         $options        = self::get_options();
         $heading_levels = isset( $options['content_toc_heading_levels'] )
             ? (array) $options['content_toc_heading_levels']
-            : array( 'h2', 'h3', 'h4' );
+            : array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' );
         $default_open   = isset( $options['content_toc_default_open'] )
             ? (bool) $options['content_toc_default_open']
             : true;
@@ -182,7 +182,7 @@ class FD_Post_TOC {
                 array_intersect( $input['content_toc_heading_levels'], $allowed_levels )
             );
         } else {
-            $sanitized['content_toc_heading_levels'] = array( 'h2', 'h3', 'h4' );
+            $sanitized['content_toc_heading_levels'] = array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' );
         }
 
         // Default expanded
@@ -268,7 +268,7 @@ class FD_Post_TOC {
         $options = self::get_options();
         $levels  = isset( $options['content_toc_heading_levels'] )
             ? (array) $options['content_toc_heading_levels']
-            : array( 'h2', 'h3', 'h4' );
+            : array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' );
         $all     = array( 'h1' => 'H1', 'h2' => 'H2', 'h3' => 'H3', 'h4' => 'H4', 'h5' => 'H5', 'h6' => 'H6' );
         foreach ( $all as $val => $label ) {
             ?>

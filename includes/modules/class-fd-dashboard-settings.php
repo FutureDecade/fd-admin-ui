@@ -13,7 +13,7 @@ class FD_Dashboard_Settings {
      */
     public static function get_defaults() {
         return array(
-            'dashboard_hide_welcome' => false,
+            'dashboard_hide_welcome' => true,
             'dashboard_columns' => '',
         );
     }

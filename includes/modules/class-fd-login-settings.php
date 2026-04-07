@@ -13,20 +13,20 @@ class FD_Login_Settings {
      */
     public static function get_defaults() {
         return array(
-            'login_enable' => false,
-            'login_logo_image' => '',
-            'login_logo_height' => 84,
+            'login_enable' => true,
+            'login_logo_image' => FD_ADMIN_UI_BRAND_LOGO_SQUARE_URL,
+            'login_logo_height' => 60,
             'login_logo_url' => '',
-            'login_bg_preset' => 'light',
+            'login_bg_preset' => 'custom',
             'login_bg_light_color' => '#f0f0f1',
             'login_bg_gradient_start' => '#667eea',
             'login_bg_gradient_end' => '#764ba2',
-            'login_bg_image' => '',
-            'login_theme_color' => '#2271b1',
+            'login_bg_image' => FD_ADMIN_UI_LOGIN_BG_IMAGE_URL,
+            'login_theme_color' => '#2962ff',
             'login_form_width' => 360,
-            'login_form_bg_opacity' => 100,
-            'login_text_color' => '',
-            'admin_favicon' => '',
+            'login_form_bg_opacity' => 40,
+            'login_text_color' => '#ffffff',
+            'admin_favicon' => FD_ADMIN_UI_ADMIN_FAVICON_URL,
         );
     }
 
@@ -268,7 +268,7 @@ class FD_Login_Settings {
     public static function logo_image_callback() {
         $options = self::get_options();
         $logo = isset($options['login_logo_image']) ? $options['login_logo_image'] : '';
-        $logo_height = isset($options['login_logo_height']) ? $options['login_logo_height'] : 84;
+        $logo_height = isset($options['login_logo_height']) ? $options['login_logo_height'] : 60;
         ?>
         <div class="fd-image-upload-wrap">
             <input type="text"
@@ -298,7 +298,7 @@ class FD_Login_Settings {
                    max="200"
                    step="1"
                    style="width: 100px;"> px
-            <p class="description"><?php esc_html_e('Display height of the logo (40-200 pixels), width auto-adapts. Default: 84px.', 'fd-admin-ui'); ?></p>
+            <p class="description"><?php esc_html_e('Display height of the logo (40-200 pixels), width auto-adapts. Default: 60px.', 'fd-admin-ui'); ?></p>
         </div>
         <?php
     }
@@ -320,7 +320,7 @@ class FD_Login_Settings {
 
     public static function bg_preset_callback() {
         $options = self::get_options();
-        $preset = isset($options['login_bg_preset']) ? $options['login_bg_preset'] : 'light';
+        $preset = isset($options['login_bg_preset']) ? $options['login_bg_preset'] : 'custom';
         $light_color = isset($options['login_bg_light_color']) ? $options['login_bg_light_color'] : '#f0f0f1';
         $gradient_start = isset($options['login_bg_gradient_start']) ? $options['login_bg_gradient_start'] : '#667eea';
         $gradient_end = isset($options['login_bg_gradient_end']) ? $options['login_bg_gradient_end'] : '#764ba2';
@@ -466,14 +466,14 @@ class FD_Login_Settings {
 
     public static function theme_color_callback() {
         $options = self::get_options();
-        $color = isset($options['login_theme_color']) ? $options['login_theme_color'] : '#2271b1';
+        $color = isset($options['login_theme_color']) ? $options['login_theme_color'] : '#2962ff';
         ?>
         <input type="text"
                name="fd_admin_ui_options[login_theme_color]"
                value="<?php echo esc_attr($color); ?>"
                class="fd-color-picker"
-               data-default-color="#2271b1">
-        <p class="description"><?php esc_html_e('The theme color is applied to the login button, input focus state, and links. Default: #2271b1 (WordPress blue).', 'fd-admin-ui'); ?></p>
+               data-default-color="#2962ff">
+        <p class="description"><?php esc_html_e('The theme color is applied to the login button, input focus state, and links. Default: #2962ff.', 'fd-admin-ui'); ?></p>
         <?php
     }
 
@@ -494,7 +494,7 @@ class FD_Login_Settings {
 
     public static function form_bg_opacity_callback() {
         $options = self::get_options();
-        $opacity = isset($options['login_form_bg_opacity']) ? $options['login_form_bg_opacity'] : 100;
+        $opacity = isset($options['login_form_bg_opacity']) ? $options['login_form_bg_opacity'] : 40;
         ?>
         <input type="range"
                name="fd_admin_ui_options[login_form_bg_opacity]"

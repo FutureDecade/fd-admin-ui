@@ -13,10 +13,10 @@ class FD_Content_Area {
      */
     public static function get_defaults() {
         return array(
-            'content_bg_color' => '#f8fafc',
+            'content_bg_color' => '',
             'content_card_bg_color' => '',
-            'content_card_border_radius' => '',
-            'content_card_shadow' => '',
+            'content_card_border_radius' => 4,
+            'content_card_shadow' => 'light',
         );
     }
 
@@ -173,7 +173,7 @@ class FD_Content_Area {
         $color = isset($options['content_bg_color']) ? $options['content_bg_color'] : '#f8fafc';
         ?>
         <input type="text" class="fd-color-picker" name="fd_admin_ui_options[content_bg_color]" value="<?php echo esc_attr($color); ?>" data-default-color="#f8fafc">
-        <p class="description"><?php esc_html_e('Main content area background color. Default: #f8fafc (fd-gray-50)', 'fd-admin-ui'); ?></p>
+        <p class="description"><?php esc_html_e('Main content area background color. Leave empty to use the built-in surface color (#f8fafc).', 'fd-admin-ui'); ?></p>
         <?php
     }
 

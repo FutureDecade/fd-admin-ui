@@ -29,7 +29,7 @@ class FD_Auto_Fold_Menu {
         }
 
         // Check if auto-fold or TOC feature is enabled
-        $options = get_option('fd_admin_ui_options', array());
+        $options = FD_Admin_UI_Settings::get_options();
         $auto_fold_enabled = isset($options['menu_auto_fold_on_post_editor']) && $options['menu_auto_fold_on_post_editor'];
         $toc_enabled = isset($options['content_toc_enable']) && $options['content_toc_enable'];
 

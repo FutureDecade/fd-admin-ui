@@ -15,23 +15,23 @@ class FD_Adminbar {
         return array(
             // === Adminbar Basic Settings ===
             'adminbar_hide' => false,
-            'adminbar_style' => 'classic',  // classic or modern
+            'adminbar_style' => 'modern',  // classic or modern
 
             // === Adminbar Classic Style Settings (shared by both styles) ===
-            'adminbar_bg_color' => '#1d2327',
-            'adminbar_text_color' => '#f0f0f1',
+            'adminbar_bg_color' => '#ffffff',
+            'adminbar_text_color' => '#333333',
             'adminbar_hover_bg_color' => '',           // Hover background color (empty = transparent)
-            'adminbar_hover_text_color' => '#72aee6',  // Hover text color
-            'adminbar_submenu_bg_color' => '#2c3338',
-            'adminbar_submenu_text_color' => '#f0f0f1',
-            'adminbar_hide_wp_logo' => false,  // Hide left WP Logo
+            'adminbar_hover_text_color' => '#2962ff',  // Hover text color
+            'adminbar_submenu_bg_color' => '#ffffff',
+            'adminbar_submenu_text_color' => '#333333',
+            'adminbar_hide_wp_logo' => true,  // Hide left WP Logo
 
             // === Adminbar Modern Style Exclusive Settings ===
-            'adminbar_modern_height' => 56,           // Height px
-            'adminbar_modern_font_size' => 14,        // Font size px
-            'adminbar_modern_logo' => '',             // Custom Logo (horizontal/full)
-            'adminbar_modern_logo_square' => '',      // Custom Logo (square, used when collapsed)
-            'adminbar_modern_logo_height' => 28,      // Logo height px
+            'adminbar_modern_height' => 44,           // Height px
+            'adminbar_modern_font_size' => 13,        // Font size px
+            'adminbar_modern_logo' => FD_ADMIN_UI_BRAND_LOGO_FULL_URL,             // Custom Logo (horizontal/full)
+            'adminbar_modern_logo_square' => FD_ADMIN_UI_BRAND_LOGO_SQUARE_URL,     // Custom Logo (square, used when collapsed)
+            'adminbar_modern_logo_height' => 20,      // Logo height px
             'adminbar_modern_show_search' => true,    // Show search box
             'adminbar_modern_show_user' => true,      // Show avatar + nickname
             'adminbar_hide_updates' => false,         // Hide "Updates"
@@ -120,7 +120,7 @@ class FD_Adminbar {
      * Output module CSS
      */
     public static function output_styles($options) {
-        $adminbar_style = isset($options['adminbar_style']) ? $options['adminbar_style'] : 'classic';
+        $adminbar_style = isset($options['adminbar_style']) ? $options['adminbar_style'] : 'modern';
 
         // Hide Adminbar (only effective on large screens, preserving the hamburger menu on small screens)
         if (isset($options['adminbar_hide']) && $options['adminbar_hide']) {
@@ -133,7 +133,7 @@ class FD_Adminbar {
         }
 
         $hover_bg_general = isset($options['adminbar_hover_bg_color']) ? $options['adminbar_hover_bg_color'] : '';
-        $hover_text_general = !empty($options['adminbar_hover_text_color']) ? $options['adminbar_hover_text_color'] : '#72aee6';
+        $hover_text_general = !empty($options['adminbar_hover_text_color']) ? $options['adminbar_hover_text_color'] : '#2962ff';
         ?>
         /* Adminbar custom colors - desktop only, small screens use WP native styles */
         @media screen and (min-width: 783px) {
@@ -234,7 +234,7 @@ class FD_Adminbar {
      * Output modern style CSS (private method, split for maintainability)
      */
     private static function output_modern_styles($options) {
-        $adminbar_style = isset($options['adminbar_style']) ? $options['adminbar_style'] : 'classic';
+        $adminbar_style = isset($options['adminbar_style']) ? $options['adminbar_style'] : 'modern';
         $adminbar_hidden = isset($options['adminbar_hide']) && $options['adminbar_hide'];
 
         // Only apply modern style when modern style is selected and adminbar is not hidden
@@ -242,8 +242,8 @@ class FD_Adminbar {
             return;
         }
 
-        $modern_height = isset($options['adminbar_modern_height']) ? absint($options['adminbar_modern_height']) : 56;
-        $modern_font_size = isset($options['adminbar_modern_font_size']) ? absint($options['adminbar_modern_font_size']) : 14;
+        $modern_height = isset($options['adminbar_modern_height']) ? absint($options['adminbar_modern_height']) : 44;
+        $modern_font_size = isset($options['adminbar_modern_font_size']) ? absint($options['adminbar_modern_font_size']) : 13;
         $height_diff = $modern_height - 32;
 
         // Logo: horizontal/full version (desktop)
@@ -295,7 +295,7 @@ class FD_Adminbar {
         $is_light_bg = (($bg_r * 299 + $bg_g * 587 + $bg_b * 114) / 1000) > 128;
 
         $hover_bg = isset($options['adminbar_hover_bg_color']) ? $options['adminbar_hover_bg_color'] : '';
-        $hover_text = isset($options['adminbar_hover_text_color']) ? $options['adminbar_hover_text_color'] : '#72aee6';
+        $hover_text = isset($options['adminbar_hover_text_color']) ? $options['adminbar_hover_text_color'] : '#2962ff';
         ?>
         /* ========================================
            Modern SaaS Style Adminbar
@@ -470,7 +470,7 @@ class FD_Adminbar {
             }
 
             #wpadminbar #wp-admin-bar-fd-adminbar-logo img {
-                height: <?php echo isset($options['adminbar_modern_logo_height']) ? absint($options['adminbar_modern_logo_height']) : 28; ?>px !important;
+                height: <?php echo isset($options['adminbar_modern_logo_height']) ? absint($options['adminbar_modern_logo_height']) : 20; ?>px !important;
                 width: auto !important;
                 display: block !important;
             }
@@ -931,7 +931,7 @@ class FD_Adminbar {
 
     public static function style_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_style']) ? $options['adminbar_style'] : 'classic';
+        $value = isset($options['adminbar_style']) ? $options['adminbar_style'] : 'modern';
         ?>
         <div class="fd-style-selector">
             <label class="fd-style-option">
@@ -1045,7 +1045,7 @@ class FD_Adminbar {
 
     public static function modern_height_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_modern_height']) ? $options['adminbar_modern_height'] : 56;
+        $value = isset($options['adminbar_modern_height']) ? $options['adminbar_modern_height'] : 44;
         ?>
         <input type="number"
                name="fd_admin_ui_options[adminbar_modern_height]"
@@ -1061,7 +1061,7 @@ class FD_Adminbar {
 
     public static function modern_font_size_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_modern_font_size']) ? $options['adminbar_modern_font_size'] : 14;
+        $value = isset($options['adminbar_modern_font_size']) ? $options['adminbar_modern_font_size'] : 13;
         ?>
         <select name="fd_admin_ui_options[adminbar_modern_font_size]">
             <option value="12" <?php selected($value, 12); ?>>12px</option>
@@ -1078,7 +1078,7 @@ class FD_Adminbar {
         $options = self::get_options();
         $logo = isset($options['adminbar_modern_logo']) ? $options['adminbar_modern_logo'] : '';
         $logo_square = isset($options['adminbar_modern_logo_square']) ? $options['adminbar_modern_logo_square'] : '';
-        $logo_height = isset($options['adminbar_modern_logo_height']) ? $options['adminbar_modern_logo_height'] : 28;
+        $logo_height = isset($options['adminbar_modern_logo_height']) ? $options['adminbar_modern_logo_height'] : 20;
         ?>
         <div style="display: flex; gap: 30px; flex-wrap: wrap;">
             <!-- Horizontal/Full Logo -->
@@ -1220,25 +1220,25 @@ class FD_Adminbar {
 
     public static function bg_color_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_bg_color']) ? $options['adminbar_bg_color'] : '#1d2327';
+        $value = isset($options['adminbar_bg_color']) ? $options['adminbar_bg_color'] : '#ffffff';
         ?>
         <input type="text"
                name="fd_admin_ui_options[adminbar_bg_color]"
                value="<?php echo esc_attr($value); ?>"
                class="fd-color-picker">
-        <p class="description"><?php esc_html_e('Default: #1d2327', 'fd-admin-ui'); ?></p>
+        <p class="description"><?php esc_html_e('Default: #ffffff', 'fd-admin-ui'); ?></p>
         <?php
     }
 
     public static function text_color_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_text_color']) ? $options['adminbar_text_color'] : '#f0f0f1';
+        $value = isset($options['adminbar_text_color']) ? $options['adminbar_text_color'] : '#333333';
         ?>
         <input type="text"
                name="fd_admin_ui_options[adminbar_text_color]"
                value="<?php echo esc_attr($value); ?>"
                class="fd-color-picker">
-        <p class="description"><?php esc_html_e('Default: #f0f0f1', 'fd-admin-ui'); ?></p>
+        <p class="description"><?php esc_html_e('Default: #333333', 'fd-admin-ui'); ?></p>
         <?php
     }
 
@@ -1256,37 +1256,37 @@ class FD_Adminbar {
 
     public static function hover_text_color_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_hover_text_color']) ? $options['adminbar_hover_text_color'] : '#72aee6';
+        $value = isset($options['adminbar_hover_text_color']) ? $options['adminbar_hover_text_color'] : '#2962ff';
         ?>
         <input type="text"
                name="fd_admin_ui_options[adminbar_hover_text_color]"
                value="<?php echo esc_attr($value); ?>"
                class="fd-color-picker">
-        <p class="description"><?php esc_html_e('Default: #72aee6', 'fd-admin-ui'); ?></p>
+        <p class="description"><?php esc_html_e('Default: #2962ff', 'fd-admin-ui'); ?></p>
         <?php
     }
 
     public static function submenu_bg_color_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_submenu_bg_color']) ? $options['adminbar_submenu_bg_color'] : '#2c3338';
+        $value = isset($options['adminbar_submenu_bg_color']) ? $options['adminbar_submenu_bg_color'] : '#ffffff';
         ?>
         <input type="text"
                name="fd_admin_ui_options[adminbar_submenu_bg_color]"
                value="<?php echo esc_attr($value); ?>"
                class="fd-color-picker">
-        <p class="description"><?php esc_html_e('Default: #2c3338', 'fd-admin-ui'); ?></p>
+        <p class="description"><?php esc_html_e('Default: #ffffff', 'fd-admin-ui'); ?></p>
         <?php
     }
 
     public static function submenu_text_color_callback() {
         $options = self::get_options();
-        $value = isset($options['adminbar_submenu_text_color']) ? $options['adminbar_submenu_text_color'] : '#f0f0f1';
+        $value = isset($options['adminbar_submenu_text_color']) ? $options['adminbar_submenu_text_color'] : '#333333';
         ?>
         <input type="text"
                name="fd_admin_ui_options[adminbar_submenu_text_color]"
                value="<?php echo esc_attr($value); ?>"
                class="fd-color-picker">
-        <p class="description"><?php esc_html_e('Default: #f0f0f1', 'fd-admin-ui'); ?></p>
+        <p class="description"><?php esc_html_e('Default: #333333', 'fd-admin-ui'); ?></p>
         <?php
     }
 }

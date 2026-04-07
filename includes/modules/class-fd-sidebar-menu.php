@@ -14,7 +14,7 @@ class FD_Sidebar_Menu {
     public static function get_defaults() {
         return array(
             // === 菜单风格 ===
-            'menu_style' => 'classic',  // classic 或 modern
+            'menu_style' => 'modern',  // classic 或 modern
 
             // === 基础颜色 ===
             'menu_bg_color' => '#f8fafc',           // fd-gray-50 = --fd-surface，与主内容区背景一致
@@ -23,36 +23,36 @@ class FD_Sidebar_Menu {
 
             // === 悬停效果 ===
             'menu_hover_bg_color' => '#e2e8f0',     // fd-gray-200，细腻的 hover 反馈
-            'menu_hover_text_color' => '#0f172a',   // fd-gray-900，hover 文字加深至近黑
+            'menu_hover_text_color' => '',
             'menu_hover_shadow_show' => false,      // 不显示左侧边框指示条
             'menu_hover_shadow_color' => '#72aee6',
 
             // === 当前选中项 ===
-            'menu_current_bg_color' => '#3b82f6',           // fd-primary，品牌色实心高亮
+            'menu_current_bg_color' => '#4c7cff',
             'menu_current_text_color' => '#ffffff',         // 白色文字配品牌色背景
             'menu_submenu_current_bg_color' => '',
-            'menu_submenu_current_text_color' => '#3b82f6', // 子菜单当前项文字用品牌色标识
+            'menu_submenu_current_text_color' => '#2962ff',
             'menu_current_shadow_show' => false,            // 不显示左侧边框
             'menu_current_shadow_color' => '#ffffff',
 
             // === 分隔线 ===
             'menu_separator_show' => true,
-            'menu_separator_color' => '#e2e8f0',    // fd-gray-200，浅色背景下的低调分隔线
+            'menu_separator_color' => '',
             'menu_separator_thickness' => '',
 
             // === 尺寸与间距 ===
-            'menu_width' => '',
-            'menu_top_margin' => 12,
+            'menu_width' => 180,
+            'menu_top_margin' => 8,
             'menu_item_padding' => '',
-            'menu_item_left_padding' => '',
-            'menu_item_right_padding' => '',
-            'menu_item_left_margin' => '',
-            'menu_item_right_margin' => '',
-            'menu_separator_left_margin' => '',
-            'menu_separator_right_margin' => '',
+            'menu_item_left_padding' => 0,
+            'menu_item_right_padding' => 0,
+            'menu_item_left_margin' => 8,
+            'menu_item_right_margin' => 8,
+            'menu_separator_left_margin' => 8,
+            'menu_separator_right_margin' => 8,
             'menu_submenu_item_padding' => '',
             'menu_submenu_align' => 'icon',
-            'menu_border_radius' => '',
+            'menu_border_radius' => 4,
 
             // === 徽章 ===
             'menu_badge_bg_color' => '#ef4444',     // fd-error
@@ -63,16 +63,19 @@ class FD_Sidebar_Menu {
             'menu_site_logo_full' => '',
             'menu_site_logo_square' => '',
             'menu_branding_link' => '',
-            'menu_branding_show_icon' => true,
+            'menu_branding_show_icon' => false,
 
             // === SVG图标替换 ===
-            'svg_icon_replacements' => array(),
+            'svg_icon_replacements' => array(
+                'gf_edit_forms' => 'dashicons-forms',
+                'graphiql-ide' => 'dashicons-rest-api',
+            ),
 
             // === 菜单排序 ===
             'menu_sort_enable' => false,
 
             // === 自动折叠 ===
-            'menu_auto_fold_on_post_editor' => false,
+            'menu_auto_fold_on_post_editor' => true,
         );
     }
 
@@ -1092,8 +1095,8 @@ class FD_Sidebar_Menu {
 
     public static function hover_text_color_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_hover_text_color']) ? $options['menu_hover_text_color'] : '#0f172a';
-        echo '<input type="text" name="fd_admin_ui_options[menu_hover_text_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: #0f172a (fd-gray-900)', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_hover_text_color']) ? $options['menu_hover_text_color'] : '';
+        echo '<input type="text" name="fd_admin_ui_options[menu_hover_text_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: leave empty (inherit text color)', 'fd-admin-ui') . '</p>';
     }
 
     public static function hover_shadow_show_callback() {
@@ -1118,8 +1121,8 @@ class FD_Sidebar_Menu {
 
     public static function current_bg_color_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_current_bg_color']) ? $options['menu_current_bg_color'] : '#3b82f6';
-        echo '<input type="text" name="fd_admin_ui_options[menu_current_bg_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: #3b82f6 (fd-primary)', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_current_bg_color']) ? $options['menu_current_bg_color'] : '#4c7cff';
+        echo '<input type="text" name="fd_admin_ui_options[menu_current_bg_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: #4c7cff', 'fd-admin-ui') . '</p>';
     }
 
     public static function current_text_color_callback() {
@@ -1136,8 +1139,8 @@ class FD_Sidebar_Menu {
 
     public static function submenu_current_text_color_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_submenu_current_text_color']) ? $options['menu_submenu_current_text_color'] : '#3b82f6';
-        echo '<input type="text" name="fd_admin_ui_options[menu_submenu_current_text_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: #3b82f6 (fd-primary)', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_submenu_current_text_color']) ? $options['menu_submenu_current_text_color'] : '#2962ff';
+        echo '<input type="text" name="fd_admin_ui_options[menu_submenu_current_text_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: #2962ff', 'fd-admin-ui') . '</p>';
     }
 
     public static function current_shadow_show_callback() {
@@ -1189,8 +1192,8 @@ class FD_Sidebar_Menu {
 
     public static function separator_color_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_separator_color']) ? $options['menu_separator_color'] : '#e2e8f0';
-        echo '<input type="text" name="fd_admin_ui_options[menu_separator_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: #e2e8f0 (fd-gray-200)', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_separator_color']) ? $options['menu_separator_color'] : '';
+        echo '<input type="text" name="fd_admin_ui_options[menu_separator_color]" value="' . esc_attr($value) . '" class="fd-color-picker"><p class="description">' . esc_html__('Default: leave empty (use native separator color)', 'fd-admin-ui') . '</p>';
     }
 
     public static function separator_thickness_callback() {
@@ -1216,14 +1219,14 @@ class FD_Sidebar_Menu {
     // ========================================
     public static function width_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_width']) ? $options['menu_width'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_width]" value="' . esc_attr($value) . '" class="fd-form-input" min="100" max="300" step="1" placeholder="160"><p class="description">' . esc_html__('Default: WordPress native width (leave empty). Only effective on desktop, does not affect collapsed state.', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_width']) ? $options['menu_width'] : 180;
+        echo '<input type="number" name="fd_admin_ui_options[menu_width]" value="' . esc_attr($value) . '" class="fd-form-input" min="100" max="300" step="1" placeholder="180"><p class="description">' . esc_html__('Default: 180px. Only effective on desktop, does not affect collapsed state.', 'fd-admin-ui') . '</p>';
     }
 
     public static function top_margin_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_top_margin']) ? $options['menu_top_margin'] : 12;
-        echo '<input type="number" name="fd_admin_ui_options[menu_top_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="100" step="1"><p class="description">' . esc_html__('Default: 12 (unit: px)', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_top_margin']) ? $options['menu_top_margin'] : 8;
+        echo '<input type="number" name="fd_admin_ui_options[menu_top_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="100" step="1"><p class="description">' . esc_html__('Default: 8 (unit: px)', 'fd-admin-ui') . '</p>';
     }
 
     public static function item_padding_callback() {
@@ -1234,38 +1237,38 @@ class FD_Sidebar_Menu {
 
     public static function item_left_padding_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_item_left_padding']) ? $options['menu_item_left_padding'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_item_left_padding]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder=""><p class="description">' . esc_html__('Default: auto-calculated based on menu width (leave empty). Manually set the left padding of main menu items.', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_item_left_padding']) ? $options['menu_item_left_padding'] : 0;
+        echo '<input type="number" name="fd_admin_ui_options[menu_item_left_padding]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="0"><p class="description">' . esc_html__('Default: 0. Sets the left padding of main menu items.', 'fd-admin-ui') . '</p>';
     }
 
     public static function item_right_padding_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_item_right_padding']) ? $options['menu_item_right_padding'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_item_right_padding]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder=""><p class="description">' . esc_html__('Default: auto-calculated based on menu width (leave empty). Manually set the right padding of main menu items.', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_item_right_padding']) ? $options['menu_item_right_padding'] : 0;
+        echo '<input type="number" name="fd_admin_ui_options[menu_item_right_padding]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="0"><p class="description">' . esc_html__('Default: 0. Sets the right padding of main menu items.', 'fd-admin-ui') . '</p>';
     }
 
     public static function item_left_margin_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_item_left_margin']) ? $options['menu_item_left_margin'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_item_left_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="0"><p class="description">' . esc_html__('Set the left margin of main menu items for a Notion-like indent effect. Default: 0', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_item_left_margin']) ? $options['menu_item_left_margin'] : 8;
+        echo '<input type="number" name="fd_admin_ui_options[menu_item_left_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="8"><p class="description">' . esc_html__('Set the left margin of main menu items for a Notion-like indent effect. Default: 8', 'fd-admin-ui') . '</p>';
     }
 
     public static function item_right_margin_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_item_right_margin']) ? $options['menu_item_right_margin'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_item_right_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="0"><p class="description">' . esc_html__('Set the right margin of main menu items for a Notion-like indent effect. Default: 0', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_item_right_margin']) ? $options['menu_item_right_margin'] : 8;
+        echo '<input type="number" name="fd_admin_ui_options[menu_item_right_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="8"><p class="description">' . esc_html__('Set the right margin of main menu items for a Notion-like indent effect. Default: 8', 'fd-admin-ui') . '</p>';
     }
 
     public static function separator_left_margin_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_separator_left_margin']) ? $options['menu_separator_left_margin'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_separator_left_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="0"><p class="description">' . esc_html__('Set the left margin of separators. Default: 0', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_separator_left_margin']) ? $options['menu_separator_left_margin'] : 8;
+        echo '<input type="number" name="fd_admin_ui_options[menu_separator_left_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="8"><p class="description">' . esc_html__('Set the left margin of separators. Default: 8', 'fd-admin-ui') . '</p>';
     }
 
     public static function separator_right_margin_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_separator_right_margin']) ? $options['menu_separator_right_margin'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_separator_right_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="0"><p class="description">' . esc_html__('Set the right margin of separators. Default: 0', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_separator_right_margin']) ? $options['menu_separator_right_margin'] : 8;
+        echo '<input type="number" name="fd_admin_ui_options[menu_separator_right_margin]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="50" step="1" placeholder="8"><p class="description">' . esc_html__('Set the right margin of separators. Default: 8', 'fd-admin-ui') . '</p>';
     }
 
     public static function submenu_item_padding_callback() {
@@ -1276,8 +1279,8 @@ class FD_Sidebar_Menu {
 
     public static function border_radius_callback() {
         $options = self::get_options();
-        $value = isset($options['menu_border_radius']) ? $options['menu_border_radius'] : '';
-        echo '<input type="number" name="fd_admin_ui_options[menu_border_radius]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="20" step="1" placeholder="0"><p class="description">' . esc_html__('Default: WordPress native border radius (leave empty)', 'fd-admin-ui') . '</p>';
+        $value = isset($options['menu_border_radius']) ? $options['menu_border_radius'] : 4;
+        echo '<input type="number" name="fd_admin_ui_options[menu_border_radius]" value="' . esc_attr($value) . '" class="fd-form-input" min="0" max="20" step="1" placeholder="4"><p class="description">' . esc_html__('Default: 4px', 'fd-admin-ui') . '</p>';
     }
 
     // ========================================
