@@ -543,12 +543,24 @@
     /**
      * Open the headless frontend preview in a new tab by exchanging the current
      * post ID for an HMAC preview token via /fd/v1/preview/token.
+     *
+     * To avoid popup blockers, the new tab MUST be opened synchronously in the
+     * click handler (window.open within a user gesture). We open a blank tab
+     * first, then replace its location once the async token request completes.
      */
     function openFrontendPreview() {
         var $btn = $('#fd-bar-preview');
         var postId = parseInt(fdPostMetaBox.postId || 0, 10);
         if (!postId) {
             window.alert(i18n.previewFailed || 'Preview failed');
+            return;
+        }
+
+        // Sync open BEFORE the fetch — this is the critical step for popup
+        // blockers. We will navigate it later when we have the real URL.
+        var previewWindow = window.open('about:blank', '_blank');
+        if (!previewWindow) {
+            window.alert(i18n.previewBlocked || 'Popup blocked');
             return;
         }
 
@@ -577,13 +589,11 @@
                 if (!result || !result.preview_url) {
                     throw new Error('missing preview_url');
                 }
-                var win = window.open(result.preview_url, '_blank', 'noopener,noreferrer');
-                if (!win) {
-                    window.alert(i18n.previewBlocked || 'Popup blocked');
-                }
+                previewWindow.location.href = result.preview_url;
             })
             .catch(function (err) {
                 if (window.console) { console.error('[fd-admin-ui] preview failed:', err); }
+                try { previewWindow.close(); } catch (e) { /* ignore */ }
                 window.alert(i18n.previewFailed || 'Preview failed');
             })
             .then(function () {

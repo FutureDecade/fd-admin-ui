@@ -3,7 +3,7 @@
  * Plugin Name: FD Admin UI
  * Plugin URI: https://futuredecade.com
  * Description: A modern, lightweight admin UI framework for WordPress. Customize colors, menus, login page, global search, and more.
- * Version: 1.3.3
+ * Version: 1.3.4
  * Author: Future Decade
  * Author URI: https://futuredecade.com
  * Text Domain: fd-admin-ui
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('FD_ADMIN_UI_VERSION', '1.3.3');
+define('FD_ADMIN_UI_VERSION', '1.3.4');
 define('FD_ADMIN_UI_FILE', __FILE__);
 define('FD_ADMIN_UI_PATH', plugin_dir_path(__FILE__));
 define('FD_ADMIN_UI_URI', plugin_dir_url(__FILE__));
