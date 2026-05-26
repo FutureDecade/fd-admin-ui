@@ -532,12 +532,63 @@
         });
 
         $('#fd-bar-preview').on('click', function () {
-            $('#post-preview').trigger('click');
+            openFrontendPreview();
         });
 
         $('#fd-bar-publish').on('click', function () {
             $('#publish').trigger('click');
         });
+    }
+
+    /**
+     * Open the headless frontend preview in a new tab by exchanging the current
+     * post ID for an HMAC preview token via /fd/v1/preview/token.
+     */
+    function openFrontendPreview() {
+        var $btn = $('#fd-bar-preview');
+        var postId = parseInt(fdPostMetaBox.postId || 0, 10);
+        if (!postId) {
+            window.alert(i18n.previewFailed || 'Preview failed');
+            return;
+        }
+
+        var originalLabel = $btn.text();
+        $btn.prop('disabled', true).text(i18n.previewOpening || 'Opening preview…');
+
+        var requestPreview = function () {
+            if (window.wp && window.wp.apiFetch) {
+                return window.wp.apiFetch({
+                    path: '/fd/v1/preview/token',
+                    method: 'POST',
+                    data: { post_id: postId }
+                });
+            }
+            return $.ajax({
+                url: (fdPostMetaBox.restRoot || '/wp-json/') + 'fd/v1/preview/token',
+                method: 'POST',
+                contentType: 'application/json',
+                headers: { 'X-WP-Nonce': fdPostMetaBox.restNonce || '' },
+                data: JSON.stringify({ post_id: postId })
+            });
+        };
+
+        Promise.resolve(requestPreview())
+            .then(function (result) {
+                if (!result || !result.preview_url) {
+                    throw new Error('missing preview_url');
+                }
+                var win = window.open(result.preview_url, '_blank', 'noopener,noreferrer');
+                if (!win) {
+                    window.alert(i18n.previewBlocked || 'Popup blocked');
+                }
+            })
+            .catch(function (err) {
+                if (window.console) { console.error('[fd-admin-ui] preview failed:', err); }
+                window.alert(i18n.previewFailed || 'Preview failed');
+            })
+            .then(function () {
+                $btn.prop('disabled', false).text(originalLabel);
+            });
     }
 
 }(jQuery));

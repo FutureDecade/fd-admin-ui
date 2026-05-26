@@ -332,7 +332,7 @@ class FD_Post_Meta_Box {
         wp_enqueue_script(
             'fd-post-meta-box',
             FD_ADMIN_UI_URI . 'assets/js/fd-post-meta-box.js',
-            array( 'jquery' ),
+            array( 'jquery', 'wp-api-fetch' ),
             FD_ADMIN_UI_VERSION,
             true
         );
@@ -353,6 +353,9 @@ class FD_Post_Meta_Box {
         wp_localize_script( 'fd-post-meta-box', 'fdPostMetaBox', array(
             'ajaxUrl'   => admin_url( 'admin-ajax.php' ),
             'nonce'     => wp_create_nonce( 'fd_post_meta_box_ajax' ),
+            'restRoot'  => esc_url_raw( rest_url() ),
+            'restNonce' => wp_create_nonce( 'wp_rest' ),
+            'postId'    => $post ? (int) $post->ID : 0,
             'savedTime' => $saved_time,
             'i18n'      => array(
                 'editorPlaceholder' => __( 'Start writing...', 'fd-admin-ui' ),
@@ -361,6 +364,9 @@ class FD_Post_Meta_Box {
                 'changeCover'       => __( 'Change Cover', 'fd-admin-ui' ),
                 'removeCover'       => __( 'Remove Cover', 'fd-admin-ui' ),
                 'coverImage'        => __( 'Cover Image', 'fd-admin-ui' ),
+                'previewOpening'    => __( '正在生成预览链接…', 'fd-admin-ui' ),
+                'previewFailed'     => __( '生成预览失败，请重试', 'fd-admin-ui' ),
+                'previewBlocked'    => __( '浏览器拦截了新标签页，请允许弹窗后再次点击', 'fd-admin-ui' ),
             ),
         ) );
 
