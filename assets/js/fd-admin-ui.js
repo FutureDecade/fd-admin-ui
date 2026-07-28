@@ -1,5 +1,5 @@
 /**
- * FD Admin UI Framework - JavaScript
+ * Lingcoo Admin UI Framework - JavaScript
  * Unified admin interface interactions
  */
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Dashboard Settings Module
+ * Lingcoo Admin UI - Dashboard Settings Module
  * Manages dashboard page display settings
  */
 

@@ -1,5 +1,5 @@
 /**
- * FD Admin UI - JavaScript Utility Functions
+ * Lingcoo Admin UI - JavaScript Utility Functions
  * Provides optional utility functions without modifying WordPress native behavior
  * Version: 2.0.0
  */

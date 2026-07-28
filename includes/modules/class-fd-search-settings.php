@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Search Settings Module
+ * Lingcoo Admin UI - Search Settings Module
  * Manages global search settings
  */
 

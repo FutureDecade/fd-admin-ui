@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Footer Settings Module
+ * Lingcoo Admin UI - Footer Settings Module
  * Manages admin footer display content
  */
 

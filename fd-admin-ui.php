@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: FD Admin UI
- * Plugin URI: https://futuredecade.com
+ * Plugin Name: Lingcoo Admin UI
+ * Plugin URI: https://lingcoo.com
  * Description: A modern, lightweight admin UI framework for WordPress. Customize colors, menus, login page, global search, and more.
  * Version: 1.3.4
- * Author: Future Decade
- * Author URI: https://futuredecade.com
+ * Author: Lingcoo
+ * Author URI: https://lingcoo.com
  * Text Domain: fd-admin-ui
  * Domain Path: /languages
  * Requires at least: 5.8
@@ -25,19 +25,19 @@ define('FD_ADMIN_UI_PATH', plugin_dir_path(__FILE__));
 define('FD_ADMIN_UI_URI', plugin_dir_url(__FILE__));
 
 if (!defined('FD_ADMIN_UI_BRAND_LOGO_FULL_URL')) {
-    define('FD_ADMIN_UI_BRAND_LOGO_FULL_URL', 'https://img.futuredecade.com/s3/fd_logo_full.svg');
+    define('FD_ADMIN_UI_BRAND_LOGO_FULL_URL', 'https://img.lingcoo.com/s3/fd_logo_full.svg');
 }
 
 if (!defined('FD_ADMIN_UI_BRAND_LOGO_SQUARE_URL')) {
-    define('FD_ADMIN_UI_BRAND_LOGO_SQUARE_URL', 'https://img.futuredecade.com/s3/fd_logo_square.svg');
+    define('FD_ADMIN_UI_BRAND_LOGO_SQUARE_URL', 'https://img.lingcoo.com/s3/fd_logo_square.svg');
 }
 
 if (!defined('FD_ADMIN_UI_LOGIN_BG_IMAGE_URL')) {
-    define('FD_ADMIN_UI_LOGIN_BG_IMAGE_URL', 'https://img.futuredecade.com/s3/fd_login_register_bg.svg');
+    define('FD_ADMIN_UI_LOGIN_BG_IMAGE_URL', 'https://img.lingcoo.com/s3/fd_login_register_bg.svg');
 }
 
 if (!defined('FD_ADMIN_UI_ADMIN_FAVICON_URL')) {
-    define('FD_ADMIN_UI_ADMIN_FAVICON_URL', 'https://img.futuredecade.com/s3/logo_square.png');
+    define('FD_ADMIN_UI_ADMIN_FAVICON_URL', 'https://img.lingcoo.com/s3/logo_square.png');
 }
 
 // Load FD Design Tokens shared library (version-competitive loading)
@@ -205,7 +205,7 @@ function fd_admin_ui_inject_vi_css_variables_legacy() {
         );
     }
 
-    $css = "/* FD Admin UI - Legacy VI Settings (fallback mode) */\n";
+    $css = "/* Lingcoo Admin UI - Legacy VI Settings (fallback mode) */\n";
     $css .= ":root {\n";
     $css .= "    --fd-primary: {$vi_settings['primary_color']};\n";
     $css .= "    --fd-primary-hover: " . fd_admin_ui_darken_color($vi_settings['primary_color'], 10) . ";\n";

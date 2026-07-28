@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI Settings
+ * Lingcoo Admin UI Settings
  * Admin settings page
  */
 

@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Global Settings Module
+ * Lingcoo Admin UI - Global Settings Module
  * Manages global appearance settings (border radius, font size, modern style)
  */
 

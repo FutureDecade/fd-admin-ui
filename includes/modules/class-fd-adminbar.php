@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Adminbar Module
+ * Lingcoo Admin UI - Adminbar Module
  * Manages Adminbar settings, styles and functionality
  */
 

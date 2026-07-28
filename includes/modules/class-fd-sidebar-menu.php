@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - 左侧菜单模块
+ * Lingcoo Admin UI - 左侧菜单模块
  * 管理左侧菜单的设置、样式和功能
  */
 

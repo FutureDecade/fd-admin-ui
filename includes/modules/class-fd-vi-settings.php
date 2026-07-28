@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - VI Settings Module
+ * Lingcoo Admin UI - VI Settings Module
  * Brand visual identity settings (colors, border radius, shadows, etc.)
  *
  * If the fd-theme is active, sync with the theme's VI settings

@@ -1,6 +1,6 @@
 <?php
 /**
- * Uninstall FD Admin UI
+ * Uninstall Lingcoo Admin UI
  *
  * Fired when the plugin is deleted via the WordPress admin.
  * Cleans up all plugin data from the database.

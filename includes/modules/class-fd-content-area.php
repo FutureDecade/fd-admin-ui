@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Content Area Settings Module
+ * Lingcoo Admin UI - Content Area Settings Module
  * Manages the appearance of the main content area
  */
 

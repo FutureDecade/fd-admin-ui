@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Login Page Settings Module
+ * Lingcoo Admin UI - Login Page Settings Module
  * Manages the appearance settings of the login page
  */
 

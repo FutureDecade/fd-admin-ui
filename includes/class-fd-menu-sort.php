@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Menu Sort
+ * Lingcoo Admin UI - Menu Sort
  * Menu drag-and-drop sorting functionality
  */
 

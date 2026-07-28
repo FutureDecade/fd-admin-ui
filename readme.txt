@@ -1,5 +1,5 @@
-=== FD Admin UI ===
-Contributors: futuredecade
+=== Lingcoo Admin UI ===
+Contributors: LingcooTech
 Tags: admin theme, admin ui, custom admin, admin customization, dashboard
 Requires at least: 5.8
 Tested up to: 6.9
@@ -12,7 +12,7 @@ A modern, lightweight admin UI framework for WordPress. Customize colors, menus,
 
 == Description ==
 
-FD Admin UI modernizes your WordPress admin interface with a unified design system, customizable color themes, and powerful productivity features — without bloat.
+Lingcoo Admin UI modernizes your WordPress admin interface with a unified design system, customizable color themes, and powerful productivity features — without bloat.
 
 **Key Features:**
 
@@ -39,11 +39,11 @@ All features are modular and can be individually enabled or disabled.
 
 = Does this plugin affect the frontend of my site? =
 
-No. FD Admin UI only modifies the WordPress admin dashboard. It has zero impact on your site's frontend performance or appearance.
+No. Lingcoo Admin UI only modifies the WordPress admin dashboard. It has zero impact on your site's frontend performance or appearance.
 
 = Is it compatible with other admin plugins? =
 
-Yes. FD Admin UI is designed to be non-invasive and works alongside most admin plugins. If you encounter a conflict, please report it in the support forum.
+Yes. Lingcoo Admin UI is designed to be non-invasive and works alongside most admin plugins. If you encounter a conflict, please report it in the support forum.
 
 = Does it work with Multisite? =
 
@@ -66,7 +66,7 @@ Absolutely. If you use the FD Theme, visual identity settings will automatically
 == Changelog ==
 
 = 1.3.2 =
-* Aligned first-install defaults with the legacy Future Decade admin configuration
+* Aligned first-install defaults with the legacy Lingcoo admin configuration
 * Seed plugin options and menu ordering on activation so fresh deployments inherit the expected baseline
 * Route default option reads through the shared settings accessor so empty sites still resolve the packaged defaults
 
@@ -107,7 +107,7 @@ Absolutely. If you use the FD Theme, visual identity settings will automatically
 == Upgrade Notice ==
 
 = 1.3.2 =
-Fresh installs now apply the packaged Future Decade admin defaults more reliably.
+Fresh installs now apply the packaged Lingcoo admin defaults more reliably.
 
 = 1.3.1 =
 Added internationalization support. The plugin now defaults to English with Chinese translation available.

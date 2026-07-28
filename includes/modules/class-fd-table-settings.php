@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI - Table Settings Module
+ * Lingcoo Admin UI - Table Settings Module
  * Manages admin list table appearance settings
  */
 

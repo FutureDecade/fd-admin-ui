@@ -1,6 +1,6 @@
 <?php
 /**
- * FD Admin UI Framework - PHP Helper
+ * Lingcoo Admin UI Framework - PHP Helper
  * Unified admin UI framework PHP helper class
  *
  * Provides reusable UI component rendering methods
